@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /*This allows the ability to make a percentage of 16px, which is normal default ... it is also defining 1rem*/ }
+
+body {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Lato;
+  src: url(../../fonts/Lato/Lato-Thin.ttf); }
+
+body {
+  font-family: Lato;
+  font-size: 1.8rem; }
+
+h1 {
+  font-size: 4.8rem; }
+
+h2 {
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 2.0rem; }
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman-with-computer-1.jpg");
+  background-size: cover;
+  background-position: top left;
+  height: 97vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+  color: #fffbfc;
+  overflow: hidden;
+  position: relative;
+  padding: 1.5rem 3rem 13rem;
+  text-transform: capitalize; }
+  .header__text-box {
+    text-align: right; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  opacity: .4;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }

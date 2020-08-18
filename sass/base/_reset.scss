@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;/*This allows the ability to make a percentage of 16px, which is normal default ... it is also defining 1rem*/
+}
+body{
+    box-sizing: border-box;
+}

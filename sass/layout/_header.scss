@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image:
+    linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+    //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
+        url('images/woman-with-computer-1.jpg');
+    background-size: cover;
+    background-position: top left;
+    height: 97vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+    //@include flex-center-in-page;
+    // position: relative;
+    color: $color-white;
+    overflow: hidden;
+    position: relative;
+    padding: 1.5rem 3rem 13rem;
+    text-transform: capitalize;
+
+    &__text-box{
+        text-align: right;
+    }
+}
