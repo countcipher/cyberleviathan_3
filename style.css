@@ -12,36 +12,10 @@ html {
 body {
   box-sizing: border-box; }
 
-.btn {
-  background-color: #bf1e2e;
-  padding: 1.5rem;
-  outline: none;
-  border: none;
-  border-radius: 100px;
-  position: relative;
-  cursor: pointer;
-  transition: .4s;
-  margin: 1.5rem; }
-  .btn--cta:hover {
-    background: #df3143;
-    transform: translateY(-5px);
-    box-shadow: 0 1rem 2rem rgba(35, 31, 32, 0.2);
-    color: #fffbfc; }
-    .btn--cta:hover:after {
-      transform: scale(1.7);
-      opacity: 0; }
-  .btn::after {
-    content: '';
-    display: inline-block;
-    background-color: #bf1e2e;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: .4s;
-    border-radius: 100px; }
+.full-wrapper {
+  margin: 0 auto;
+  padding: 0;
+  position: relative; }
 
 @font-face {
   font-family: Lato;
@@ -60,14 +34,66 @@ h2 {
 h3 {
   font-size: 2.0rem; }
 
+@media (max-width: 724px) {
+  body {
+    font-size: 1.8rem; }
+  h1 {
+    font-size: 4.2rem; }
+  h2 {
+    font-size: 2.0rem; }
+  h3 {
+    font-size: 2.0rem; } }
+
+@media (max-width: 649px) {
+  body {
+    font-size: 1.8rem; }
+  h1 {
+    font-size: 3.8rem; }
+  h2 {
+    font-size: 2.0rem; }
+  h3 {
+    font-size: 2.0rem; } }
+
+.btn {
+  background-color: #bf1e2e;
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  transition: .4s;
+  margin: 1.5rem;
+  color: #fffbfc; }
+  .btn--cta:hover {
+    background: #df3143;
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(35, 31, 32, 0.2); }
+    .btn--cta:hover:after {
+      transform: scale(2);
+      opacity: 0; }
+  .btn::after {
+    content: '';
+    display: inline-block;
+    background-color: #bf1e2e;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .4s;
+    border-radius: 100px; }
+
 .header {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
   align-items: flex-end;
-  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman-with-computer-1.jpg");
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman_with_computer_20200819.jpg");
   background-size: cover;
   background-position: top left;
+  background-repeat: no-repeat;
   height: 97vh;
   clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
   color: #fffbfc;
@@ -78,3 +104,26 @@ h3 {
   .header__text-box {
     text-align: right;
     margin-bottom: 2.5rem; }
+
+@media (max-width: 467px) {
+  .header {
+    background-position: 30% 0%; } }
+
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%); }
+  .nav__logo {
+    height: 80px; }
+  .nav__links li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 1.5rem; }

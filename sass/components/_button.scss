@@ -8,15 +8,15 @@
     cursor: pointer;
     transition: .4s;
     margin: 1.5rem;
+    color: $color-white;
 
     &--cta:hover{
         background: lighten($color-red, 10%);
         transform: translateY(-5px);
         box-shadow: 0 1rem 2rem rgba($color-black,.2);
-        color: $color-white;
 
         &:after{
-            transform: scale(1.7);
+            transform: scale(2);
             opacity: 0;
         }
     }

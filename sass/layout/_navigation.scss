@@ -1,0 +1,23 @@
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+
+    &__logo{
+        height: 80px;
+    }
+
+    &__links li{
+        display: inline;
+        list-style-type: none;
+        margin-right: 1.5rem;
+    }
+}
