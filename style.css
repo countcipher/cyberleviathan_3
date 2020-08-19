@@ -92,6 +92,7 @@ h3 {
   align-items: flex-end;
   background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman_with_computer_20200819.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-position: top left;
   background-repeat: no-repeat;
   height: 97vh;
@@ -126,4 +127,6 @@ h3 {
   .nav__links li {
     display: inline;
     list-style-type: none;
-    margin-right: 1.5rem; }
+    margin-right: 1.5rem;
+    color: #fffbfc;
+    cursor: pointer; }
