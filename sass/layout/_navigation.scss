@@ -38,4 +38,28 @@
             border-bottom: 2px solid $color-white;
         }
     }
+
+    &__dropdown-content{
+        position: absolute;
+        background-color: rgba($color-white, .3);
+        padding: 0 0 5px 5px;
+        overflow: hidden;
+        display: none;
+        @include box-shadow;
+        width: 300px;
+
+        & li{
+            display: block;
+        }
+    }
+
+    &__dropdown-box{
+        position: relative;
+
+        &:hover .nav__dropdown-content{
+            display: block;
+            // animation: slide-down 1s;
+            // animation-fill-mode: forwards;
+        }
+    }
 }
