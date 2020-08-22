@@ -130,8 +130,8 @@ h3 {
   .nav__links a {
     transition: .3s; }
   .nav:hover {
-    background-color: #fffbfc; }
-  .nav:hover .nav__links a,
+    background-color: #fffbfc;
+    box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
   .nav:hover .nav__dropdown-content,
   .nav:hover .nav__dropdown-box,
   .nav:hover .nav__dropdown-box a {
@@ -156,12 +156,13 @@ h3 {
       .nav__links > li a:visited {
         text-decoration: none;
         color: #fffbfc; }
+    .nav__links > li:hover {
+      color: #bf1e2e !important; }
   .nav__dropdown-content {
     position: absolute;
     background-color: #fffbfc;
     overflow: hidden;
     display: none;
-    box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4);
     width: 500px;
     border-radius: 0 0 0 20px; }
     .nav__dropdown-content li {
