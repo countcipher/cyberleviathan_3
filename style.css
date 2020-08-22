@@ -124,10 +124,23 @@ h3 {
   left: 0;
   z-index: 50;
   width: 100%;
-  padding: 10px 5px 0px 5px; }
+  padding: 10px 5px 0px 5px;
+  transition: .3s;
+  font-weight: 900; }
+  .nav__links a {
+    transition: .3s; }
+  .nav:hover {
+    background-color: #fffbfc; }
+  .nav:hover .nav__links a,
+  .nav:hover .nav__dropdown-content,
+  .nav:hover .nav__dropdown-box,
+  .nav:hover .nav__dropdown-box a {
+    color: #231f20; }
   .nav__logo {
     height: 65px; }
-  .nav__links li {
+  .nav__links {
+    margin-right: 30px; }
+  .nav__links > li {
     display: inline;
     list-style-type: none;
     margin-right: 1.5rem;
@@ -137,24 +150,38 @@ h3 {
     font-size: 2rem;
     border-bottom: 2px solid transparent;
     transition: .3s; }
-    .nav__links li a {
+    .nav__links > li a {
       text-decoration: none;
       color: #fffbfc; }
-      .nav__links li a:visited {
+      .nav__links > li a:visited {
         text-decoration: none;
         color: #fffbfc; }
-    .nav__links li:hover {
-      border-bottom: 2px solid #fffbfc; }
   .nav__dropdown-content {
     position: absolute;
-    background-color: rgba(255, 251, 252, 0.3);
-    padding: 0 0 5px 5px;
+    background-color: #fffbfc;
     overflow: hidden;
     display: none;
     box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4);
-    width: 300px; }
-    .nav__dropdown-content li:hover {
-      color: #231f20; }
+    width: 500px;
+    border-radius: 0 0 0 20px; }
+    .nav__dropdown-content li {
+      display: block;
+      position: relative;
+      padding: 15px; }
+      .nav__dropdown-content li::after {
+        content: '';
+        width: 3px;
+        height: 100%;
+        background-color: rgba(191, 30, 46, 0.3);
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        transform: scaleY(0);
+        transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s; }
+      .nav__dropdown-content li:hover::after {
+        transform: scaleY(1);
+        width: 100%; }
   .nav__dropdown-box {
     position: relative; }
     .nav__dropdown-box:hover .nav__dropdown-content {
