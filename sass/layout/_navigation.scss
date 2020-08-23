@@ -56,10 +56,10 @@
                 color: $color-white;
             }
         }
+    }
 
-        &:hover{
-            color: rgba($color-red, 1) !important;
-        }
+    &__link-title:hover{
+        color: $color-red !important;
     }
 
     &__dropdown-content{
@@ -67,7 +67,6 @@
         background-color: rgba($color-white, 1);
         overflow: hidden;
         display: none;
-        //@include box-shadow;
         width: 500px;
         border-radius: 0 0 0 20px;
 
@@ -105,8 +104,6 @@
 
         &:hover .nav__dropdown-content{
             display: block;
-            // animation: slide-down 1s;
-            // animation-fill-mode: forwards;
         }
     }
 }

@@ -156,8 +156,8 @@ h3 {
       .nav__links > li a:visited {
         text-decoration: none;
         color: #fffbfc; }
-    .nav__links > li:hover {
-      color: #bf1e2e !important; }
+  .nav__link-title:hover {
+    color: #bf1e2e !important; }
   .nav__dropdown-content {
     position: absolute;
     background-color: #fffbfc;
