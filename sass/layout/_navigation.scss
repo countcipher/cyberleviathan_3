@@ -102,6 +102,10 @@
     &__dropdown-box{
         position: relative;
 
+        &:hover .nav__link-title{
+            color: $color-red;
+        }
+
         &:hover .nav__dropdown-content{
             display: block;
         }

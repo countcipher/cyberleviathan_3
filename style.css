@@ -185,5 +185,7 @@ h3 {
         width: 100%; }
   .nav__dropdown-box {
     position: relative; }
+    .nav__dropdown-box:hover .nav__link-title {
+      color: #bf1e2e; }
     .nav__dropdown-box:hover .nav__dropdown-content {
       display: block; }
