@@ -4,7 +4,7 @@ let navLinkTitle = document.querySelectorAll(".nav__link-title");
 window.addEventListener("scroll", myFunc);
 
 function myFunc(){
-   if(window.pageYOffset >= 300){
+   if(window.pageYOffset >= 300 && window.innerWidth >= 692){
         nav.classList.add("onScrollWhite");
         navLinkTitle.forEach(function(item){
          item.classList.add("onScrollBlackColor");

@@ -7,7 +7,8 @@
 
 html {
   font-size: 62.5%;
-  /*This allows the ability to make a percentage of 16px, which is normal default ... it is also defining 1rem*/ }
+  /*This allows the ability to make a percentage of 16px, which is normal default ... it is also defining 1rem*/
+  box-sizing: border-box; }
 
 body {
   box-sizing: border-box; }
@@ -62,7 +63,7 @@ h3 {
 
 .btn {
   background-color: #bf1e2e;
-  padding: 1.5rem;
+  padding: 2.5rem;
   outline: none;
   border: none;
   border-radius: 100px;
@@ -70,7 +71,8 @@ h3 {
   cursor: pointer;
   transition: .4s;
   margin: 1.5rem;
-  color: #fffbfc; }
+  color: #fffbfc;
+  font-size: 2rem; }
   .btn--cta:hover {
     background: #df3143;
     transform: translateY(-5px);
