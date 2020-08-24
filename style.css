@@ -131,7 +131,7 @@ h3 {
     transition: .3s; }
   .nav:hover {
     background-color: #fffbfc;
-    box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
+    box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
   .nav:hover .nav__dropdown-content,
   .nav:hover .nav__dropdown-box,
   .nav:hover .nav__dropdown-box a {
@@ -165,7 +165,7 @@ h3 {
     display: none;
     width: 500px;
     border-radius: 0 0 0 20px;
-    box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
+    box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
     .nav__dropdown-content li {
       display: block;
       position: relative;
@@ -193,7 +193,7 @@ h3 {
 
 .onScrollWhite {
   background-color: #fffbfc;
-  box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
+  box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
 
 .onScrollBlackColor {
   color: #231f20; }
