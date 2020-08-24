@@ -1,0 +1,7 @@
+.onScrollWhite{
+    background-color: $color-white;
+    @include box-shadow;
+}
+.onScrollBlackColor{
+    color: $color-black;
+}

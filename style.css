@@ -164,7 +164,8 @@ h3 {
     overflow: hidden;
     display: none;
     width: 500px;
-    border-radius: 0 0 0 20px; }
+    border-radius: 0 0 0 20px;
+    box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
     .nav__dropdown-content li {
       display: block;
       position: relative;
@@ -189,3 +190,10 @@ h3 {
       color: #bf1e2e; }
     .nav__dropdown-box:hover .nav__dropdown-content {
       display: block; }
+
+.onScrollWhite {
+  background-color: #fffbfc;
+  box-shadow: 0 10px 20px rgba(35, 31, 32, 0.4); }
+
+.onScrollBlackColor {
+  color: #231f20; }
