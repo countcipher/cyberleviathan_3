@@ -208,10 +208,12 @@ h3 {
     box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
     .nav__logo {
       height: 60px;
-      display: inline; }
+      display: inline;
+      float: left; }
     .nav__links {
       display: block;
-      margin: 0; }
+      padding: 15px 0px 15px 0px;
+      clear: both; }
     .nav__dropdown-box {
       position: static;
       display: block; }
@@ -242,7 +244,8 @@ h3 {
       display: block;
       width: 100%;
       border-radius: 0 0 0 0;
-      box-shadow: none; }
+      box-shadow: none;
+      height: 0px; }
       .nav__dropdown-content li {
         display: block;
         position: relative;
@@ -254,3 +257,6 @@ h3 {
 
 .onScrollBlackColor {
   color: #231f20; }
+
+.fullHeight {
+  height: 100%; }
