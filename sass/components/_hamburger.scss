@@ -1,0 +1,11 @@
+.hamburger{
+    float: right;
+    cursor: pointer;
+    margin: 15px 15px 0 0;
+    display: none;
+}
+@media(max-width: 646px){
+    .hamburger{
+        display: block;
+    }
+}
