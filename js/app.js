@@ -1,11 +1,16 @@
 const nav = document.querySelector(".nav"),
    navLinkTitle = document.querySelectorAll(".nav__link-title"),
-   navDropdownBox = document.querySelectorAll(".nav__dropdown-box");
+   hasDropdown = document.querySelectorAll(".has-dropdown");
    navDropdownContent = document.querySelectorAll(".nav__dropdown-content");
 
 
 window.addEventListener("scroll", navWhiteOnScroll);
-navLinkTitle[1].addEventListener("click", showDropdownContent);
+
+(function(){
+   hasDropdown.forEach(function(item){
+      item.addEventListener("click", showDropdownContent);
+   })
+})();
 
 function navWhiteOnScroll(){
    if(window.pageYOffset >= 300 && window.innerWidth >= 692){
@@ -22,7 +27,5 @@ function navWhiteOnScroll(){
 }
 
 function showDropdownContent(){
-   navDropdownContent[0].classList.toggle("fullHeight");
-   //navDropdownContent[0].style.height = "100%";
-   console.log('hit');
+   this.children[1].classList.toggle("fullHeight");
 }
