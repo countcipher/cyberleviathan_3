@@ -48,8 +48,9 @@ function removeMobileClasses(){
 }
 
 function toggleMenu(){
-  navLinks.classList.toggle("menuShow");
-  body.classList.toggle("noScroll");
-  html.classList.toggle("noScroll");
-  fullWrapper.classList.toggle("noScroll");
+   nav.classList.toggle("fullVH");
+   navLinks.classList.toggle("menuShow");
+   body.classList.toggle("noScroll");
+   html.classList.toggle("noScroll");
+   fullWrapper.classList.toggle("noScroll");
 }

@@ -216,19 +216,20 @@ h3 {
     padding: 10px 0px 0px 0px;
     font-weight: 900;
     background-color: #fffbfc;
-    box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
+    box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
+    overflow-y: auto; }
     .nav__logo {
       height: 60px;
       display: inline;
       float: left; }
     .nav__links {
       display: block;
+      position: static;
       padding: 15px 0px 15px 0px;
       clear: both;
       margin: 0;
       transform: translateX(100%);
-      display: none;
-      overflow: auto !important; }
+      display: none; }
     .nav__dropdown-box {
       position: static;
       display: block; }
@@ -286,3 +287,6 @@ h3 {
 
 .noScroll {
   overflow: hidden; }
+
+.fullVH {
+  height: 100vh; }

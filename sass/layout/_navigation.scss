@@ -131,6 +131,7 @@
         font-weight: 900;
         background-color: $color-white;
         @include box-shadow;
+        overflow-y: auto;
     
         &__logo{
             height: 60px;
@@ -140,12 +141,12 @@
     
         &__links{
             display: block;
+            position: static;
             padding: 15px 0px 15px 0px;
             clear: both;
             margin: 0;
             transform: translateX(100%);
             display: none;
-            overflow: auto !important;
         }
 
         &__dropdown-box{
