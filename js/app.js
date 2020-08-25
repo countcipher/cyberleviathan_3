@@ -1,11 +1,14 @@
 const nav = document.querySelector(".nav"),
+   navLinks = document.querySelector(".nav__links");
    navLinkTitle = document.querySelectorAll(".nav__link-title"),
-   hasDropdown = document.querySelectorAll(".has-dropdown");
-   navDropdownContent = document.querySelectorAll(".nav__dropdown-content");
+   hasDropdown = document.querySelectorAll(".has-dropdown"),
+   navDropdownContent = document.querySelectorAll(".nav__dropdown-content"),
+   hamburger = document.querySelector(".hamburger");
 
 
 window.addEventListener("scroll", navWhiteOnScroll);
-window.addEventListener("resize", removeFullHeightClass);
+window.addEventListener("resize", removeMobileClasses);
+hamburger.addEventListener("click", toggleMenu);
 
 (function(){
    hasDropdown.forEach(function(item){
@@ -14,7 +17,7 @@ window.addEventListener("resize", removeFullHeightClass);
 })();
 
 function navWhiteOnScroll(){
-   if(window.pageYOffset >= 300 && window.innerWidth >= 692){
+   if(window.pageYOffset >= 300 && window.innerWidth >= 646){
         nav.classList.add("onScrollWhite");
         navLinkTitle.forEach(function(item){
          item.classList.add("onScrollBlackColor");
@@ -31,11 +34,16 @@ function showDropdownContent(){
    this.children[1].classList.toggle("fullHeight");
 }
 
-function removeFullHeightClass(){
-   if(window.innerWidth >= 640){
+function removeMobileClasses(){
+   if(window.innerWidth >= 646){
       navDropdownContent.forEach(function(item){
          item.classList.remove("fullHeight");
       })
+      navLinks.classList.remove("menuShow");
    }
    
+}
+
+function toggleMenu(){
+  navLinks.classList.toggle("menuShow");
 }

@@ -7,7 +7,7 @@
     left: 0;
     z-index: 50;
     width: 100%;
-    padding: 10px 5px 0px 5px;
+    padding: 10px;
     transition: .3s;
     font-weight: 900;
 
@@ -34,6 +34,7 @@
 
     &__links{
         margin-right: 30px;
+        transition: .3s;
     }
 
     &__links > li{
@@ -116,7 +117,7 @@
 //******MEDIA QUERY AREA********//
 //******************************//
 
-@media(max-width: 640px){
+@media(max-width: 646px){
 
     .nav{
         position: fixed;
@@ -142,6 +143,8 @@
             padding: 15px 0px 15px 0px;
             clear: both;
             margin: 0;
+            transform: translateX(100%);
+            display: none;
         }
 
         &__dropdown-box{
