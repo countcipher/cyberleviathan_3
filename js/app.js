@@ -1,4 +1,7 @@
-const nav = document.querySelector(".nav"),
+const body = document.querySelector("body"),
+   html = document.querySelector("html"),
+   fullWrapper = document.querySelector("full-wrapper");
+   nav = document.querySelector(".nav"),
    navLinks = document.querySelector(".nav__links");
    navLinkTitle = document.querySelectorAll(".nav__link-title"),
    hasDropdown = document.querySelectorAll(".has-dropdown"),
@@ -46,4 +49,7 @@ function removeMobileClasses(){
 
 function toggleMenu(){
   navLinks.classList.toggle("menuShow");
+  body.classList.toggle("noScroll");
+  html.classList.toggle("noScroll");
+  fullWrapper.classList.toggle("noScroll");
 }

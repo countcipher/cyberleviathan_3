@@ -145,6 +145,7 @@
             margin: 0;
             transform: translateX(100%);
             display: none;
+            overflow: auto !important;
         }
 
         &__dropdown-box{

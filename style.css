@@ -227,7 +227,8 @@ h3 {
       clear: both;
       margin: 0;
       transform: translateX(100%);
-      display: none; }
+      display: none;
+      overflow: auto !important; }
     .nav__dropdown-box {
       position: static;
       display: block; }
@@ -282,3 +283,6 @@ h3 {
 .menuShow {
   display: block;
   transform: translateX(0); }
+
+.noScroll {
+  overflow: hidden; }
