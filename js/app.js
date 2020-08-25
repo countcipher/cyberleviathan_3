@@ -5,6 +5,7 @@ const nav = document.querySelector(".nav"),
 
 
 window.addEventListener("scroll", navWhiteOnScroll);
+window.addEventListener("resize", removeFullHeightClass);
 
 (function(){
    hasDropdown.forEach(function(item){
@@ -28,4 +29,13 @@ function navWhiteOnScroll(){
 
 function showDropdownContent(){
    this.children[1].classList.toggle("fullHeight");
+}
+
+function removeFullHeightClass(){
+   if(window.innerWidth >= 640){
+      navDropdownContent.forEach(function(item){
+         item.classList.remove("fullHeight");
+      })
+   }
+   
 }

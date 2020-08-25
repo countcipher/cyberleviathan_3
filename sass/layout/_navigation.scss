@@ -126,7 +126,7 @@
         left: 0;
         z-index: 50;
         width: 100%;
-        padding: 10px 5px 0px 5px;
+        padding: 10px 0px 0px 0px;
         font-weight: 900;
         background-color: $color-white;
         @include box-shadow;
@@ -141,6 +141,7 @@
             display: block;
             padding: 15px 0px 15px 0px;
             clear: both;
+            margin: 0;
         }
 
         &__dropdown-box{
@@ -166,6 +167,7 @@
             font-size: 2rem;
             border-bottom: 2px solid transparent;
             transition: .3s;
+            padding-left: 15px;
     
             & a{
                 color: $color-black;
@@ -183,13 +185,15 @@
     
         &__dropdown-content{
             position: static;
-            //background-color: rgba($color-white, 1);
+            background-color: rgba($color-black, .1);
             overflow: hidden;
             display: block;
             width: 100%;
             border-radius: 0 0 0 0;
             box-shadow: none;
             height: 0px;
+            padding: 0;
+            margin: 0;
     
             & li{
                 display: block;
