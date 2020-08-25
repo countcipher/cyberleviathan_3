@@ -112,3 +112,89 @@
         }
     }
 }
+
+//******MEDIA QUERY AREA********//
+//******************************//
+
+@media(max-width: 640px){
+
+    .nav{
+        position: fixed;
+        display: block;
+        flex: none;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        width: 100%;
+        padding: 10px 5px 0px 5px;
+        font-weight: 900;
+        background-color: $color-white;
+        @include box-shadow;
+    
+        &__logo{
+            height: 60px;
+            display: inline;
+        }
+    
+        &__links{
+            display: block;
+            margin: 0;
+        }
+
+        &__dropdown-box{
+            position: static;
+            display: block;
+    
+            &:hover .nav__link-title{
+                color: $color-red;
+            }
+    
+            &:hover .nav__dropdown-content{
+                display: block;
+            }
+        }
+    
+        &__links > li{
+            display: block;
+            list-style-type: none;
+            margin: 10px 0 0 0;
+            color: $color-black;
+            cursor: pointer;
+            position: relative;
+            font-size: 2rem;
+            border-bottom: 2px solid transparent;
+            transition: .3s;
+    
+            & a{
+                color: $color-black;
+                margin: 10px 0 0 0;
+    
+                &:visited{
+                    color: $color-black;
+                }
+            }
+        }
+    
+        &__link-title:hover{
+            color: $color-red !important;
+        }
+    
+        &__dropdown-content{
+            position: static;
+            //background-color: rgba($color-white, 1);
+            overflow: hidden;
+            display: block;
+            width: 100%;
+            border-radius: 0 0 0 0;
+            box-shadow: none;
+    
+            & li{
+                display: block;
+                position: relative;
+                padding: 15px;
+            }
+        }
+    
+    }
+
+}
