@@ -13,6 +13,9 @@ html {
 body {
   box-sizing: border-box; }
 
+body, html {
+  min-height: 600px; }
+
 .full-wrapper {
   margin: 0 auto;
   padding: 0;
@@ -115,6 +118,7 @@ h3 {
     display: block; } }
 
 .header {
+  min-height: 600px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;

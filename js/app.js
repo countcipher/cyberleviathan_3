@@ -31,7 +31,7 @@ hamburger.addEventListener("click", toggleMenu);
 //SETS CSS PROPERTIES FOR NAV AFTER SCROLLING DOWN PAGE
 //=================================
 function navWhiteOnScroll(){
-   if(window.pageYOffset >= 300 && window.innerWidth >= 646){
+   if(window.pageYOffset >= 145 && window.innerWidth >= 646){
         nav.classList.add("onScrollWhite");
         navLinkTitle.forEach(function(item){
          item.classList.add("onScrollBlackColor");
