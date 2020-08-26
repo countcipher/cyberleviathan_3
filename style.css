@@ -316,5 +316,7 @@ h3 {
 .fullVH {
   height: 100vh; }
 
-.whiteColor:hover {
+.whiteColor {
   color: #fffbfc !important; }
+  .whiteColor:hover {
+    color: #fffbfc !important; }

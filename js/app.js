@@ -3,11 +3,12 @@
 //============================
 const body = document.querySelector("body"),
    html = document.querySelector("html"),
-   fullWrapper = document.querySelector("full-wrapper");
+   fullWrapper = document.querySelector(".full-wrapper");
    nav = document.querySelector(".nav"),
    navLinks = document.querySelector(".nav__links");
    navLinkTitle = document.querySelectorAll(".nav__link-title"),
    hasDropdown = document.querySelectorAll(".has-dropdown"),
+   navDropdownBox = document.querySelectorAll(".nav__dropdown-box"),
    navDropdownContent = document.querySelectorAll(".nav__dropdown-content"),
    hamburger = document.querySelector(".hamburger");
 
@@ -64,6 +65,11 @@ function removeMobileClasses(){
       body.classList.remove("noScroll");
       html.classList.remove("noScroll");
       fullWrapper.classList.remove("noScroll");
+   }
+   if(window.innerWidth < 646){
+      nav.classList.remove("onScrollWhite");
+      //navLinkTitle.classList.add("whiteColor");
+      navLinkTitle.classList.remove("onScrollBlackColor");
    }
    
 }

@@ -23,6 +23,7 @@
 }
 
 .whiteColor{
+    color: $color-white !important;
     &:hover{
         color: $color-white !important;
     }
