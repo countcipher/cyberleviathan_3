@@ -107,7 +107,7 @@ h3 {
   .hamburger__bun {
     width: 35px;
     height: 2px;
-    background-color: #bf1e2e; }
+    background-color: #fffbfc; }
     .hamburger__bun--top {
       margin-bottom: 7px; }
     .hamburger__bun--middle {
@@ -230,7 +230,7 @@ h3 {
     width: 100%;
     padding: 10px 0px 0px 0px;
     font-weight: 900;
-    background-color: #fffbfc;
+    background-image: linear-gradient(to bottom right, #231f20, #bf1e2e, #231f20);
     box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
     overflow-y: auto; }
     .nav__logo {
@@ -244,34 +244,46 @@ h3 {
       clear: both;
       margin: 0;
       display: none; }
+    .nav__link-title {
+      transition: .3s;
+      display: inline-block;
+      position: relative; }
+    .nav:hover .nav__dropdown-content,
+    .nav:hover .nav__dropdown-box,
+    .nav:hover .nav__dropdown-box a {
+      color: #fffbfc; }
     .nav__dropdown-box {
       position: static;
       display: block; }
       .nav__dropdown-box:hover .nav__link-title {
-        color: #bf1e2e; }
+        color: #fffbfc; }
       .nav__dropdown-box:hover .nav__dropdown-content {
         display: block; }
+      .nav__dropdown-box:hover .nav__link-title {
+        transform: translateX(10px); }
+    .nav__link-title:hover {
+      color: #fffbfc !important; }
     .nav__links > li {
       display: block;
       list-style-type: none;
-      margin: 10px 0 0 0;
-      color: #231f20;
+      margin: 0;
+      color: #fffbfc;
       cursor: pointer;
       position: relative;
       font-size: 2rem;
-      border-bottom: 2px solid transparent;
+      border-bottom: solid 2px rgba(35, 31, 32, 0.3);
       transition: .3s;
-      padding-left: 15px; }
+      padding: 15px; }
+      .nav__links > li:first-child {
+        border-top: solid 2px rgba(35, 31, 32, 0.3); }
       .nav__links > li a {
-        color: #231f20;
+        color: #fffbfc;
         margin: 10px 0 0 0; }
         .nav__links > li a:visited {
-          color: #231f20; }
-    .nav__link-title:hover {
-      color: #bf1e2e !important; }
+          color: #fffbfc; }
     .nav__dropdown-content {
       position: static;
-      background-color: rgba(35, 31, 32, 0.1);
+      background-color: rgba(35, 31, 32, 0.3);
       overflow: hidden;
       display: block;
       width: 100%;
@@ -303,3 +315,6 @@ h3 {
 
 .fullVH {
   height: 100vh; }
+
+.whiteColor:hover {
+  color: #fffbfc !important; }

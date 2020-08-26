@@ -129,7 +129,9 @@
         width: 100%;
         padding: 10px 0px 0px 0px;
         font-weight: 900;
-        background-color: $color-white;
+        //background-color: $color-white;
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, 1), rgba($color-red, 1), rgba($color-black, 1));
         @include box-shadow;
         overflow-y: auto;
     
@@ -148,48 +150,79 @@
             display: none;
         }
 
+        &__link-title{
+            transition: .3s;
+            display: inline-block;
+            position: relative;
+        }
+
+        &:hover{
+            & .nav__dropdown-content,
+            & .nav__dropdown-box,
+            & .nav__dropdown-box a{
+                color: $color-white;
+            }
+        }
+
         &__dropdown-box{
             position: static;
             display: block;
     
             &:hover .nav__link-title{
-                color: $color-red;
+                //color: $color-red;
+                color: $color-white;
             }
     
             &:hover .nav__dropdown-content{
                 display: block;
             }
+
+            &:hover .nav__link-title{
+                //font-size: 2.1rem;
+                transform: translateX(10px);
+            }
+        }
+
+        &__link-title:hover{
+            color: $color-white !important;
         }
     
         &__links > li{
             display: block;
             list-style-type: none;
-            margin: 10px 0 0 0;
-            color: $color-black;
+            margin: 0;
+            //color: $color-black;
+            color: $color-white;
             cursor: pointer;
             position: relative;
             font-size: 2rem;
-            border-bottom: 2px solid transparent;
+            border-bottom: solid 2px rgba($color-black, .3);
             transition: .3s;
-            padding-left: 15px;
+            padding: 15px;
+
+            &:first-child{
+                border-top: solid 2px rgba($color-black, .3);
+            }
     
             & a{
-                color: $color-black;
+                //color: $color-black;
+                color: $color-white;
                 margin: 10px 0 0 0;
     
                 &:visited{
-                    color: $color-black;
+                    //color: $color-black;
+                color: $color-white;
                 }
             }
         }
     
-        &__link-title:hover{
-            color: $color-red !important;
-        }
+        // &__link-title:hover{
+        //     color: $color-red !important;
+        // }
     
         &__dropdown-content{
             position: static;
-            background-color: rgba($color-black, .1);
+            background-color: rgba($color-black, .3);
             overflow: hidden;
             display: block;
             width: 100%;

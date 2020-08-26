@@ -21,3 +21,10 @@
 .fullVH{
     height: 100vh;
 }
+
+.whiteColor{
+    &:hover{
+        color: $color-white !important;
+    }
+    
+}
