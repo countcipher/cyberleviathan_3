@@ -95,9 +95,20 @@ h3 {
 
 .hamburger {
   float: right;
+  margin-right: 20px;
   cursor: pointer;
-  margin: 15px 15px 0 0;
+  position: relative;
+  top: 17px;
+  overflow: hidden;
   display: none; }
+  .hamburger__bun {
+    width: 35px;
+    height: 2px;
+    background-color: #bf1e2e; }
+    .hamburger__bun--top {
+      margin-bottom: 7px; }
+    .hamburger__bun--middle {
+      margin-bottom: 7px; }
 
 @media (max-width: 646px) {
   .hamburger {
@@ -228,7 +239,6 @@ h3 {
       padding: 15px 0px 15px 0px;
       clear: both;
       margin: 0;
-      transform: translateX(100%);
       display: none; }
     .nav__dropdown-box {
       position: static;
@@ -282,8 +292,7 @@ h3 {
   height: auto; }
 
 .menuShow {
-  display: block;
-  transform: translateX(0); }
+  display: block; }
 
 .noScroll {
   overflow: hidden; }
