@@ -4,14 +4,34 @@
     cursor: pointer;
     position: relative;
     top: 17px;
-    overflow: hidden;
+    //overflow: hidden;
     display: none;
+
+    &:hover &__bun{
+        //background-color: green;
+
+        &--top{
+            transform: rotateZ(-405deg);
+            position: relative;
+        }
+
+        &--middle{
+            opacity: 0;
+        }
+
+        &--bottom{
+            transform: rotateZ(405deg);
+            position: relative;
+            
+        }
+    }
 
     &__bun{
         width: 35px;
         height: 2px;
         //background-color: $color-red;
         background-color: $color-white;
+        transition: .3s;
 
         &--top{
             margin-bottom: 7px;

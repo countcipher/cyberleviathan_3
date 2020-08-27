@@ -102,12 +102,20 @@ h3 {
   cursor: pointer;
   position: relative;
   top: 17px;
-  overflow: hidden;
   display: none; }
+  .hamburger:hover .hamburger__bun--top {
+    transform: rotateZ(-405deg);
+    position: relative; }
+  .hamburger:hover .hamburger__bun--middle {
+    opacity: 0; }
+  .hamburger:hover .hamburger__bun--bottom {
+    transform: rotateZ(405deg);
+    position: relative; }
   .hamburger__bun {
     width: 35px;
     height: 2px;
-    background-color: #fffbfc; }
+    background-color: #fffbfc;
+    transition: .3s; }
     .hamburger__bun--top {
       margin-bottom: 7px; }
     .hamburger__bun--middle {
@@ -302,7 +310,7 @@ h3 {
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
 
 .onScrollBlackColor {
-  color: #231f20 !important; }
+  color: #231f20; }
 
 .fullHeight {
   height: auto; }
