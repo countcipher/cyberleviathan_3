@@ -7,28 +7,28 @@
     //overflow: hidden;
     display: none;
 
-    &:hover &__bun{
-        //background-color: green;
+    // &:hover &__bun{
+    //     background-color: green;
 
-        &--top{
-            transform: rotateZ(-405deg);
-            position: relative;
-            top: 7px;
-            margin: 0;
-        }
+    //     &--top{
+    //         transform: rotateZ(-405deg);
+    //         position: relative;
+    //         top: 7px;
+    //         margin: 0;
+    //     }
 
-        &--middle{
-            opacity: 0;
-        }
+    //     &--middle{
+    //         opacity: 0;
+    //     }
 
-        &--bottom{
-            transform: rotateZ(405deg);
-            position: relative;
-            top: -2px;
-            margin: 0;
+    //     &--bottom{
+    //         transform: rotateZ(405deg);
+    //         position: relative;
+    //         top: -2px;
+    //         margin: 0;
             
-        }
-    }
+    //     }
+    // }
 
     &__bun{
         width: 35px;

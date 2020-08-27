@@ -29,3 +29,21 @@
     }
     
 }
+
+.topBunClose{
+    transform: rotateZ(-405deg);
+    position: relative;
+    top: 7px;
+    margin: 0;
+}
+
+.middleBunClose{
+    opacity: 0;
+}
+
+.bottomBunClose{
+    transform: rotateZ(405deg);
+    position: relative;
+    top: -3px;
+    margin: 0;
+}

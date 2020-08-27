@@ -103,18 +103,6 @@ h3 {
   position: relative;
   top: 17px;
   display: none; }
-  .hamburger:hover .hamburger__bun--top {
-    transform: rotateZ(-405deg);
-    position: relative;
-    top: 7px;
-    margin: 0; }
-  .hamburger:hover .hamburger__bun--middle {
-    opacity: 0; }
-  .hamburger:hover .hamburger__bun--bottom {
-    transform: rotateZ(405deg);
-    position: relative;
-    top: -2px;
-    margin: 0; }
   .hamburger__bun {
     width: 35px;
     height: 2px;
@@ -332,3 +320,18 @@ h3 {
   color: #fffbfc !important; }
   .whiteColor:hover {
     color: #fffbfc !important; }
+
+.topBunClose {
+  transform: rotateZ(-405deg);
+  position: relative;
+  top: 7px;
+  margin: 0; }
+
+.middleBunClose {
+  opacity: 0; }
+
+.bottomBunClose {
+  transform: rotateZ(405deg);
+  position: relative;
+  top: -3px;
+  margin: 0; }

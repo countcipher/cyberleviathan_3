@@ -10,7 +10,10 @@ const body = document.querySelector("body"),
    hasDropdown = document.querySelectorAll(".has-dropdown"),
    navDropdownBox = document.querySelectorAll(".nav__dropdown-box"),
    navDropdownContent = document.querySelectorAll(".nav__dropdown-content"),
-   hamburger = document.querySelector(".hamburger");
+   hamburger = document.querySelector(".hamburger"),
+   hamburgerBunTop = document.querySelector(".hamburger__bun--top");
+   hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle");
+   hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom");
 
 //=============================
 //EVENT LISTENERS
@@ -86,6 +89,9 @@ function removeMobileClasses(){
       body.classList.remove("noScroll");
       html.classList.remove("noScroll");
       fullWrapper.classList.remove("noScroll");
+      hamburgerBunTop.classList.remove("topBunClose");
+      hamburgerBunMiddle.classList.remove("middleBunClose");
+      hamburgerBunBottom.classList.remove("bottomBunClose");
 //=====================================
 //THIS IS THE BLOCK OF CODE
 //THAT'S NEED TO BE REDONE TO MAKE THIS SHIT WORK
@@ -118,6 +124,8 @@ function removeLargeScreenClasses(){
 
 //====================================
 //OPENS AND CLOSES THE MOBILE NAV MENU
+//AS WELL AS CHANGES THE HAMBURGER MENU
+//TO AN 'X'
 //====================================
 function toggleMenu(){
    nav.classList.toggle("fullVH");
@@ -125,4 +133,14 @@ function toggleMenu(){
    body.classList.toggle("noScroll");
    html.classList.toggle("noScroll");
    fullWrapper.classList.toggle("noScroll");
+
+   if(navLinks.classList.contains("menuShow")){
+      hamburgerBunTop.classList.add("topBunClose");
+      hamburgerBunMiddle.classList.add("middleBunClose");
+      hamburgerBunBottom.classList.add("bottomBunClose");
+   }else{
+      hamburgerBunTop.classList.remove("topBunClose");
+      hamburgerBunMiddle.classList.remove("middleBunClose");
+      hamburgerBunBottom.classList.remove("bottomBunClose");
+   }
 }
