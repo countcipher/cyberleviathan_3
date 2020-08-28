@@ -11,9 +11,10 @@ const body = document.querySelector("body"),
    navDropdownBox = document.querySelectorAll(".nav__dropdown-box"),
    navDropdownContent = document.querySelectorAll(".nav__dropdown-content"),
    hamburger = document.querySelector(".hamburger"),
-   hamburgerBunTop = document.querySelector(".hamburger__bun--top");
-   hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle");
-   hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom");
+   hamburgerBunTop = document.querySelector(".hamburger__bun--top"),
+   hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle"),
+   hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom"),
+   mobileBreakPoint = 695;
 
 //=============================
 //EVENT LISTENERS
@@ -37,7 +38,7 @@ hamburger.addEventListener("click", toggleMenu);
 //SETS CSS PROPERTIES FOR NAV AFTER SCROLLING DOWN PAGE
 //=================================
 function navWhiteOnScroll(){
-   if(window.pageYOffset >= 145 && window.innerWidth >= 646){
+   if(window.pageYOffset >= 145 && window.innerWidth >= mobileBreakPoint){
         nav.classList.add("onScrollWhite");
         navLinkTitle.forEach(function(item){
          item.classList.add("onScrollBlackColor");
@@ -61,7 +62,7 @@ function navWhiteOnScroll(){
 //IF THE PAGE SCOLLED DOWN BEYOND 144 (>= 145)
 //=========================================
 function addLargeScreenClasses(){
-   if(window.innerWidth >= 646 && window.pageYOffset >=145){
+   if(window.innerWidth >= mobileBreakPoint && window.pageYOffset >=145){
       nav.classList.add("onScrollWhite");
       navLinkTitle.forEach(function(title){
          title.classList.add("onScrollBlackColor");
@@ -80,7 +81,7 @@ function showDropdownContent(){
 //REMOVES ALL MOBILE-USE CLASSES WHEN WINDOW IS RESIZED FROM MOBILE TO LARGE
 //==================================
 function removeMobileClasses(){
-   if(window.innerWidth >= 646){
+   if(window.innerWidth >= mobileBreakPoint){
       navDropdownContent.forEach(function(item){
          item.classList.remove("fullHeight");
       })
@@ -100,7 +101,7 @@ function removeMobileClasses(){
 //MAKES THE COLOR OF THE NAV BLACK
 //FIX THIS SHIT!!!
 //======================================
-   // }else if(window.innerWidth < 646){
+   // }else if(window.innerWidth < mobileBreakPoint){
    //    nav.classList.remove("onScrollWhite");
    //    navLinkTitle.classList.add("whiteColor");
    //    navLinkTitle.classList.remove("onScrollBlackColor");
@@ -114,7 +115,7 @@ function removeMobileClasses(){
 //TO PREP FOR MOBILE LAYOUT
 //====================================
 function removeLargeScreenClasses(){
-   if(window.innerWidth < 646){
+   if(window.innerWidth < mobileBreakPoint){
       nav.classList.remove("onScrollWhite");
       navLinkTitle.forEach(function(item){
          item.classList.remove("onScrollBlackColor");
