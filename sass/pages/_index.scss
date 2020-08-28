@@ -1,0 +1,36 @@
+.index-about{
+    & .row{
+        padding: 3.5rem;
+        flex-direction: column;
+        //background-color: rgba($color-black, .3);
+
+        & h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+    }
+
+    &__video-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        width: 50%;
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+        url('images/woman-with-sign.jpg');
+        background-size: cover;
+        background-position: center;
+        color: $color-white;
+        cursor: pointer;
+
+        & i{
+            font-size: 10rem;
+            transition: .3s;
+        }
+
+        &:hover i{
+            transform: scale(1.3);
+        }
+    }
+}
