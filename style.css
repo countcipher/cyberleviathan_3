@@ -64,6 +64,18 @@ h3 {
   to {
     height: auto; } }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green; }
+  .row--center-hor {
+    justify-content: center; }
+  .row--center-ver {
+    align-items: center; }
+
 .btn {
   background-color: #bf1e2e;
   padding: 1.5rem;
