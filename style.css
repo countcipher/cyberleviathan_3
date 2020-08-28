@@ -64,6 +64,11 @@ h3 {
   to {
     height: auto; } }
 
+.rowx {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
 .btn {
   background-color: #bf1e2e;
   padding: 1.5rem;
