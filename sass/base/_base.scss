@@ -2,7 +2,8 @@ body, html{
     min-height: 600px;
 }
 body{
-    background-image: linear-gradient(to bottom right, rgba($color-purple, .7), rgba($color-blue, .7), rgba($color-purple, .7))
+    background-image: linear-gradient(to bottom right, rgba($color-purple, 1), rgba($color-blue, 1), rgba($color-purple, 1));
+    background-position: center;
 }
 .full-wrapper{
     //max-width: 1420px;

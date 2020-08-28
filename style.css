@@ -17,7 +17,8 @@ body, html {
   min-height: 600px; }
 
 body {
-  background-image: linear-gradient(to bottom right, rgba(181, 55, 242, 0.7), rgba(60, 185, 252, 0.7), rgba(181, 55, 242, 0.7)); }
+  background-image: linear-gradient(to bottom right, #b537f2, #3cb9fc, #b537f2);
+  background-position: center; }
 
 .full-wrapper {
   margin: 0 auto;
@@ -324,15 +325,16 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  width: 50%;
+  height: 400px;
+  width: 80%;
   background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman-with-sign.jpg");
   background-size: cover;
   background-position: center;
   color: #fffbfc;
   cursor: pointer;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
-  border-radius: 10px; }
+  border-radius: 10px;
+  max-width: 700px; }
   .index-about__video-button i {
     font-size: 10rem;
     transition: .3s; }
