@@ -4,6 +4,7 @@ body, html{
 body{
     background-image: linear-gradient(to bottom right, rgba($color-purple, 1), rgba($color-blue, 1), rgba($color-purple, 1));
     background-position: center;
+    background-attachment: fixed;
 }
 .full-wrapper{
     //max-width: 1420px;

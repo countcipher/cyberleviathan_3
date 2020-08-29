@@ -155,8 +155,14 @@ function toggleMenu(){
 //OPENS MODAL ON INDEX PAGE, ABOUT SECTION
 //=======================================
 function openIndexAboutModal(){
-   indexAboutModal.classList.add("index-about__modal--show");
-   indexAboutVideo.classList.add("index-about__video--show");
+   // indexAboutModal.classList.add("index-about__modal--show");
+   // indexAboutVideo.classList.add("index-about__video--show");
+   body.classList.add("noScroll");
+   html.classList.add("noScroll");
+   fullWrapper.classList.add("noScroll");
+   indexAboutModal.style.transform = "scale(1)";
+   indexAboutModal.style.zIndex = 1000;
+   indexAboutModal.style.opacity = 1;
    indexAboutVideo.play();
 }
 
@@ -165,8 +171,14 @@ function openIndexAboutModal(){
 //============================================
 function closeIndexAboutModal(e){
    if(!e.target.classList.contains("video")){
-      indexAboutModal.classList.remove("index-about__modal--show");
-      indexAboutVideo.classList.remove("index-about__video--show");
+      // indexAboutModal.classList.remove("index-about__modal--show");
+      // indexAboutVideo.classList.remove("index-about__video--show");
+      body.classList.remove("noScroll");
+      html.classList.remove("noScroll");
+      fullWrapper.classList.remove("noScroll");
+      indexAboutModal.style.transform = "scale(0)";
+      indexAboutModal.style.zIndex = -1000;
+      indexAboutModal.style.opacity = 0;
       indexAboutVideo.pause();
    }
 }
