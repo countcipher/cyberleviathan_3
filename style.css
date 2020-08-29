@@ -314,15 +314,19 @@ h3 {
 
 .index-about .row {
   padding: 3.5rem;
-  flex-direction: column; }
+  flex-direction: row;
+  flex-wrap: wrap; }
   .index-about .row h1 {
     text-transform: capitalize;
     text-align: center;
     padding: 1.5rem;
-    color: #fffbfc; }
+    color: #fffbfc;
+    display: flex;
+    flex-wrap: wrap; }
 
 .index-about__video-button {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 400px;
@@ -339,8 +343,7 @@ h3 {
     font-size: 10rem;
     transition: .3s; }
   .index-about__video-button:hover i {
-    transform: scale(1.3);
-    color: #bf1e2e;
+    transform: scale(1.3) rotateY(720deg);
     text-shadow: 0 0 0 #fffbfc; }
 
 .onScrollWhite {
