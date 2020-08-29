@@ -14,7 +14,8 @@ const body = document.querySelector("body"),
    hamburgerBunTop = document.querySelector(".hamburger__bun--top"),
    hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle"),
    hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom"),
-   mobileBreakPoint = 695;
+   mobileBreakPoint = 695,
+   indexAboutModal = document.querySelector(".index-about__modal");
 
 //=============================
 //EVENT LISTENERS
@@ -24,6 +25,7 @@ window.addEventListener("resize", removeMobileClasses);
 window.addEventListener("resize", removeLargeScreenClasses);
 window.addEventListener("resize", addLargeScreenClasses);
 hamburger.addEventListener("click", toggleMenu);
+indexAboutModal.addEventListener("click", closeIndexAboutModal);
 
 //==============================
 //GIVES <li/> WITH "HAS-DROPDOWN" CLASS THE showDropdownContent FUNCTION
@@ -143,5 +145,14 @@ function toggleMenu(){
       hamburgerBunTop.classList.remove("topBunClose");
       hamburgerBunMiddle.classList.remove("middleBunClose");
       hamburgerBunBottom.classList.remove("bottomBunClose");
+   }
+}
+
+//============================================
+//CLOSES MODAL ON INDEX PAGE, ABOUT SECTION
+//============================================
+function closeIndexAboutModal(e){
+   if(!e.target.classList.contains("video")){
+      indexAboutModal.style.display = "none";
    }
 }
