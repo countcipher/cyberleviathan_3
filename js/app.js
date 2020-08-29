@@ -15,6 +15,8 @@ const body = document.querySelector("body"),
    hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle"),
    hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom"),
    mobileBreakPoint = 695,
+   indexAboutVideoButton = document.querySelector(".index-about__video-button"),
+   indexAboutVideo = document.querySelector(".index-about__video"),
    indexAboutModal = document.querySelector(".index-about__modal");
 
 //=============================
@@ -25,6 +27,7 @@ window.addEventListener("resize", removeMobileClasses);
 window.addEventListener("resize", removeLargeScreenClasses);
 window.addEventListener("resize", addLargeScreenClasses);
 hamburger.addEventListener("click", toggleMenu);
+indexAboutVideoButton.addEventListener("click", openIndexAboutModal);
 indexAboutModal.addEventListener("click", closeIndexAboutModal);
 
 //==============================
@@ -148,11 +151,22 @@ function toggleMenu(){
    }
 }
 
+//======================================
+//OPENS MODAL ON INDEX PAGE, ABOUT SECTION
+//=======================================
+function openIndexAboutModal(){
+   indexAboutModal.classList.add("index-about__modal--show");
+   indexAboutVideo.classList.add("index-about__video--show");
+   indexAboutVideo.play();
+}
+
 //============================================
 //CLOSES MODAL ON INDEX PAGE, ABOUT SECTION
 //============================================
 function closeIndexAboutModal(e){
    if(!e.target.classList.contains("video")){
-      indexAboutModal.style.display = "none";
+      indexAboutModal.classList.remove("index-about__modal--show");
+      indexAboutVideo.classList.remove("index-about__video--show");
+      indexAboutVideo.pause();
    }
 }

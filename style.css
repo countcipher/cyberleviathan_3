@@ -68,6 +68,12 @@ h3 {
   to {
     height: auto; } }
 
+@keyframes modalExpand {
+  from {
+    transform: scale(0) !important; }
+  to {
+    transform: scale(1s) !important; } }
+
 .btn {
   background-color: #bf1e2e;
   padding: 1.5rem;
@@ -352,8 +358,21 @@ h3 {
     position: relative; }
   .index-about__video-button:hover i {
     transform: scale(1.3) rotateY(720deg);
-    color: #bf1e2e;
-    text-shadow: 0 0 0 #fffbfc; }
+    color: #bf1e2e; }
+
+.index-about__modal {
+  display: none;
+  overflow: hidden; }
+  .index-about__modal video {
+    display: block;
+    transition: 2s; }
+  .index-about__modal--show {
+    display: flex; }
+
+.index-about__video--show {
+  display: block !important;
+  opacity: 1 !important;
+  transform: scale(1) !important; }
 
 @media (max-width: 982px) {
   .index-about__row {

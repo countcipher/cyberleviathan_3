@@ -2,3 +2,11 @@
     from {height: 0%;}
     to {height: auto}
 }
+@keyframes modalExpand{
+    from{
+        transform: scale(0) !important;
+    }
+    to{
+        transform: scale(1s) !important;
+    }
+}
