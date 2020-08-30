@@ -366,7 +366,23 @@ h3 {
 
 .index-about__video {
   width: 90%;
-  max-width: 1365px; }
+  max-width: 1420px; }
+
+.index-testimonial {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/group_thumbs_up.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5.5rem 3.5rem 10rem 3.5rem;
+  color: #fffbfc;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%); }
+  .index-testimonial__testimonial {
+    font-size: 3rem;
+    background-color: rgba(35, 31, 32, 0.3);
+    padding: 3rem;
+    border-radius: 10px;
+    max-width: 1420px;
+    margin: auto; }
 
 @media (max-width: 982px) {
   .index-about__row {
