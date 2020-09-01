@@ -109,6 +109,7 @@
         url('images/group_thumbs_up.jpg');
     background-size: cover;
     background-position: center;
+    //background-attachment: fixed;
     padding: 5.5rem 3.5rem 10rem 3.5rem;
     color: $color-white;
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);

@@ -13,6 +13,41 @@ html {
 body {
   box-sizing: border-box; }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+[class^="box"] {
+  box-sizing: border-box;
+  display: flex; }
+
+.box-1 {
+  width: 100%;
+  background: green; }
+
+.box-2 {
+  width: 50%;
+  background: orange; }
+
+.box-3 {
+  width: 33.333333%;
+  background-color: purple; }
+
+.box-4 {
+  width: 25%; }
+
+.box-5 {
+  width: 20%; }
+
+.center-hor {
+  justify-content: center; }
+
+.center-ver {
+  align-items: center; }
+
 body, html {
   min-height: 600px; }
 
