@@ -1,4 +1,5 @@
-.container{
+[class^="box"]{
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -6,26 +7,18 @@
     overflow: hidden;
 }
 
-[class^="box"]{
-    box-sizing: border-box;
-    display: flex;
-}
-
 .box{
 
     &-1{
         width: 100%;
-        background: green;
     }
 
     &-2{
         width: 50%;
-        background: orange;
     }
 
     &-3{
         width: 33.333333%;
-        background-color: purple;
     }
     &-4{
         width: 25%;
@@ -41,4 +34,64 @@
 
 .center-ver{
     align-items: center;
+}
+
+.pt{
+
+    &--lg{
+        padding-top: 4rem;
+    }
+
+    &--md{
+        padding-top: 2rem;
+    }
+
+    &--sm{
+        padding-top: 1rem;
+    }
+}
+
+.pr{
+
+    &--lg{
+        padding-right: 4rem;
+    }
+
+    &--md{
+        padding-right: 2rem;
+    }
+
+    &--sm{
+        padding-right: 1rem;
+    }
+}
+
+.pb{
+
+    &--lg{
+        padding-bottom: 4rem;
+    }
+
+    &--md{
+        padding-bottom: 2rem;
+    }
+
+    &--sm{
+        padding-bottom: 1rem;
+    }
+}
+
+.pl{
+
+    &--lg{
+        padding-left: 4rem;
+    }
+
+    &--md{
+        padding-left: 2rem;
+    }
+
+    &--sm{
+        padding-left: 1rem;
+    }
 }
