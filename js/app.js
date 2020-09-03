@@ -15,9 +15,11 @@ const body = document.querySelector("body"),
    hamburgerBunMiddle = document.querySelector(".hamburger__bun--middle"),
    hamburgerBunBottom = document.querySelector(".hamburger__bun--bottom"),
    mobileBreakPoint = 695,
+   indexAbout = document.querySelector(".index-about"),
    indexAboutVideoButton = document.querySelector(".index-about__video-button"),
    indexAboutVideo = document.querySelector(".index-about__video"),
-   indexAboutModal = document.querySelector(".index-about__modal");
+   indexAboutModal = document.querySelector(".index-about__modal"),
+   indexAbout__Row = document.querySelector(".index-about__row");
 
 //=============================
 //EVENT LISTENERS
@@ -26,6 +28,7 @@ window.addEventListener("scroll", navWhiteOnScroll);
 window.addEventListener("resize", removeMobileClasses);
 window.addEventListener("resize", removeLargeScreenClasses);
 window.addEventListener("resize", addLargeScreenClasses);
+window.addEventListener("scroll", indexAboutRowScroll);
 hamburger.addEventListener("click", toggleMenu);
 indexAboutVideoButton.addEventListener("click", openIndexAboutModal);
 indexAboutModal.addEventListener("click", closeIndexAboutModal);
@@ -180,5 +183,12 @@ function closeIndexAboutModal(e){
       indexAboutModal.style.zIndex = -1000;
       indexAboutModal.style.opacity = 0;
       indexAboutVideo.pause();
+   }
+}
+
+function indexAboutRowScroll(){
+   if(window.pageYOffset >= indexAbout.offsetTop - 400){
+      //console.log("hello");
+      indexAbout__Row.children[0].style.transform = "translateX(0%)";
    }
 }

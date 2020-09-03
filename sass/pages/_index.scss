@@ -32,6 +32,8 @@
             padding: 1.5rem;
             color: $color-white;
             width: 44%;
+            transition: .6s;
+            transform: translateX(-100%);
         }
     }
 
@@ -106,7 +108,7 @@
     background-image:
     linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
     //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
-        url('images/group_thumbs_up.jpg');
+        url('images/group_thumbs_up0.jpg');
     background-size: cover;
     background-position: center;
     //background-attachment: fixed;

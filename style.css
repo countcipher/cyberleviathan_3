@@ -403,7 +403,9 @@ h3 {
     text-align: center;
     padding: 1.5rem;
     color: #fffbfc;
-    width: 44%; }
+    width: 44%;
+    transition: .6s;
+    transform: translateX(-100%); }
 
 .index-about__video-button {
   display: flex;
@@ -436,7 +438,7 @@ h3 {
 
 .index-testimonial {
   text-align: center;
-  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/group_thumbs_up.jpg");
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/group_thumbs_up0.jpg");
   background-size: cover;
   background-position: center;
   padding: 5.5rem 3.5rem 10rem 3.5rem;
