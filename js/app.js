@@ -190,5 +190,6 @@ function indexAboutRowScroll(){
    if(window.pageYOffset >= indexAbout.offsetTop - 400){
       //console.log("hello");
       indexAbout__Row.children[0].style.transform = "translateX(0%)";
+      //indexAbout__Row.children[0].style.opacity = "1";
    }
 }
