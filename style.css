@@ -483,6 +483,7 @@ h3 {
       flex-direction: column;
       justify-content: start; }
   .index-services .box-3 {
+    background-color: rgba(35, 31, 32, 0.3);
     padding: 1.5rem;
     transition: .3s; }
     .index-services .box-3:hover img {
