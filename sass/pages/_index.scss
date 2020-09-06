@@ -163,11 +163,26 @@
 
     & .box-3{
 
-        &:hover img{
-            //transform: translateY(-1rem);
-            //transform: rotateY(360deg);
-            transform: scale(1.2);
-            box-shadow: 0 0 20px rgba($color-black, .4);
+        //background-color: rgba($color-black, .3);
+        padding: 1.5rem;
+        //border: solid 2px transparent;
+        transition: .3s;
+        //position: relative;
+
+        // &:nth-child(1){
+        //     left: -20%;
+        //     bottom: -50%;
+        // }
+
+         &:hover{
+        //     border: solid 2px $color-white;
+
+            & img{
+                //transform: translateY(-1rem);
+                //transform: rotateY(360deg);
+                transform: scale(1.2);
+                box-shadow: 0 0 20px rgba($color-black, .4);
+            }
         }
     }
 

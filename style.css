@@ -482,9 +482,12 @@ h3 {
     .index-services .box-2--text {
       flex-direction: column;
       justify-content: start; }
-  .index-services .box-3:hover img {
-    transform: scale(1.2);
-    box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+  .index-services .box-3 {
+    padding: 1.5rem;
+    transition: .3s; }
+    .index-services .box-3:hover img {
+      transform: scale(1.2);
+      box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
 
 @media (max-width: 1095px) {
   .index-services {
