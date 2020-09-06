@@ -489,6 +489,23 @@ h3 {
     .index-services .box-3:hover img {
       transform: scale(1.2);
       box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+    .index-services .box-3 .btn--cta {
+      background-color: transparent;
+      font-weight: 600;
+      border: solid 2px #fffbfc;
+      border-radius: 0; }
+      .index-services .box-3 .btn--cta::after {
+        display: none; }
+      .index-services .box-3 .btn--cta:hover {
+        box-shadow: none;
+        color: #bf1e2e;
+        transform: scale(1.2);
+        border: solid 2px #bf1e2e;
+        background-color: #fffbfc; }
+
+@media (max-width: 1379px) {
+  .index-services .btn--cta {
+    font-size: 1.3rem; } }
 
 @media (max-width: 1095px) {
   .index-services {
