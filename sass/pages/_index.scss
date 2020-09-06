@@ -159,6 +159,12 @@
             flex-direction: column;
             justify-content: start;
         }
+
+        // & .btn--cta{
+        //     position: absolute;
+        //     left: 0;
+        //     bottom: 0;
+        // }
     }
 
     & .box-3{
@@ -189,8 +195,8 @@
         & .btn--cta{
             background-color: transparent;
             font-weight: 600;
-            border: solid 2px $color-white;
-            border-radius: 0;
+            // border: solid 2px $color-white;
+            // border-radius: 0;
 
             &::after{
                 display: none;
@@ -200,8 +206,8 @@
                 box-shadow: none;
                 color: $color-red;
                 transform: scale(1.2);
-                border: solid 2px $color-red;
-                background-color: $color-white;
+                // border: solid 2px $color-red;
+                // background-color: $color-white;
             }
         }
     }
@@ -214,7 +220,7 @@
 @media(max-width: 1379px){
  .index-services{
      .btn--cta{
-         font-size: 1.3rem;
+         font-size: 1.7rem;
      }
  }
 }
@@ -223,6 +229,17 @@
         display: block;
         text-align: center;
         padding: 4.5rem 1rem 2.5rem 1rem;
+
+        & .box-1{
+            margin: 0;
+
+            &:hover{
+
+                & img{
+                    transform: scale(1);
+                }
+            }
+        }
     
         & img{
             height: auto;
