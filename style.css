@@ -468,6 +468,8 @@ h3 {
   padding: 4.5rem 1rem 2.5rem 1rem;
   max-width: 1420px;
   margin: auto; }
+  .index-services .firstOf {
+    margin-top: 6.5rem; }
   .index-services img {
     height: 150px;
     border-radius: 100%;
@@ -499,6 +501,23 @@ h3 {
         color: #bf1e2e;
         transform: scale(1.2); }
 
+.index-contact {
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/contact0.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .index-contact .box-1 {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(35, 31, 32, 0.3);
+    border-radius: 10px;
+    padding: 2.5rem; }
+
 @media (max-width: 1379px) {
   .index-services .btn--cta {
     font-size: 1.7rem; } }
@@ -512,6 +531,8 @@ h3 {
       margin: 0; }
       .index-services .box-1:hover img {
         transform: scale(1); }
+    .index-services .box-3 {
+      background-color: transparent; }
     .index-services img {
       height: auto;
       width: 40%;
