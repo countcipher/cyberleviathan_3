@@ -487,10 +487,13 @@ h3 {
   .index-services .box-3 {
     background-color: rgba(35, 31, 32, 0.3);
     padding: 1.5rem;
+    border: solid 2px transparent;
     transition: .3s; }
-    .index-services .box-3:hover img {
-      transform: scale(1.2);
-      box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+    .index-services .box-3:hover {
+      border: solid 2px #fffbfc; }
+      .index-services .box-3:hover img {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
     .index-services .box-3 .btn--cta {
       background-color: transparent;
       font-weight: 600; }
@@ -533,6 +536,10 @@ h3 {
         transform: scale(1); }
     .index-services .box-3 {
       background-color: transparent; }
+      .index-services .box-3:hover {
+        border: solid 2px transparent; }
+        .index-services .box-3:hover img {
+          box-shadow: none; }
     .index-services img {
       height: auto;
       width: 40%;
@@ -548,6 +555,15 @@ h3 {
     transform: translateX(0%); }
   .index-about__video-button {
     width: 90%; } }
+
+@media (max-width: 678px) {
+  .index-testimonial__testimonial {
+    font-size: 2.3rem;
+    background-color: rgba(35, 31, 32, 0.3);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1420px;
+    margin: auto; } }
 
 .onScrollWhite {
   background-color: #fffbfc;

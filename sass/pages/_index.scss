@@ -175,7 +175,7 @@
 
         background-color: rgba($color-black, .3);
         padding: 1.5rem;
-        //border: solid 2px transparent;
+        border: solid 2px transparent;
         transition: .3s;
         //position: relative;
 
@@ -185,12 +185,12 @@
         // }
 
          &:hover{
-        //     border: solid 2px $color-white;
+             border: solid 2px $color-white;
 
             & img{
                 //transform: translateY(-1rem);
                 //transform: rotateY(360deg);
-                transform: scale(1.2);
+                transform: scale(1.1);
                 box-shadow: 0 0 20px rgba($color-black, .4);
                 //filter: grayscale(80%);
             }
@@ -275,6 +275,14 @@
 
         & .box-3{
             background-color: transparent;
+
+            &:hover{
+                border: solid 2px transparent;
+                
+                & img{
+                    box-shadow: none;
+                }
+            }
         }
     
         & img{
@@ -300,6 +308,20 @@
 
         &__video-button{
             width: 90%;
+        }
+    }
+}
+
+@media(max-width: 678px){
+    .index-testimonial{
+    
+        &__testimonial{
+            font-size: 2.3rem;
+            background-color: rgba($color-black, .3);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: $max-width;
+            margin: auto;
         }
     }
 }
