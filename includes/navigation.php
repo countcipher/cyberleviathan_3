@@ -7,7 +7,7 @@
             </div>
             <ul class="nav__links">
                 <li class="nav__dropdown-box">
-                    <a href="#"><span class="nav__link-title">About</span></a>
+                    <a href="about.php"><span class="nav__link-title">About</span></a>
                     <!-- <ul class="nav__dropdown-content">
                         <a href="#"><li>What Is CL Advantage?</li></a>
                         <a href="#"><li>Evolution</li></a>

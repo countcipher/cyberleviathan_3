@@ -30,8 +30,14 @@ window.addEventListener("resize", removeLargeScreenClasses);
 window.addEventListener("resize", addLargeScreenClasses);
 window.addEventListener("scroll", indexAboutRowScroll);
 hamburger.addEventListener("click", toggleMenu);
-indexAboutVideoButton.addEventListener("click", openIndexAboutModal);
-indexAboutModal.addEventListener("click", closeIndexAboutModal);
+
+if(indexAboutVideoButton !== null){
+   indexAboutVideoButton.addEventListener("click", openIndexAboutModal);
+}
+
+if(indexAboutModal !==null){
+   indexAboutModal.addEventListener("click", closeIndexAboutModal);
+}
 
 //==============================
 //GIVES <li/> WITH "HAS-DROPDOWN" CLASS THE showDropdownContent FUNCTION
