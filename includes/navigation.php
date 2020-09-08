@@ -1,5 +1,5 @@
 <nav class="nav">
-            <a href="index.html"><img class="nav__logo" src="images/logo_white.png" alt="Cyber Leviathan logo"></a>
+            <a href="index.php"><img class="nav__logo" src="images/logo_white.png" alt="Cyber Leviathan logo"></a>
             <div class="hamburger">
                 <div class="hamburger__bun hamburger__bun--top"></div>
                 <div class="hamburger__bun hamburger__bun--middle"></div>
