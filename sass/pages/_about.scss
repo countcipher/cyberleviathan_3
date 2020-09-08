@@ -1,0 +1,19 @@
+.about{
+    
+    &-about{
+        text-align: center;
+        max-width: $max-width;
+        margin: auto;
+    }
+
+    &-video{
+
+        &__video{
+            margin: auto;
+            width: 80%;
+            display: block;
+            padding: 2rem;
+            max-width: 1020px;
+        }
+    }
+}
