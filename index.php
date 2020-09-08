@@ -6,9 +6,6 @@ include "includes/header.php";
 
 ?>
 
-<body>
-    <div class="full-wrapper">
-
         <?php include "includes/navigation.php"; ?>
         
         <header class="header">

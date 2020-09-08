@@ -146,6 +146,24 @@ body {
   to {
     transform: scale(1s) !important; } }
 
+.header--small {
+  min-height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/woman_with_computer_20200819.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+  height: 20vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+  color: #fffbfc;
+  overflow: hidden;
+  position: relative;
+  padding: 1.5rem 3rem 13rem;
+  text-transform: capitalize; }
+
 .btn {
   background-color: #bf1e2e;
   padding: 1.5rem;

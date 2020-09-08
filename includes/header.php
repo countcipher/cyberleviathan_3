@@ -22,3 +22,6 @@
     </style>
 
 </head>
+
+<body>
+    <div class="full-wrapper">
