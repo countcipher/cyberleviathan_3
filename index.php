@@ -1,64 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Leviathan</title>
+<?php
 
-    <script src="js/jquery.js"></script>
+$title = "Cyber Leviathan";
 
-    <link rel="stylesheet" href="fonts/fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="style.css">
-</head>
+include "includes/header.php";
+
+?>
+
 <body>
     <div class="full-wrapper">
 
-        <nav class="nav">
-            <a href="index.html"><img class="nav__logo" src="images/logo_white.png" alt="Cyber Leviathan logo"></a>
-            <div class="hamburger">
-                <div class="hamburger__bun hamburger__bun--top"></div>
-                <div class="hamburger__bun hamburger__bun--middle"></div>
-                <div class="hamburger__bun hamburger__bun--bottom"></div>
-            </div>
-            <ul class="nav__links">
-                <li class="nav__dropdown-box">
-                    <a href="#"><span class="nav__link-title">About</span></a>
-                    <!-- <ul class="nav__dropdown-content">
-                        <a href="#"><li>What Is CL Advantage?</li></a>
-                        <a href="#"><li>Evolution</li></a>
-                        <a href="#"><li>Trident</li></a>
-                    </ul> -->
-                </li>
-
-                <li class="nav__dropdown-box has-dropdown">
-                    <span class="nav__link-title">Services <i class="far fa-arrow-alt-circle-down"></i></span>
-                    <ul class="nav__dropdown-content">
-                        <a href="#"><li>Custom Websites</li></a>
-                        <a href="#"><li>Digital Marketing</li></a>
-                        <a href="#"><li>Email</li></a>
-                        <a href="#"><li>Domains &amp; Hosting</li></a>
-                    </ul>
-                </li>
-
-                <li class="nav__dropdown-box has-dropdown">
-                    <span class="nav__link-title">CL Advantage <i class="far fa-arrow-alt-circle-down"></i></span>
-                    <ul class="nav__dropdown-content">
-                        <a href="#"><li>What Is CL Advantage?</li></a>
-                        <a href="#"><li>Evolution</li></a>
-                        <a href="#"><li>Trident</li></a>
-                    </ul>
-                </li>
-                <li class="nav__dropdown-box">
-                    <a href="#"><span class="nav__link-title">Contact</span></a>
-                    <!-- <ul class="nav__dropdown-content">
-                        <a href="#"><li>What Is CL Advantage?</li></a>
-                        <a href="#"><li>Evolution</li></a>
-                        <a href="#"><li>Trident</li></a>
-                    </ul> -->
-                </li>
-            </ul>
-        </nav>
+        <?php include "includes/navigation.php"; ?>
         
         <header class="header">
             <div class="header__text-box">
@@ -198,49 +149,4 @@
         <!-- ==============================
                         FOOTER
         ================================ -->
-        <section class="footer">
-            <!-- <div class="box-1">
-                <div class="box-4">
-                    <a href="#"><h3>About</h3></a>
-                </div>
-
-                <div class="box-4">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Custom Websites</a></li>
-                        <li><a href="#">Custom Websites</a></li>
-                        <li><a href="#">Custom Websites</a></li>
-                        <li><a href="#">Custom Websites</a></li>
-                    </ul>
-                </div>
-
-                <div class="box-4">
-                    <h3>CL Advantage</h3>
-                    <ul>
-                        <li><a href="#">What is CL Advantage?</a></li>
-                        <li><a href="#">What is CL Advantage?</a></li>
-                        <li><a href="#">What is CL Advantage?</a></li>
-                    </ul>
-                </div>
-
-                <div class="box-4">
-                    <a href="h3">Contact</a>
-                </div>
-            </div> -->
-
-            <div class="box-1 footer__copyright">
-                &copy; 2020 <img src="images/logo_white.png" alt="">
-            </div>
-
-            <!-- <div class="box-1 footer__socialmedia">
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-facebook-square"></i>
-
-            </div> -->
-        </section>
-
-    </div><!---END OF FULL-WRAPPER-->
-    <script src="js/app.js"></script>
-</body>
-</html>
+        <?php include "includes/footer.php" ?>
