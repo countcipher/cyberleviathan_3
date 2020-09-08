@@ -196,7 +196,7 @@ body {
     .hamburger__bun--middle {
       margin-bottom: 7px; }
 
-@media (max-width: 695px) {
+@media (max-width: 749px) {
   .hamburger {
     display: block; } }
 

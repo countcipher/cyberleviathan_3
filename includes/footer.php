@@ -29,7 +29,7 @@
             </div> -->
 
             <div class="box-1 footer__copyright">
-                &copy; 2020 <img src="images/logo_white.png" alt="">
+                &copy; <?php echo date("Y"); ?> <img src="images/logo_white.png" alt="">
             </div>
 
             <!-- <div class="box-1 footer__socialmedia">
