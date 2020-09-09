@@ -44,6 +44,11 @@
     &-why{
         padding-bottom: 5.5rem;
 
+        & i{
+            color: $color-red;
+            font-size: 3.3rem;
+        }
+
         & h1{
             margin-bottom: 3.5rem;
         }

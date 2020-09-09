@@ -598,6 +598,9 @@ body {
 
 .about-why {
   padding-bottom: 5.5rem; }
+  .about-why i {
+    color: #bf1e2e;
+    font-size: 3.3rem; }
   .about-why h1 {
     margin-bottom: 3.5rem; }
   .about-why .box-1 {
