@@ -1,0 +1,22 @@
+.contact{
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+        //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
+            url('images/contact0.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 7.5rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+        & .box-1{
+            text-align: center;
+            justify-content: center;
+            background-color: rgba($color-black, .3);
+            border-radius: 10px;
+            padding: 2.5rem;
+        }
+}

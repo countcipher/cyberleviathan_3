@@ -506,7 +506,8 @@ body {
     background-color: rgba(35, 31, 32, 0.3);
     padding: 1.5rem;
     border: solid 2px transparent;
-    transition: .3s; }
+    transition: .3s;
+    border-radius: 10px; }
     .index-services .box-3:hover {
       border: solid 2px #fffbfc; }
       .index-services .box-3:hover img {
@@ -521,23 +522,6 @@ body {
         box-shadow: none;
         color: #bf1e2e;
         transform: scale(1.2); }
-
-.index-contact {
-  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/contact0.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 7.5rem;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-  .index-contact .box-1 {
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(35, 31, 32, 0.3);
-    border-radius: 10px;
-    padding: 2.5rem; }
 
 @media (max-width: 1379px) {
   .index-services .btn--cta {
@@ -595,6 +579,39 @@ body {
   padding: 2rem;
   max-width: 1020px; }
 
+.about-testimonial {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/group_thumbs_up0.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 5.5rem 3.5rem 10rem 3.5rem;
+  color: #fffbfc;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+  margin: 4rem 0 10rem 0; }
+  .about-testimonial__testimonial {
+    font-size: 3rem;
+    background-color: rgba(35, 31, 32, 0.3);
+    padding: 3rem;
+    border-radius: 10px;
+    max-width: 1420px;
+    margin: auto; }
+
+.about-why {
+  padding-bottom: 5.5rem; }
+  .about-why h1 {
+    margin-bottom: 3.5rem; }
+  .about-why .box-1 {
+    justify-content: space-evenly; }
+  .about-why .box-3 {
+    flex-flow: column;
+    background-color: rgba(35, 31, 32, 0.3);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    border-radius: 10px; }
+    .about-why .box-3 p {
+      text-align: center; }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
@@ -649,3 +666,20 @@ body {
     padding: 1.5rem 0 1.5rem 0; }
     .footer__copyright img {
       height: 50px; }
+
+.contact {
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/contact0.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7.5rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .contact .box-1 {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(35, 31, 32, 0.3);
+    border-radius: 10px;
+    padding: 2.5rem; }

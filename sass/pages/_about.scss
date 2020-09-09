@@ -16,4 +16,54 @@
             max-width: 1020px;
         }
     }
+
+    &-testimonial{
+        text-align: center;
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+        //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
+            url('images/group_thumbs_up0.jpg');
+        background-size: cover;
+        background-position: center;
+        //background-attachment: fixed;
+        padding: 5.5rem 3.5rem 10rem 3.5rem;
+        color: $color-white;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+        margin: 4rem 0 10rem 0;
+
+        &__testimonial{
+            font-size: 3rem;
+            background-color: rgba($color-black, .3);
+            padding: 3rem;
+            border-radius: 10px;
+            max-width: $max-width;
+            margin: auto;
+        }
+    }
+
+    &-why{
+        padding-bottom: 5.5rem;
+
+        & h1{
+            margin-bottom: 3.5rem;
+        }
+
+        & .box-1{
+            justify-content: space-evenly;
+
+        }
+
+        & .box-3{
+            flex-flow: column;
+            background-color: rgba($color-black, .3);
+            justify-content: center;
+            align-items: center;
+            padding: 3rem 1.5rem;
+            border-radius: 10px;
+
+            & p{
+                text-align: center;
+            }
+        }
+    }
 }

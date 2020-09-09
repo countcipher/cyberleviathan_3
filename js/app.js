@@ -28,7 +28,7 @@ window.addEventListener("scroll", navWhiteOnScroll);
 window.addEventListener("resize", removeMobileClasses);
 window.addEventListener("resize", removeLargeScreenClasses);
 window.addEventListener("resize", addLargeScreenClasses);
-window.addEventListener("scroll", indexAboutRowScroll);
+//window.addEventListener("scroll", indexAboutRowScroll);
 hamburger.addEventListener("click", toggleMenu);
 
 if(indexAboutVideoButton !== null){
@@ -37,6 +37,10 @@ if(indexAboutVideoButton !== null){
 
 if(indexAboutModal !==null){
    indexAboutModal.addEventListener("click", closeIndexAboutModal);
+}
+
+if(indexAbout !== null){
+   window.addEventListener("scroll", indexAboutRowScroll);
 }
 
 //==============================
