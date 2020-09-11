@@ -22,8 +22,8 @@ include "includes/header.php";
                 MAIN HEADING
     =============================== -->
     <section class="about-about">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At a inventore vel, eos totam odit debitis, harum mollitia atque amet sapiente ea quisquam illum in, nam maiores quis maxime ad. Rerum quod ducimus veniam tempora?</p>
+        <h1>Based In Staunton, VA</h1>
+        <p>Based in Staunton, VA, Cyber Leviathan offers professional online services to businesses of all sizes.  Whether you're just beginning your small business or are a part of a large company that has been operating for decades, we have the skills and experience to empower your business online!</p>
     </section>
 
     <!-- ==============================
@@ -58,21 +58,21 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-3">
-                <i class="fas fa-bug"></i>
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure! Deleniti impedit in praesentium fugit.</p>
+                <i class="fas fa-building"></i>
+                <h2>Focused On <em>Your</em> Business</h2>
+                <p>Each client is unique and we never lose sight of that fact.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-bug"></i>
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure! Deleniti impedit in praesentium fugit.</p>
+                <i class="fas fa-hand-holding-usd"></i>
+                <h2>A Proven Investment</h2>
+                <p>Cyber Leviathan clients have a record of reaching more customers and getting more profit.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-bug"></i>
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, iure! Deleniti impedit in praesentium fugit.</p>
+                <i class="fas fa-people-arrows"></i>
+                <h2>Exceptional Customer Experience</h2>
+                <p>Throughout the entire process of working with our clients, we maintain connection to ensure you're getting the best service for your business and answer any questions you might have.</p>
             </div>
         </div>
     </section>

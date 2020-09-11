@@ -3,7 +3,12 @@
     &-about{
         text-align: center;
         max-width: $max-width;
-        margin: auto;
+        margin: 4.5rem auto 2.5rem auto;
+
+        & p{
+            padding: 1rem 3rem 1rem 3rem;
+            font-weight: bold;
+        }
     }
 
     &-video{
@@ -47,10 +52,12 @@
         & i{
             color: $color-red;
             font-size: 3.3rem;
+            margin-bottom: 1.5rem;
         }
 
         & h1{
             margin-bottom: 3.5rem;
+            text-align: center;
         }
 
         & .box-1{
@@ -59,15 +66,30 @@
         }
 
         & .box-3{
-            flex-flow: column;
+            //flex-flow: column;
+            display: inline-block;
             background-color: rgba($color-black, .3);
-            justify-content: center;
-            align-items: center;
+            //justify-content: center;
+            //align-items: center;
             padding: 3rem 1.5rem;
             border-radius: 10px;
+            text-align: center;
 
             & p{
                 text-align: center;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 1095px){
+    .about{
+
+        &-why{
+
+            & .box-3{
+                background-color: transparent;
             }
         }
     }

@@ -1,5 +1,5 @@
 body {
-  font-size: 1.8rem; }
+  font-size: 2rem; }
 
 h1 {
   font-size: 4.8rem; }
@@ -570,7 +570,10 @@ body {
 .about-about {
   text-align: center;
   max-width: 1420px;
-  margin: auto; }
+  margin: 4.5rem auto 2.5rem auto; }
+  .about-about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
 
 .about-video__video {
   margin: auto;
@@ -600,20 +603,26 @@ body {
   padding-bottom: 5.5rem; }
   .about-why i {
     color: #bf1e2e;
-    font-size: 3.3rem; }
+    font-size: 3.3rem;
+    margin-bottom: 1.5rem; }
   .about-why h1 {
-    margin-bottom: 3.5rem; }
+    margin-bottom: 3.5rem;
+    text-align: center; }
   .about-why .box-1 {
     justify-content: space-evenly; }
   .about-why .box-3 {
-    flex-flow: column;
+    display: inline-block;
     background-color: rgba(35, 31, 32, 0.3);
-    justify-content: center;
-    align-items: center;
     padding: 3rem 1.5rem;
-    border-radius: 10px; }
+    border-radius: 10px;
+    text-align: center; }
     .about-why .box-3 p {
-      text-align: center; }
+      text-align: center;
+      margin-top: 1rem; }
+
+@media (max-width: 1095px) {
+  .about-why .box-3 {
+    background-color: transparent; } }
 
 .onScrollWhite {
   background-color: #fffbfc;
