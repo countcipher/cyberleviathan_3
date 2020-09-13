@@ -167,6 +167,8 @@ body {
     margin-bottom: 2.5rem; }
   .header_small--aboutPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/small_business0.jpg"); }
+  .header_small--custom-websitesPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/web_design_background.jpg"); }
 
 .btn {
   background-color: #bf1e2e;
