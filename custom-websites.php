@@ -23,7 +23,26 @@ include "includes/header.php";
     =============================== -->
     <section class="custom-websites__about">
         <h1>Go from "I <em>need</em> a great website" to "I <em>have</em> a great website"</h1>
-        <p>Based in Staunton, VA, Cyber Leviathan offers professional online services to businesses of all sizes.  Whether you're just beginning your small business or are a part of a large company that has been operating for decades, we have the skills and experience to empower your business online!</p>
+        <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+    </section>
+
+    <!-- ===========================
+                FEATURED SITES
+    ============================ -->
+    <section class="custom-websites__featured-sites">
+        <h1>Featured sites</h1>
+        <div class="box-1">
+                <div class="box-2">
+                    <div class="custom-websites__featured-sites__site">
+                    
+                    </div>
+                    <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                </div>
+
+            <div class="box-2">
+            
+            </div>
+        </div>
     </section>
 
     <!-- =============================

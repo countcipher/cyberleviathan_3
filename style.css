@@ -626,6 +626,39 @@ body {
   .about-why .box-3 {
     background-color: transparent; } }
 
+.custom-websites__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .custom-websites__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem; }
+  .custom-websites__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
+
+.custom-websites__featured-sites {
+  padding: 1.5rem; }
+  .custom-websites__featured-sites h1 {
+    text-align: center; }
+  .custom-websites__featured-sites a {
+    text-decoration: none; }
+  .custom-websites__featured-sites .btn {
+    display: block;
+    margin: 1.5rem; }
+  .custom-websites__featured-sites .box-2 {
+    flex-direction: column;
+    align-items: center; }
+  .custom-websites__featured-sites__site {
+    height: 50rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; }
+    .custom-websites__featured-sites__site:nth-child(1) {
+      background-image: url("images/dd0.png"); }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
