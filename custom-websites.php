@@ -23,7 +23,15 @@ include "includes/header.php";
     =============================== -->
     <section class="custom-websites__about">
         <h1>Go from "I <em>need</em> a great website" to "I <em>have</em> a great website"</h1>
-        <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+        <div class="box-1">
+            <div class="box-2">
+                <img src="images/woman_with_computer2.jpg" alt="">
+            </div>
+
+            <div class="box-2">
+                <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+            </div>
+        </div>
     </section>
 
     <!-- ===========================
@@ -33,15 +41,18 @@ include "includes/header.php";
         <h1>Featured sites</h1>
         <div class="box-1">
                 <div class="box-2">
-                    <div class="custom-websites__featured-sites__site">
+                    <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
                     
                     </div>
                     <a href="#"><button class="btn btn--cta">Visit Site</button></a>
                 </div>
 
-            <div class="box-2">
-            
-            </div>
+                <div class="box-2">
+                    <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
+                    
+                    </div>
+                    <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                </div>
         </div>
     </section>
 

@@ -108,10 +108,10 @@
         //     background-color: rgba($color-black, .4);
         // }
     
-        &-2{
-            width: 100%;
-            flex-flow: column;
-        }
+        // &-2{
+        //     width: 100%;
+        //     flex-flow: column;
+        // }
     
         &-3{
             width: 100%;
@@ -123,5 +123,15 @@
         // &-5{
         //     width: 20%;
         // }
+    }
+}
+
+@media(max-width: 750px){
+    .box{
+
+        &-2{
+            width: 100%;
+            flex-flow: column;
+        }
     }
 }

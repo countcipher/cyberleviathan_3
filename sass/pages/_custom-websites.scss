@@ -5,10 +5,21 @@
         max-width: $max-width;
         margin: 4.5rem auto 2.5rem auto;
 
+        & .box-2{
+            align-items: center;
+            padding: 1.5rem;
+
+            & img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
         & h1{
             text-align: center;
             text-transform: capitalize;
             padding: 0 2rem 0 2rem;
+            margin-bottom: 4.5rem;
         }
 
         & p{
@@ -19,6 +30,7 @@
 
     &__featured-sites{
         padding: 1.5rem;
+        background-color: rgba($color-black, .3);
 
         & h1{
             text-align: center;
@@ -33,6 +45,10 @@
             margin: 1.5rem;
         }
 
+        & .box-1{
+            max-width: $max-width;
+        }
+
         & .box-2{
             flex-direction: column;
             align-items: center;
@@ -41,12 +57,17 @@
         &__site{
             height: 50rem;
             width: 100%;
+            border-radius: 10px;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center top;
 
-            &:nth-child(1){
+            &--dd{
                 background-image: url("images/dd0.png");
+            }
+
+            &:nth-child(2){
+                background-image: url("images/wwt0.png");
             }
         }
     }
