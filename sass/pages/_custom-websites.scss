@@ -46,12 +46,17 @@
         }
 
         & .box-1{
-            max-width: $max-width;
+            //max-width: $max-width;
+            text-align: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            margin: auto;
         }
 
         & .box-2{
             flex-direction: column;
             align-items: center;
+            padding: 1.5rem;
         }
 
         &__site{
@@ -66,7 +71,7 @@
                 background-image: url("images/dd0.png");
             }
 
-            &:nth-child(2){
+            &--wwt{
                 background-image: url("images/wwt0.png");
             }
         }

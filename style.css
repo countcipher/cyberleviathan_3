@@ -658,10 +658,14 @@ body {
     display: block;
     margin: 1.5rem; }
   .custom-websites__featured-sites .box-1 {
-    max-width: 1420px; }
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto; }
   .custom-websites__featured-sites .box-2 {
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    padding: 1.5rem; }
   .custom-websites__featured-sites__site {
     height: 50rem;
     width: 100%;
@@ -671,7 +675,7 @@ body {
     background-position: center top; }
     .custom-websites__featured-sites__site--dd {
       background-image: url("images/dd0.png"); }
-    .custom-websites__featured-sites__site:nth-child(2) {
+    .custom-websites__featured-sites__site--wwt {
       background-image: url("images/wwt0.png"); }
 
 .onScrollWhite {
