@@ -42,16 +42,21 @@ include "includes/header.php";
         <div class="box-1">
                 <div class="box-2">
                     <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
+                        <div class="custom-websites__featured-sites__link">
+                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                        </div>
                     
                     </div>
-                    <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                    <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
                 </div>
 
                 <div class="box-2">
                     <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
-                    
-                    </div>
-                    <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                        <div class="custom-websites__featured-sites__link">
+                                <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                            </div>
+                        </div>
+                    <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
                 </div>
         </div>
     </section>

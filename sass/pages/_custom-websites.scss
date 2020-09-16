@@ -40,7 +40,7 @@
             text-decoration: none;
         }
 
-        & .btn{
+        & .btn--mobile{
             display: block;
             margin: 1.5rem;
         }
@@ -66,6 +66,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center top;
+            overflow: hidden;
 
             &--dd{
                 background-image: url("images/dd0.png");
@@ -74,6 +75,20 @@
             &--wwt{
                 background-image: url("images/wwt0.png");
             }
+
+            &:hover .custom-websites__featured-sites__link{
+                transform: translateY(0%);
+            }
+        }
+
+        &__link{
+            height: 100%;
+            background-image:  linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-white, .7), rgba($color-black, .7));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(100%);
+            transition: .3s;
         }
     }
 }

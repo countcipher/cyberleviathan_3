@@ -654,7 +654,7 @@ body {
     text-align: center; }
   .custom-websites__featured-sites a {
     text-decoration: none; }
-  .custom-websites__featured-sites .btn {
+  .custom-websites__featured-sites .btn--mobile {
     display: block;
     margin: 1.5rem; }
   .custom-websites__featured-sites .box-1 {
@@ -672,11 +672,22 @@ body {
     border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top; }
+    background-position: center top;
+    overflow: hidden; }
     .custom-websites__featured-sites__site--dd {
       background-image: url("images/dd0.png"); }
     .custom-websites__featured-sites__site--wwt {
       background-image: url("images/wwt0.png"); }
+    .custom-websites__featured-sites__site:hover .custom-websites__featured-sites__link {
+      transform: translateY(0%); }
+  .custom-websites__featured-sites__link {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(255, 251, 252, 0.7), rgba(35, 31, 32, 0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: .3s; }
 
 .onScrollWhite {
   background-color: #fffbfc;
