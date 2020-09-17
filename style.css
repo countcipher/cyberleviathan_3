@@ -655,7 +655,7 @@ body {
   .custom-websites__featured-sites a {
     text-decoration: none; }
   .custom-websites__featured-sites .btn--mobile {
-    display: block;
+    display: none;
     margin: 1.5rem; }
   .custom-websites__featured-sites .box-1 {
     text-align: center;
@@ -678,6 +678,14 @@ body {
       background-image: url("images/dd0.png"); }
     .custom-websites__featured-sites__site--wwt {
       background-image: url("images/wwt0.png"); }
+    .custom-websites__featured-sites__site--ts {
+      background-image: url("images/ts0.png"); }
+    .custom-websites__featured-sites__site--gym {
+      background-image: url("images/gym0.jpg"); }
+    .custom-websites__featured-sites__site--ec {
+      background-image: url("images/ec0.png"); }
+    .custom-websites__featured-sites__site--bj {
+      background-image: url("images/bj0.png"); }
     .custom-websites__featured-sites__site:hover .custom-websites__featured-sites__link {
       transform: translateY(0%); }
   .custom-websites__featured-sites__link {
@@ -688,6 +696,12 @@ body {
     justify-content: center;
     transform: translateY(100%);
     transition: .3s; }
+
+@media (max-width: 750px) {
+  .btn--mobile {
+    display: block !important; }
+  .custom-websites__featured-sites__link {
+    display: none; } }
 
 .onScrollWhite {
   background-color: #fffbfc;

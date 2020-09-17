@@ -40,24 +40,66 @@ include "includes/header.php";
     <section class="custom-websites__featured-sites">
         <h1>Featured sites</h1>
         <div class="box-1">
-                <div class="box-2">
-                    <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
-                        <div class="custom-websites__featured-sites__link">
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
+                    <div class="custom-websites__featured-sites__link">
+                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                    </div>
+                
+                </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
+
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
+                    <div class="custom-websites__featured-sites__link">
                             <a href="#"><button class="btn btn--cta">Visit Site</button></a>
                         </div>
-                    
                     </div>
-                    <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-                </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
+        </div>
 
-                <div class="box-2">
-                    <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
-                        <div class="custom-websites__featured-sites__link">
-                                <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                            </div>
-                        </div>
-                    <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+        <div class="box-1">
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ts">
+                    <div class="custom-websites__featured-sites__link">
+                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                    </div>
+                
                 </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
+
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--gym">
+                    <div class="custom-websites__featured-sites__link">
+                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                        </div>
+                    </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ec">
+                    <div class="custom-websites__featured-sites__link">
+                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                    </div>
+                
+                </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
+
+            <div class="box-2">
+                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--bj">
+                    <div class="custom-websites__featured-sites__link">
+                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                        </div>
+                    </div>
+                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            </div>
         </div>
     </section>
 

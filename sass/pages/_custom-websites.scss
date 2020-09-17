@@ -41,7 +41,7 @@
         }
 
         & .btn--mobile{
-            display: block;
+            display: none;
             margin: 1.5rem;
         }
 
@@ -76,6 +76,22 @@
                 background-image: url("images/wwt0.png");
             }
 
+            &--ts{
+                background-image: url("images/ts0.png");
+            }
+
+            &--gym{
+                background-image: url("images/gym0.jpg");
+            }
+
+            &--ec{
+                background-image: url("images/ec0.png");
+            }
+
+            &--bj{
+                background-image: url("images/bj0.png");
+            }
+
             &:hover .custom-websites__featured-sites__link{
                 transform: translateY(0%);
             }
@@ -90,5 +106,18 @@
             transform: translateY(100%);
             transition: .3s;
         }
+    }
+}
+
+//=======================
+//      MEDIA QUERIES
+//=======================
+@media(max-width: 750px){
+    .btn--mobile{
+        display: block !important;
+    }
+
+    .custom-websites__featured-sites__link{
+        display: none;
     }
 }
