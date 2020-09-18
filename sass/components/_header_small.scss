@@ -36,4 +36,11 @@
         //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
             url('images/web_design_background.jpg');
     }
+
+    &--DIGITAL-MARKETING{
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+        //linear-gradient(to bottom right, rgba($color-red, .7), rgba($color-black, .7), rgba($color-red, .7)),
+            url('images/digitalMarketing0.jpg');
+    }
 }

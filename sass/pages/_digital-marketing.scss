@@ -1,0 +1,35 @@
+.DIGITAL-MARKETING{
+
+    &__about{
+        margin: 4.5rem auto 2.5rem auto;
+
+        & h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        & p{
+            font-weight: bold;
+            padding: 1rem 3rem 1rem 3rem;
+            text-align: center;
+        }
+
+        & img{
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 70rem;
+        }
+    }
+
+    &__services{
+        background-color: rgba($color-black, .3);
+        padding: 1.5rem;
+
+        & h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+    }
+}

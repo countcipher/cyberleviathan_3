@@ -1,6 +1,6 @@
 <?php
 
-$title = "Custom Websites";
+$title = "Digital Marketing";
 
 include "includes/header.php";
 
@@ -11,96 +11,30 @@ include "includes/header.php";
     <!-- ===============================
                 HEADER
     ================================= -->
-    <header class="header_small header_small--custom-websitesPage">
+    <header class="header_small header_small--DIGITAL-MARKETING">
         <div class="header_small__text-box">
-                    <h1>Custom Websites</h1>
-                    <h2>Specifically for your business</h2>
+                    <h1>Digital Marketing</h1>
+                    <h2>helping you reach your customers</h2>
         </div>
     </header>
 
     <!-- =============================
                 MAIN HEADING
     =============================== -->
-    <section class="custom-websites__about">
-        <h1>Go from "I <em>need</em> a great website" to "I <em>have</em> a great website"</h1>
-        <div class="box-1">
-            <div class="box-2">
-                <img src="images/woman_with_computer2.jpg" alt="">
-            </div>
+    <section class="DIGITAL-MARKETING__about">
+        <h1>giving you the leading edge</h1>
 
-            <div class="box-2">
-                <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
-            </div>
-        </div>
+        <p>We keep our clients ahead of their competitors by staying on top of available technologies and having the expertise to implement them.  We understand that your business has its own unique qualities. That's why we devise strategies and services that are tailor-made for your specific identity.</p>
+
+        <img src="images/digitalMarketing0.jpg" alt="">
+        
     </section>
 
-    <!-- ===========================
-                FEATURED SITES
-    ============================ -->
-    <section class="custom-websites__featured-sites">
-        <h1>Featured sites</h1>
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ts">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--gym">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ec">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--bj">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
+    <!-- ============================
+        DIGITAL MARKETING SERVICES
+    ============================== -->
+    <section class="DIGITAL-MARKETING__services">
+        <h1>digital marketing services</h1>
     </section>
 
     <!-- =============================

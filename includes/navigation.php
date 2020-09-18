@@ -19,7 +19,7 @@
                     <span class="nav__link-title">Services <i class="far fa-arrow-alt-circle-down"></i></span>
                     <ul class="nav__dropdown-content">
                         <a href="custom-websites.php"><li>Custom Websites</li></a>
-                        <a href="#"><li>Digital Marketing</li></a>
+                        <a href="digital-marketing.php"><li>Digital Marketing</li></a>
                         <a href="#"><li>Email</li></a>
                         <a href="#"><li>Domains &amp; Hosting</li></a>
                     </ul>
