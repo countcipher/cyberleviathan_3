@@ -136,6 +136,9 @@ body {
   padding: 0;
   position: relative; }
 
+.color-red {
+  color: #bf1e2e; }
+
 @keyframes slide-down {
   from {
     height: 0%; }
@@ -643,6 +646,8 @@ body {
     text-transform: capitalize;
     padding: 0 2rem 0 2rem;
     margin-bottom: 4.5rem; }
+    .custom-websites__about h1 em {
+      color: #bf1e2e; }
   .custom-websites__about p {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold; }
