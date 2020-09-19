@@ -21,20 +21,32 @@ include "includes/header.php";
     <!-- =============================
                 MAIN HEADING
     =============================== -->
-    <section class="DIGITAL-MARKETING__about">
+    <!-- <section class="DIGITAL-MARKETING__about">
         <h1>giving you the leading edge</h1>
 
         <p>We keep our clients ahead of their competitors by staying on top of available technologies and having the expertise to implement them.  We understand that your business has its own unique qualities. That's why we devise strategies and services that are tailor-made for your specific identity.</p>
 
         <img src="images/digitalMarketing0.jpg" alt="">
         
-    </section>
+    </section> -->
 
     <!-- ============================
         DIGITAL MARKETING SERVICES
     ============================== -->
     <section class="DIGITAL-MARKETING__services">
         <h1>digital marketing services</h1>
+
+
+        <div class="box-1">
+            <div class="box-2 box-2--main">
+            test
+            </div>
+
+            <div class="box-2 box-2--main">
+            test
+            </div>
+        </div>
+
     </section>
 
     <!-- =============================

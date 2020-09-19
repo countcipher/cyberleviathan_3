@@ -2,6 +2,7 @@
 
     &__about{
         margin: 4.5rem auto 2.5rem auto;
+        max-width: $max-width;
 
         & h1{
             text-transform: capitalize;
@@ -24,12 +25,25 @@
     }
 
     &__services{
-        background-color: rgba($color-black, .3);
+        //background-color: rgba($color-black, .3);
+        margin-top: 4rem;
         padding: 1.5rem;
 
         & h1{
             text-transform: capitalize;
             text-align: center;
+        }
+
+        & .box-1{
+            justify-content: space-evenly;
+        }
+
+        & .box-2{
+            width: 45%;
+
+            &--main{
+                background-color: rgba($color-black, .3);
+            }
         }
     }
 }
