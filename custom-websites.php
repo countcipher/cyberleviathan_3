@@ -103,8 +103,15 @@ include "includes/header.php";
         </div>
     </section>
 
+    <!-- =========================
+            FEATURES
+    ========================== -->
+    <section class="custom-websites__features">
+        
+    </section>
+
     <!-- =============================
-                        CONTACT
+                CONTACT
     =============================== -->
     <?php include "includes/contact.php"; ?>
 
