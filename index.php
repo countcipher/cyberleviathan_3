@@ -55,7 +55,7 @@ include "includes/header.php";
             <div class="box-1 pb--lg">
 
                 <h1>Popular Sevices</h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam possimus animi veniam architecto esse excepturi aliquam, facere doloremque corrupti vero, tempora aliquid maxime rem illo, ipsa voluptates? Facilis, libero tenetur. Odio, delectus! Doloremque, laborum.</h2>
+                <!-- <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam possimus animi veniam architecto esse excepturi aliquam, facere doloremque corrupti vero, tempora aliquid maxime rem illo, ipsa voluptates? Facilis, libero tenetur. Odio, delectus! Doloremque, laborum.</h2> -->
 
             </div>
 
@@ -67,7 +67,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Custom Websites</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Get a website built especially for your business and with your business goals in mind</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Email</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Show your customers your professionalism and promote your brand with email addresses that match your domain and business name.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Domains</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Get the perfect domain for your business.  With access to .com, .org, .net, and hundreds more domain extensions, you'll be certain to get the right domain for your business.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Trident</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Allow users to easily connect to you with the Trident contact form system made by Cyber Leviathan.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Email Marketing</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Offer promotions &amp; lead generators, and grow your clientele list with email marketing solutions.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ include "includes/header.php";
                     </div>
                     <div class="box-2 box-2--text">
                         <h2>Logo Design</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates dolor dolorum ea non, odit exercitationem!</p>
+                        <p>Let us help you bring your business branding to life with a custom logo.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
