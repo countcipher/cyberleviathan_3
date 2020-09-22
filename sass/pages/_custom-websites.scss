@@ -146,6 +146,9 @@
             & h2{
                 text-transform: capitalize;
                 margin-bottom: 1.5rem;
+                //word-break: break-word;
+                text-align: center;
+
             }
 
             & p{
@@ -166,5 +169,16 @@
 
     .custom-websites__featured-sites__link{
         display: none;
+    }
+
+    .custom-websites{
+        &__features{
+            & .box-3{
+                display: block;
+                width: 90%;
+                text-align: center;
+                background-color: transparent;
+            }
+        }
     }
 }

@@ -729,7 +729,8 @@ body {
       color: #bf1e2e; }
     .custom-websites__features .box-3 h2 {
       text-transform: capitalize;
-      margin-bottom: 1.5rem; }
+      margin-bottom: 1.5rem;
+      text-align: center; }
     .custom-websites__features .box-3 p {
       text-align: center; }
 
@@ -737,7 +738,12 @@ body {
   .btn--mobile {
     display: block !important; }
   .custom-websites__featured-sites__link {
-    display: none; } }
+    display: none; }
+  .custom-websites__features .box-3 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: transparent; } }
 
 .DIGITAL-MARKETING__about {
   margin: 4.5rem auto 2.5rem auto;
