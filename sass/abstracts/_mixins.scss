@@ -6,3 +6,6 @@
 @mixin box-shadow{
     box-shadow: 0 5px 30px rgba($color-black, .4);
 }
+@mixin red-white-gradient-color{
+    caret-color:  linear-gradient(to bottom right, rgba($color-white, .7), rgba($color-red, .7), rgba($color-white, .7));
+}
