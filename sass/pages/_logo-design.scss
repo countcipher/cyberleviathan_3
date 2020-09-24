@@ -1,0 +1,184 @@
+.LOGO-DESIGN{
+
+    &__about{
+        text-align: center;
+        max-width: $max-width;
+        //margin: 4.5rem auto 2.5rem auto;
+
+        & .box-2{
+            align-items: center;
+            padding: 1.5rem;
+
+            & img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        & h1{
+            text-align: center;
+            text-transform: capitalize;
+            padding: 0 2rem 0 2rem;
+            margin-bottom: 4.5rem;
+
+            & em{
+                color: $color-red;
+            }
+        }
+
+        & p{
+            padding: 1rem 3rem 1rem 3rem;
+            font-weight: bold;
+        }
+    }
+
+    &__featured-sites{
+        padding: 1.5rem;
+        background-color: rgba($color-black, .3);
+
+        & h1{
+            text-align: center;
+        }
+
+        & a{
+            text-decoration: none;
+        }
+
+        & .btn--mobile{
+            display: none;
+            margin: 1.5rem;
+        }
+
+        & .box-1{
+            //max-width: $max-width;
+            text-align: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            margin: auto;
+        }
+
+        & .box-2{
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+        }
+
+        &__site{
+            height: 50rem;
+            width: 100%;
+            border-radius: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            overflow: hidden;
+
+            &--dd{
+                background-image: url("images/dd0.png");
+            }
+
+            &--wwt{
+                background-image: url("images/wwt0.png");
+            }
+
+            &--ts{
+                background-image: url("images/ts0.png");
+            }
+
+            &--gym{
+                background-image: url("images/gym0.jpg");
+            }
+
+            &--ec{
+                background-image: url("images/ec0.png");
+            }
+
+            &--bj{
+                background-image: url("images/bj0.png");
+            }
+
+            &:hover .custom-websites__featured-sites__link{
+                transform: translateY(0%);
+            }
+        }
+
+        &__link{
+            height: 100%;
+            background-image:  linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-white, .7), rgba($color-black, .7));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translateY(100%);
+            transition: .3s;
+        }
+    }
+
+    &__features{
+        padding: 4rem 2rem;
+        max-width: $max-width;
+        margin: auto;
+
+        & h1{
+            text-transform: capitalize;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        & .box-1{
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+        }
+
+        & .box-3{
+            background-color: rgba($color-black, .3);
+            width: 30%;
+            padding: 1.5rem;
+            border-radius: 10px;
+            align-items:center;
+            justify-content: flex-start;
+            flex-direction: column;
+
+            & i{
+                font-size: 3.3rem;
+                margin-bottom: 1.5rem;
+                color: $color-red;
+            }
+
+            & h2{
+                text-transform: capitalize;
+                margin-bottom: 1.5rem;
+                //word-break: break-word;
+                text-align: center;
+
+            }
+
+            & p{
+                text-align: center;
+                //font-weight: bold;
+            }
+        }
+    }
+}
+
+//=======================
+//      MEDIA QUERIES
+//=======================
+@media(max-width: 750px){
+    .btn--mobile{
+        display: block !important;
+    }
+
+    .custom-websites__featured-sites__link{
+        display: none;
+    }
+
+    .custom-websites{
+        &__features{
+            & .box-3{
+                display: block;
+                width: 90%;
+                text-align: center;
+                background-color: transparent;
+            }
+        }
+    }
+}

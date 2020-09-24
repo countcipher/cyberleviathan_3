@@ -174,8 +174,8 @@ body {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/small_business0.jpg"); }
   .header_small--custom-websitesPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/web_design_background.jpg"); }
-  .header_small--DIGITAL-MARKETING {
-    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/digitalMarketing0.jpg"); }
+  .header_small--LOGO-DESIGNPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/logo0.jpg"); }
 
 .btn {
   background-color: #bf1e2e;
@@ -744,36 +744,6 @@ body {
     width: 90%;
     text-align: center;
     background-color: transparent; } }
-
-.DIGITAL-MARKETING__about {
-  margin: 4.5rem auto 2.5rem auto;
-  max-width: 1420px; }
-  .DIGITAL-MARKETING__about h1 {
-    text-transform: capitalize;
-    text-align: center; }
-  .DIGITAL-MARKETING__about p {
-    font-weight: bold;
-    padding: 1rem 3rem 1rem 3rem;
-    text-align: center; }
-  .DIGITAL-MARKETING__about img {
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 70rem; }
-
-.DIGITAL-MARKETING__services {
-  margin-top: 4rem;
-  padding: 1.5rem; }
-  .DIGITAL-MARKETING__services h1 {
-    text-transform: capitalize;
-    text-align: center; }
-  .DIGITAL-MARKETING__services .box-1 {
-    justify-content: space-evenly; }
-  .DIGITAL-MARKETING__services .box-2 {
-    width: 45%; }
-    .DIGITAL-MARKETING__services .box-2--main {
-      background-color: rgba(35, 31, 32, 0.3); }
 
 .onScrollWhite {
   background-color: #fffbfc;
