@@ -22,83 +22,32 @@ include "includes/header.php";
                 MAIN HEADING
     =============================== -->
     <section class="LOGO-DESIGN__about">
-        <h1>Go from "I <em>need</em> a great website" to "I <em>have</em> a great website"</h1>
+        <h1>get a professional logo created for your business</h1>
         <div class="box-1">
             <div class="box-2">
-                <img src="images/woman_with_computer2.jpg" alt="">
+                <img src="images/logo_design0.jpg" alt="">
             </div>
 
             <div class="box-2">
-                <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+                <p>Created by talented and experienced designers, a unique and engaging logo will offset your brand from the competition.</p>
             </div>
         </div>
     </section>
 
     <!-- ===========================
-                FEATURED SITES
+                PORTFOLIO
     ============================ -->
-    <section class="LOGO-DESIGN__featured-sites">
-        <h1>Featured sites</h1>
+    <section class="LOGO-DESIGN__portfolio">
+        <h1>featured logos</h1>
         <div class="box-1">
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--dd">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            <div class="box-3">
+                <img src="images/logos/unnaturally_green.jpg" alt="">
             </div>
-
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--wwt">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            <div class="box-3">
+                <img src="images/logos/unnaturally_green.jpg" alt="">
             </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--ts">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--gym">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--ec">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="LOGO-DESIGN__featured-sites__site LOGO-DESIGN__featured-sites__site--bj">
-                    <div class="LOGO-DESIGN__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+            <div class="box-3">
+                <img src="images/logos/unnaturally_green.jpg" alt="">
             </div>
         </div>
     </section>
