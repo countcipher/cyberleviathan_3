@@ -29,7 +29,10 @@ include "includes/header.php";
             </div>
 
             <div class="box-2">
-                <p>Created by talented and experienced designers, a unique and engaging logo will offset your brand from the competition.</p>
+                <p>Created by talented and experienced designers, a unique and engaging logo will offset your brand from the competition.
+
+                <span class="pricing">Prices starting at $149</span>
+            </p>
             </div>
         </div>
     </section>
@@ -53,48 +56,33 @@ include "includes/header.php";
     </section>
 
     <!-- =========================
-            FEATURES
+            HOW IT WORKS
     ========================== -->
-    <section class="LOGO-DESIGN__features">
-        <h1>key features</h1>
+    <section class="LOGO-DESIGN__how-it-works">
+        <h1>how it works</h1>
 
         <div class="box-1">
             <div class="box-3">
-                <i class="fas fa-building"></i>
-                <h2>Business specific</h2>
-                <p>No generic templates! Your site is customized to your specific business!</p>
+                <i class="fas fa-comments"></i>
+                <h2>Understanding Your Business</h2>
+                <p>We'll ask you about your business goals and clientele, and research your competitors.  Then you'll answer some questions that we've prepared to get the process started.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-search"></i>
-                <h2>SEO</h2>
-                <p>Search Engine Optimization (SEO) is the process of making your site easy to find with search engines like Google and Bing. Let Cyber Leviathan expertly optimize your site!</p>
+                <i class="fas fa-images"></i>
+                <h2>Multiple Design Choices</h2>
+                <p>Based on the information you provided, you'll be shown several logo concepts in 3-5 business days.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-globe"></i>
-                <h2>client control</h2>
-                <p>Need to make regular updates to your site? You can take control of nearly any aspect of your site with Evolution. All you need is an Internet connection!</p>
+                <i class="fas fa-pencil-ruler"></i>
+                <h2>Revision</h2>
+                <p>We work with your vision to modify the concepts to what will be best for your business.  With free revisions, you're sure to get exactly what you need.</p>
             </div>
         </div>
+
         <div class="box-1">
-            <div class="box-3">
-                <i class="fas fa-mobile-alt"></i>
-                <h2>responsive design</h2>
-                <p>Your site is designed to look amazing and function properly on any device.</p>
-            </div>
-
-            <div class="box-3">
-                <i class="fas fa-chart-line"></i>
-                <h2>scalable</h2>
-                <p>Unsure if your site will need to have added features or content in the future? No worries! Your site will be designed with the potential for growth in mind.</p>
-            </div>
-
-            <div class="box-3">
-                <i class="fas fa-bug"></i>
-                <h2>Functionality Tested</h2>
-                <p>All Cyber Leviathan sites are meticulously tested to ensure there are no programming bugs and that they function as desired, no matter what.</p>
-            </div>
+            <p>Once you've approved your final revision, you'll receive your logo in multiple sizes and formats, along with a list of the specific color codes used in your logo.</p>
         </div>
     </section>
 

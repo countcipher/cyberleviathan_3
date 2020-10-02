@@ -231,6 +231,10 @@ body {
   .hamburger {
     display: block; } }
 
+.pricing {
+  display: block;
+  margin-top: 3rem; }
+
 .header {
   min-height: 600px;
   display: flex;
@@ -643,6 +647,8 @@ body {
     .custom-websites__about .box-2 img {
       width: 100%;
       border-radius: 10px; }
+    .custom-websites__about .box-2 p {
+      font-size: 3rem; }
   .custom-websites__about h1 {
     text-align: center;
     text-transform: capitalize;
@@ -744,7 +750,9 @@ body {
     display: block;
     width: 90%;
     text-align: center;
-    background-color: transparent; } }
+    background-color: transparent; }
+    .custom-websites__features .box-3 p {
+      font-weight: bold; } }
 
 .LOGO-DESIGN__about {
   text-align: center;
@@ -756,6 +764,8 @@ body {
     .LOGO-DESIGN__about .box-2 img {
       width: 100%;
       border-radius: 10px; }
+    .LOGO-DESIGN__about .box-2 p {
+      font-size: 3rem; }
   .LOGO-DESIGN__about h1 {
     text-align: center;
     text-transform: capitalize;
@@ -786,18 +796,18 @@ body {
     .LOGO-DESIGN__portfolio .box-3 img {
       width: 100%; }
 
-.LOGO-DESIGN__features {
+.LOGO-DESIGN__how-it-works {
   padding: 4rem 2rem;
   max-width: 1420px;
   margin: auto; }
-  .LOGO-DESIGN__features h1 {
+  .LOGO-DESIGN__how-it-works h1 {
     text-transform: capitalize;
     margin-bottom: 2rem;
     text-align: center; }
-  .LOGO-DESIGN__features .box-1 {
+  .LOGO-DESIGN__how-it-works .box-1 {
     justify-content: space-evenly;
     margin-bottom: 2rem; }
-  .LOGO-DESIGN__features .box-3 {
+  .LOGO-DESIGN__how-it-works .box-3 {
     background-color: rgba(35, 31, 32, 0.3);
     width: 30%;
     padding: 1.5rem;
@@ -805,16 +815,20 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column; }
-    .LOGO-DESIGN__features .box-3 i {
+    .LOGO-DESIGN__how-it-works .box-3 i {
       font-size: 3.3rem;
       margin-bottom: 1.5rem;
       color: #bf1e2e; }
-    .LOGO-DESIGN__features .box-3 h2 {
+    .LOGO-DESIGN__how-it-works .box-3 h2 {
       text-transform: capitalize;
       margin-bottom: 1.5rem;
       text-align: center; }
-    .LOGO-DESIGN__features .box-3 p {
+    .LOGO-DESIGN__how-it-works .box-3 p {
       text-align: center; }
+  .LOGO-DESIGN__how-it-works .box-1:last-child {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center; }
 
 @media (max-width: 1095px) {
   .LOGO-DESIGN__portfolio .box-3 {
@@ -824,7 +838,13 @@ body {
 @media (max-width: 750px) {
   .LOGO-DESIGN__portfolio .box-3 {
     display: block;
-    width: 90%; } }
+    width: 90%; }
+  .LOGO-DESIGN__how-it-works .box-3 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold; } }
 
 .onScrollWhite {
   background-color: #fffbfc;
