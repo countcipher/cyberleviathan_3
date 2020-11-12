@@ -32,7 +32,7 @@ include "includes/header.php";
                 <p>Created by talented and experienced designers, a unique and engaging logo will offset your brand from the competition.
 
                 <span class="pricing">Prices starting at $149</span>
-            </p>
+                </p>
             </div>
         </div>
     </section>

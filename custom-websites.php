@@ -30,6 +30,8 @@ include "includes/header.php";
 
             <div class="box-2">
                 <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+
+                <span class="pricing">Prices starting at $500</span>
             </div>
         </div>
     </section>
