@@ -22,85 +22,25 @@ include "includes/header.php";
                 MAIN HEADING
     =============================== -->
     <section class="custom-websites__about">
-        <h1>Go from "I <em>need</em> a great website" to "I <em>have</em> a great website"</h1>
+        <h1>Customized email addresses prove your professionalism</h1>
         <div class="box-1">
             <div class="box-2">
-                <img src="images/woman_with_computer2.jpg" alt="">
+                <img src="images/email1.jpg" alt="">
             </div>
 
             <div class="box-2">
-                <p>All Cyber Leviathan websites are custom-built for you. We find out about your needs, your target audience and even your competition in order to craft the perfect site for you.</p>
+                <p>Professional email reinforces your brand with every email you send.  Establish the trust you need with your target audience by having domain based email accounts.</p>
+
+                <span class="pricing">Prices starting at $6.99/mo</span>
             </div>
+
         </div>
     </section>
 
     <!-- ===========================
                 FEATURED SITES
     ============================ -->
-    <section class="custom-websites__featured-sites">
-        <h1>Featured sites</h1>
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ts">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--gym">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ec">
-                    <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                    </div>
-                
-                </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-
-            <div class="box-2">
-                <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--bj">
-                    <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
-                        </div>
-                    </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
-            </div>
-        </div>
+    <section class="EMAIL_">
     </section>
 
     <!-- =========================
