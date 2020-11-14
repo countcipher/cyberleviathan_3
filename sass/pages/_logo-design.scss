@@ -15,7 +15,9 @@
             }
 
             & p{
-                font-size: 3rem;
+                // font-size: 3rem;
+                line-height: 30px;
+
             }
         }
 
@@ -33,7 +35,7 @@
     }
 
     &__portfolio{
-        padding: 1.5rem;
+        padding: 1.5rem 1.5rem 3rem 1.5rem;
         background-color: rgba($color-black, .3);
 
         & h1{
@@ -51,6 +53,7 @@
             justify-content: space-evenly;
             flex-direction: row;
             margin: auto;
+            max-width: $max-width;
         }
 
         & .box-3{
@@ -142,6 +145,7 @@
             & .box-3{
                 display: block;
                 width: 90%;
+                margin-bottom: 3rem;
             }
         }
         &__how-it-works{

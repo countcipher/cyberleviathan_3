@@ -1,4 +1,4 @@
-.custom-websites{
+.EMAIL{
 
     &__about{
         text-align: center;
@@ -37,86 +37,6 @@
         }
     }
 
-    &__featured-sites{
-        padding: 1.5rem;
-        background-color: rgba($color-black, .3);
-
-        & h1{
-            text-align: center;
-            text-transform: capitalize;
-        }
-
-        & a{
-            text-decoration: none;
-        }
-
-        & .btn--mobile{
-            display: none;
-            margin: 1.5rem;
-        }
-
-        & .box-1{
-            //max-width: $max-width;
-            text-align: center;
-            justify-content: space-evenly;
-            flex-direction: row;
-            margin: auto;
-        }
-
-        & .box-2{
-            flex-direction: column;
-            align-items: center;
-            padding: 1.5rem;
-        }
-
-        &__site{
-            height: 50rem;
-            width: 100%;
-            border-radius: 10px;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center top;
-            overflow: hidden;
-
-            &--dd{
-                background-image: url("images/dd0.png");
-            }
-
-            &--wwt{
-                background-image: url("images/wwt0.png");
-            }
-
-            &--ts{
-                background-image: url("images/ts0.png");
-            }
-
-            &--gym{
-                background-image: url("images/gym0.jpg");
-            }
-
-            &--ec{
-                background-image: url("images/ec0.png");
-            }
-
-            &--bj{
-                background-image: url("images/bj0.png");
-            }
-
-            &:hover .custom-websites__featured-sites__link{
-                transform: translateY(0%);
-            }
-        }
-
-        &__link{
-            height: 100%;
-            background-image:  linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-white, .7), rgba($color-black, .7));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transform: translateY(100%);
-            transition: .3s;
-        }
-    }
 
     &__features{
         padding: 4rem 2rem;
@@ -168,16 +88,12 @@
 //=======================
 //      MEDIA QUERIES
 //=======================
-@media(max-width: 750px){
+@media(max-width: 875px){
     .btn--mobile{
         display: block !important;
     }
 
-    .custom-websites__featured-sites__link{
-        display: none;
-    }
-
-    .custom-websites{
+    .EMAIL{
         &__features{
             & .box-3{
                 display: block;

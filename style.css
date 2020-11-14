@@ -670,7 +670,7 @@ body {
       width: 100%;
       border-radius: 10px; }
     .custom-websites__about .box-2 p {
-      font-size: 3rem; }
+      line-height: 30px; }
   .custom-websites__about h1 {
     text-align: center;
     text-transform: capitalize;
@@ -787,7 +787,7 @@ body {
       width: 100%;
       border-radius: 10px; }
     .LOGO-DESIGN__about .box-2 p {
-      font-size: 3rem; }
+      line-height: 30px; }
   .LOGO-DESIGN__about h1 {
     text-align: center;
     text-transform: capitalize;
@@ -798,7 +798,7 @@ body {
     font-weight: bold; }
 
 .LOGO-DESIGN__portfolio {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
   background-color: rgba(35, 31, 32, 0.3); }
   .LOGO-DESIGN__portfolio h1 {
     text-align: center;
@@ -810,7 +810,8 @@ body {
     text-align: center;
     justify-content: space-evenly;
     flex-direction: row;
-    margin: auto; }
+    margin: auto;
+    max-width: 1420px; }
   .LOGO-DESIGN__portfolio .box-3 {
     flex-direction: column;
     align-items: center;
@@ -864,13 +865,78 @@ body {
 @media (max-width: 750px) {
   .LOGO-DESIGN__portfolio .box-3 {
     display: block;
-    width: 90%; }
+    width: 90%;
+    margin-bottom: 3rem; }
   .LOGO-DESIGN__how-it-works .box-3 {
     display: block;
     width: 90%;
     text-align: center;
     background-color: transparent;
     font-weight: bold; } }
+
+.EMAIL__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .EMAIL__about .box-2 {
+    align-items: center;
+    padding: 1.5rem; }
+    .EMAIL__about .box-2 img {
+      width: 100%;
+      border-radius: 10px; }
+    .EMAIL__about .box-2 p {
+      line-height: 30px; }
+  .EMAIL__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+    .EMAIL__about h1 em {
+      color: #bf1e2e; }
+  .EMAIL__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
+
+.EMAIL__features {
+  padding: 4rem 2rem;
+  max-width: 1420px;
+  margin: auto; }
+  .EMAIL__features h1 {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .EMAIL__features .box-1 {
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .EMAIL__features .box-3 {
+    background-color: rgba(35, 31, 32, 0.3);
+    width: 30%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; }
+    .EMAIL__features .box-3 i {
+      font-size: 3.3rem;
+      margin-bottom: 1.5rem;
+      color: #bf1e2e; }
+    .EMAIL__features .box-3 h2 {
+      text-transform: capitalize;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+    .EMAIL__features .box-3 p {
+      text-align: center; }
+
+@media (max-width: 875px) {
+  .btn--mobile {
+    display: block !important; }
+  .EMAIL__features .box-3 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: transparent; }
+    .EMAIL__features .box-3 p {
+      font-weight: bold; } }
 
 .onScrollWhite {
   background-color: #fffbfc;
