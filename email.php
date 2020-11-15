@@ -50,16 +50,17 @@ include "includes/header.php";
         <h1>key features</h1>
 
         <div class="box-1">
+
+        <div class="box-3">
+                <i class="fas fa-at"></i>
+                <h2>Domain based email</h2>
+                <p>People are 60% more likely to open an email that has the business name in the address.  Step away from Gmail and Yahoo! email accounts and step into professional email.</p>
+            </div>
+            
             <div class="box-3">
                 <i class="fas fa-database"></i>
                 <h2>The Storage you need</h2>
                 <p>Get 10 GB to 50 GB of storage so that you have exactly what you need.</p>
-            </div>
-
-            <div class="box-3">
-                <i class="fas fa-at"></i>
-                <h2>Domain based email</h2>
-                <p>People are 60% more likely to open an email that has the business name in the address.  Step away from Gmail and Yahoo! email accounts and step into professional email.</p>
             </div>
 
             <div class="box-3">
