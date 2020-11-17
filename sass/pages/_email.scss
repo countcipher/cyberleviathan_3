@@ -38,7 +38,24 @@
     }
 
     &__track{
-        background-image: url("images/dd0.png");
+        background-image: linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)), url("images/test0.jpg");
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 90vh;
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+
+        & h1{
+            width: 45%;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6rem;
+            text-transform: capitalize;
+        }
     }
 
 
@@ -92,6 +109,27 @@
 //=======================
 //      MEDIA QUERIES
 //=======================
+@media(max-width: 1095px){
+    .EMAIL{
+        &__track{
+
+            & h1{
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 1076px){
+    .EMAIL{
+        &__track{
+
+            & h1{
+                font-size: 3.8rem;
+            }
+        }
+    }
+}
 @media(max-width: 875px){
     .btn--mobile{
         display: block !important;
@@ -108,6 +146,23 @@
                 & p{
                     font-weight: bold;
                 }
+            }
+        }
+    }
+}
+
+@media(max-width: 656px){
+    .EMAIL{
+        &__track{
+            display: none;
+
+            & h1{
+                width: 100%;
+                padding: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
         }
     }

@@ -898,7 +898,22 @@ body {
     font-weight: bold; }
 
 .EMAIL__track {
-  background-image: url("images/dd0.png"); }
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/test0.jpg");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden; }
+  .EMAIL__track h1 {
+    width: 45%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    text-transform: capitalize; }
 
 .EMAIL__features {
   padding: 4rem 2rem;
@@ -930,6 +945,14 @@ body {
     .EMAIL__features .box-3 p {
       text-align: center; }
 
+@media (max-width: 1095px) {
+  .EMAIL__track h1 {
+    font-size: 4rem; } }
+
+@media (max-width: 1076px) {
+  .EMAIL__track h1 {
+    font-size: 3.8rem; } }
+
 @media (max-width: 875px) {
   .btn--mobile {
     display: block !important; }
@@ -940,6 +963,17 @@ body {
     background-color: transparent; }
     .EMAIL__features .box-3 p {
       font-weight: bold; } }
+
+@media (max-width: 656px) {
+  .EMAIL__track {
+    display: none; }
+    .EMAIL__track h1 {
+      width: 100%;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; } }
 
 .onScrollWhite {
   background-color: #fffbfc;
