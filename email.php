@@ -59,14 +59,14 @@ include "includes/header.php";
             
             <div class="box-3">
                 <i class="fas fa-database"></i>
-                <h2>The Storage you need</h2>
+                <h2>Lots of Storage</h2>
                 <p>Get 10 GB to 50 GB of storage so that you have exactly what you need.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-mobile-alt"></i>
-                <h2>client control</h2>
-                <p>Need to make regular updates to your site? You can take control of nearly any aspect of your site with Evolution. All you need is an Internet connection!</p>
+                <i class="fas fa-at"></i>
+                <h2>Free Aliases</h2>
+                <p>Create alias accounts like "contact@your-business.com" and "support@your-business.com" that all get delivered to your primary inbox.</p>
             </div>
         </div>
     </section>
