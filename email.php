@@ -40,8 +40,9 @@ include "includes/header.php";
     <!-- ===========================
                 FEATURED SITES
     ============================ -->
-    <!-- <section class="EMAIL_">
-    </section> -->
+    <section class="EMAIL__track">
+        <h1>You'll have all the features you need with professional email accounts by Cyber Leviathan</h1>
+    </section>
 
     <!-- =========================
             FEATURES

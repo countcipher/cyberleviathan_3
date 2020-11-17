@@ -897,6 +897,9 @@ body {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold; }
 
+.EMAIL__track {
+  background-image: url("images/dd0.png"); }
+
 .EMAIL__features {
   padding: 4rem 2rem;
   max-width: 1420px;
