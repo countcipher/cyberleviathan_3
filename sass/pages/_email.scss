@@ -39,9 +39,10 @@
 
     &__track{
         background-image: linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)), url("images/email_marquee0.jpg");
-        background-position: center right;
+        background-position: top right;
         background-size: cover;
         background-repeat: no-repeat;
+        //background-attachment: fixed;
         min-height: 90vh;
         display: flex;
         align-items: stretch;

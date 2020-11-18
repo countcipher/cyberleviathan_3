@@ -257,6 +257,10 @@ body {
     background: linear-gradient(to bottom right, #231f20, #bf1e2e, #231f20);
     border-radius: 10px; }
 
+@media (max-width: 819px) {
+  .pricing {
+    font-size: 2rem; } }
+
 .header {
   min-height: 600px;
   display: flex;
@@ -899,7 +903,7 @@ body {
 
 .EMAIL__track {
   background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email_marquee0.jpg");
-  background-position: center right;
+  background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 90vh;
