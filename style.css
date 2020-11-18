@@ -898,7 +898,7 @@ body {
     font-weight: bold; }
 
 .EMAIL__track {
-  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/test0.jpg");
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email_marquee0.jpg");
   background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
