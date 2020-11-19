@@ -46,7 +46,13 @@
     &--emailPage{
         background-image:
         linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
-            url('images/email_marketing0.jpg');
+            url('images/email0.jpg');
+    }
+
+    &--domainsPage{
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+            url('images/dominas0.jpg');
     }
 
     // &--DIGITAL-MARKETING{

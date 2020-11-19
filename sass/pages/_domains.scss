@@ -1,0 +1,170 @@
+.DOMAINS{
+
+    &__about{
+        text-align: center;
+        max-width: $max-width;
+        margin: 4.5rem auto 2.5rem auto;
+
+        & .box-2{
+            align-items: center;
+            padding: 1.5rem;
+
+            & img{
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            & p{
+                // font-size: 3rem;
+                line-height: 30px;
+            }
+        }
+
+        & h1{
+            text-align: center;
+            text-transform: capitalize;
+            padding: 0 2rem 0 2rem;
+            margin-bottom: 4.5rem;
+
+            & em{
+                color: $color-red;
+            }
+        }
+
+        & p{
+            padding: 1rem 3rem 1rem 3rem;
+            font-weight: bold;
+        }
+    }
+
+    &__track{
+        background-image: linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)), url("images/email_marquee0.jpg");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        //background-attachment: fixed;
+        min-height: 90vh;
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+
+        & h1{
+            width: 45%;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6rem;
+            text-transform: capitalize;
+        }
+    }
+
+
+    &__features{
+        padding: 4rem 2rem;
+        max-width: $max-width;
+        margin: auto;
+
+        & h1{
+            text-transform: capitalize;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        & .box-1{
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+        }
+
+        & .box-3{
+            background-color: rgba($color-black, .3);
+            width: 30%;
+            padding: 1.5rem;
+            border-radius: 10px;
+            align-items:center;
+            justify-content: flex-start;
+            flex-direction: column;
+
+            & i{
+                font-size: 3.3rem;
+                margin-bottom: 1.5rem;
+                color: $color-red;
+            }
+
+            & h2{
+                text-transform: capitalize;
+                margin-bottom: 1.5rem;
+                //word-break: break-word;
+                text-align: center;
+
+            }
+
+            & p{
+                text-align: center;
+                //font-weight: bold;
+            }
+        }
+    }
+}
+
+//=======================
+//      MEDIA QUERIES
+//=======================
+@media(max-width: 1095px){
+    .DOMAINS{
+        &__track{
+
+            & h1{
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 1076px){
+    .DOMAINS{
+        &__track{
+
+            & h1{
+                font-size: 3.8rem;
+            }
+        }
+    }
+}
+@media(max-width: 875px){
+    .btn--mobile{
+        display: block !important;
+    }
+
+    .DOMAINS{
+        &__features{
+            & .box-3{
+                display: block;
+                width: 90%;
+                text-align: center;
+                background-color: transparent;
+
+                & p{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 656px){
+    .DOMAINS{
+        &__track{
+            display: none;
+
+            & h1{
+                width: 100%;
+                padding: 1.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+}

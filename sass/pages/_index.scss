@@ -256,7 +256,17 @@
      }
  }
 }
-@media(max-width: 1095px){
+
+// @media(max-width: 1149px){
+//     .index-services{
+
+//         & .box-3{
+
+//         }
+//     }
+// }
+
+@media(max-width: 1149px){
     .index-services{
         display: block;
         text-align: center;
@@ -275,6 +285,8 @@
 
         & .box-3{
             background-color: transparent;
+            width: 100%;
+            flex-flow: column;
 
             &:hover{
                 border: solid 2px transparent;

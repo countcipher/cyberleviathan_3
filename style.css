@@ -177,7 +177,9 @@ body {
   .header_small--LOGO-DESIGNPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/logo0.jpg"); }
   .header_small--emailPage {
-    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email_marketing0.jpg"); }
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email0.jpg"); }
+  .header_small--domainsPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/dominas0.jpg"); }
 
 .btn {
   background-color: #bf1e2e;
@@ -566,7 +568,7 @@ body {
   .index-services .btn--cta {
     font-size: 1.7rem; } }
 
-@media (max-width: 1095px) {
+@media (max-width: 1149px) {
   .index-services {
     display: block;
     text-align: center;
@@ -576,7 +578,9 @@ body {
       .index-services .box-1:hover img {
         transform: scale(1); }
     .index-services .box-3 {
-      background-color: transparent; }
+      background-color: transparent;
+      width: 100%;
+      flex-flow: column; }
       .index-services .box-3:hover {
         border: solid 2px transparent; }
         .index-services .box-3:hover img {
@@ -972,6 +976,107 @@ body {
   .EMAIL__track {
     display: none; }
     .EMAIL__track h1 {
+      width: 100%;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; } }
+
+.DOMAINS__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .DOMAINS__about .box-2 {
+    align-items: center;
+    padding: 1.5rem; }
+    .DOMAINS__about .box-2 img {
+      width: 100%;
+      border-radius: 10px; }
+    .DOMAINS__about .box-2 p {
+      line-height: 30px; }
+  .DOMAINS__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+    .DOMAINS__about h1 em {
+      color: #bf1e2e; }
+  .DOMAINS__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
+
+.DOMAINS__track {
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email_marquee0.jpg");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden; }
+  .DOMAINS__track h1 {
+    width: 45%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    text-transform: capitalize; }
+
+.DOMAINS__features {
+  padding: 4rem 2rem;
+  max-width: 1420px;
+  margin: auto; }
+  .DOMAINS__features h1 {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .DOMAINS__features .box-1 {
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .DOMAINS__features .box-3 {
+    background-color: rgba(35, 31, 32, 0.3);
+    width: 30%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; }
+    .DOMAINS__features .box-3 i {
+      font-size: 3.3rem;
+      margin-bottom: 1.5rem;
+      color: #bf1e2e; }
+    .DOMAINS__features .box-3 h2 {
+      text-transform: capitalize;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+    .DOMAINS__features .box-3 p {
+      text-align: center; }
+
+@media (max-width: 1095px) {
+  .DOMAINS__track h1 {
+    font-size: 4rem; } }
+
+@media (max-width: 1076px) {
+  .DOMAINS__track h1 {
+    font-size: 3.8rem; } }
+
+@media (max-width: 875px) {
+  .btn--mobile {
+    display: block !important; }
+  .DOMAINS__features .box-3 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: transparent; }
+    .DOMAINS__features .box-3 p {
+      font-weight: bold; } }
+
+@media (max-width: 656px) {
+  .DOMAINS__track {
+    display: none; }
+    .DOMAINS__track h1 {
       width: 100%;
       padding: 1.5rem;
       display: flex;
