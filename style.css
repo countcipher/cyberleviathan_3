@@ -1007,51 +1007,59 @@ body {
     font-weight: bold; }
 
 .DOMAINS__track {
-  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email_marquee0.jpg");
+  background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/domain_search1.jpg");
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 90vh;
   display: flex;
-  align-items: stretch;
-  overflow: hidden; }
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 1.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 4rem; }
   .DOMAINS__track h1 {
-    width: 45%;
-    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
     text-transform: capitalize; }
 
-.DOMAINS__features {
+.DOMAINS__tlds {
   padding: 4rem 2rem;
   max-width: 1420px;
   margin: auto; }
-  .DOMAINS__features h1 {
+  .DOMAINS__tlds h1 {
     text-transform: capitalize;
     margin-bottom: 2rem;
     text-align: center; }
-  .DOMAINS__features .box-1 {
+  .DOMAINS__tlds .box-1 {
     justify-content: space-evenly;
     margin-bottom: 2rem; }
-  .DOMAINS__features .box-3 {
+  .DOMAINS__tlds .box-3 {
     background-color: rgba(35, 31, 32, 0.3);
     width: 30%;
     padding: 1.5rem;
     border-radius: 10px;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: column; }
-    .DOMAINS__features .box-3 i {
+    flex-direction: column;
+    transition: .5s;
+    position: relative; }
+    .DOMAINS__tlds .box-3:hover {
+      transform: scale(1.1);
+      box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);
+      border: solid 2px #fffbfc; }
+    .DOMAINS__tlds .box-3 i {
       font-size: 3.3rem;
       margin-bottom: 1.5rem;
       color: #bf1e2e; }
-    .DOMAINS__features .box-3 h2 {
-      text-transform: capitalize;
+    .DOMAINS__tlds .box-3 h2 {
+      text-transform: uppercase;
       margin-bottom: 1.5rem;
       text-align: center; }
-    .DOMAINS__features .box-3 p {
+    .DOMAINS__tlds .box-3 p {
       text-align: center; }
 
 @media (max-width: 1095px) {
@@ -1072,6 +1080,15 @@ body {
     background-color: transparent; }
     .DOMAINS__features .box-3 p {
       font-weight: bold; } }
+
+@media (max-width: 850px) {
+  .DOMAINS__tlds .box-1 {
+    display: block;
+    padding: 0;
+    margin: 0; }
+  .DOMAINS__tlds .box-3 {
+    display: block;
+    width: 90%; } }
 
 @media (max-width: 656px) {
   .DOMAINS__track {

@@ -38,38 +38,104 @@ include "includes/header.php";
     </section>
 
     <!-- ===========================
-                FEATURED SITES
+                Track
     ============================ -->
     <section class="DOMAINS__track">
-        <h1>Get everything you need with professional email accounts by Cyber Leviathan</h1>
+        <h1>Let us help you find the perfect domain!</h1>
+
+        <a href="contact.php"><button class="btn btn--cta">Contact Us</button></a>
     </section>
 
     <!-- =========================
-            FEATURES
+            TLDS
     ========================== -->
-    <section class="DOMAINS__features">
-        <h1>key features</h1>
+    <section class="DOMAINS__tlds">
+        <h1>200+ domain types</h1>
 
+        <!-- ===========================
+                FIRST ROW
+        ============================= -->
         <div class="box-1">
-
-        <div class="box-3">
-                <i class="fas fa-at"></i>
-                <h2>Domain based email</h2>
-                <p>People are 60% more likely to open an email that has the business name in the address.  Step away from Gmail and Yahoo! email accounts and step into professional email.</p>
-            </div>
-            
             <div class="box-3">
-                <i class="fas fa-database"></i>
-                <h2>Lots of Storage</h2>
-                <p>Get 10 GB to 50 GB of storage so that you have exactly what you need.</p>
+                <h2>.com</h2>
+                <p>The most popular domain.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-at"></i>
-                <h2>Free Aliases</h2>
-                <p>Create alias accounts like "contact@your-business.com" and "support@your-business.com" that all get delivered to your primary inbox.</p>
+                <h2>.net</h2>
+                <p>For the truly original.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.org</h2>
+                <p>Trusted by all online causes</p>
             </div>
         </div>
+
+        <!-- ===========================
+                SECOND ROW
+        ============================= -->
+        <div class="box-1">
+
+            <div class="box-3">
+                <h2>.co</h2>
+                <p>Used by many startups.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.io</h2>
+                <p>For the technologically inclined.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.me</h2>
+                <p>When it's all about you.</p>
+            </div>
+        </div>
+
+        <!-- ===========================
+                THIRD ROW
+        ============================= -->
+        <div class="box-1">
+
+            <div class="box-3">
+                <h2>.website</h2>
+                <p>The name says it all.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.xyz</h2>
+                <p>One of the most budget friendly domains to start with.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.gay</h2>
+                <p>For LGBTQ+ pride.</p>
+            </div>
+        </div>
+
+        <!-- ===========================
+                FOURTH ROW
+        ============================= -->
+        <div class="box-1">
+
+            <div class="box-3">
+                <h2>.design</h2>
+                <p>For all those artistic endeavors.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.ninja</h2>
+                <p>When you're the best at what you do.</p>
+            </div>
+
+            <div class="box-3">
+                <h2>.guru</h2>
+                <p>For all the teachers and instructors.</p>
+            </div>
+        </div>
+
+        <h1>and hundreds more!</h1>
     </section>
 
     <!-- =============================
