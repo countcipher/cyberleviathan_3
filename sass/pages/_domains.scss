@@ -39,7 +39,7 @@
 
     &__track{
         background-image: linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)), url("images/domain_search1.jpg");
-        background-position: top right;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 90vh;
@@ -58,6 +58,7 @@
             justify-content: center;
             align-items: center;
             text-transform: capitalize;
+            text-align: center;
         }
     }
 
@@ -83,16 +84,14 @@
             width: 30%;
             padding: 1.5rem;
             border-radius: 10px;
-            align-items:center;
-            justify-content: flex-start;
-            flex-direction: column;
             transition: .5s;
-            position: relative;
+            flex-direction: column;
 
             &:hover{
                 transform: scale(1.1);
                 @include box-shadow;
                 border: solid 2px $color-white;
+                cursor: default;
             }
 
             & i{
@@ -145,21 +144,6 @@
     .btn--mobile{
         display: block !important;
     }
-
-    .DOMAINS{
-        &__features{
-            & .box-3{
-                display: block;
-                width: 90%;
-                text-align: center;
-                background-color: transparent;
-
-                & p{
-                    font-weight: bold;
-                }
-            }
-        }
-    }
 }
 
 @media(max-width: 850px){
@@ -170,13 +154,23 @@
                 display: block;
                 padding: 0;
                 margin: 0;
+                text-align: center;
             }
 
             & .box-3{
                 display: block;
                 width: 90%;
+                margin: auto;
+                margin-bottom: 15px;
                 //background: none;
                 //margin-bottom: 1.5rem;
+
+                &:hover{
+                    transform: scale(1);
+                    box-shadow: none;
+                    border: none;
+                    cursor: default;
+                }
             }
         }
     }

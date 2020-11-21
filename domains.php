@@ -31,7 +31,7 @@ include "includes/header.php";
             <div class="box-2">
                 <p>Your domain name is where you make your first impression, build your brand, establish trust, and get found. Stand out with a domain name that's perfect for you.</p>
 
-                <span class="pricing">Prices starting at $2.99/yr</span>
+                <span class="pricing">Prices starting at $1.00/yr</span>
             </div>
 
         </div>
