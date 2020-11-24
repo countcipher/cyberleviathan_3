@@ -180,6 +180,9 @@ body {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email0.jpg"); }
   .header_small--domainsPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/dominas0.jpg"); }
+  .header_small--hostingPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/hosting0.jpg");
+    background-position: center; }
 
 .btn {
   background-color: #bf1e2e;
@@ -1100,6 +1103,29 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center; } }
+
+.HOSTING__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .HOSTING__about .box-2 {
+    align-items: center;
+    padding: 1.5rem; }
+    .HOSTING__about .box-2 img {
+      width: 100%;
+      border-radius: 10px; }
+    .HOSTING__about .box-2 p {
+      line-height: 30px; }
+  .HOSTING__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+    .HOSTING__about h1 em {
+      color: #bf1e2e; }
+  .HOSTING__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
 
 .onScrollWhite {
   background-color: #fffbfc;

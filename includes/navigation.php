@@ -23,7 +23,7 @@
                         <a href="logo-design.php"><li>Logo Design</li></a>
                         <a href="email.php"><li>Email</li></a>
                         <a href="domains.php"><li>Domains</li></a>
-                        <a href="#"><li>Hosting</li></a>
+                        <a href="hosting.php"><li>Hosting</li></a>
                     </ul>
                 </li>
 
