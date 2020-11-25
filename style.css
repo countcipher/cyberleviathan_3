@@ -1127,6 +1127,41 @@ body {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold; }
 
+.HOSTING__packages {
+  padding: 1.5rem;
+  background-color: rgba(35, 31, 32, 0.3);
+  margin-bottom: 2.5rem; }
+
+.HOSTING__features {
+  padding: 4rem 2rem;
+  max-width: 1420px;
+  margin: auto; }
+  .HOSTING__features h1 {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .HOSTING__features .box-1 {
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .HOSTING__features .box-3 {
+    background-color: rgba(35, 31, 32, 0.3);
+    width: 30%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; }
+    .HOSTING__features .box-3 i {
+      font-size: 3.3rem;
+      margin-bottom: 1.5rem;
+      color: #bf1e2e; }
+    .HOSTING__features .box-3 h2 {
+      text-transform: capitalize;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+    .HOSTING__features .box-3 p {
+      text-align: center; }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
