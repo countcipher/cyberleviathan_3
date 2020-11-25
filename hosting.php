@@ -25,11 +25,11 @@ include "includes/header.php";
         <h1>dominate your competition with cyber leviathan hosting</h1>
         <div class="box-1">
             <div class="box-2">
-                <img src="images/domain1.jpg" alt="">
+                <img src="images/hosting1.jpg" alt="">
             </div>
 
             <div class="box-2">
-                <p>Feel secure that your site is up and running the way that you need it to be for your business.  With a 99.9% uptime guarantee and industry-leading load time for your pages, you can rely on us.</p>
+                <p>Feel secure that your site is up and running the way that you need it to be for your business.  With uptime monitoring and industry-leading load time for your pages, you can rely on us.</p>
 
                 <span class="pricing">Prices starting at $3/mo</span>
             </div>
