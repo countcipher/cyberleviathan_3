@@ -22,16 +22,16 @@ include "includes/header.php";
                 MAIN HEADING
     =============================== -->
     <section class="HOSTING__about">
-        <h1>own your idea with the perfect domain name</h1>
+        <h1>dominate your competition with cyber leviathan hosting</h1>
         <div class="box-1">
             <div class="box-2">
                 <img src="images/domain1.jpg" alt="">
             </div>
 
             <div class="box-2">
-                <p>Your domain name is where you make your first impression, build your brand, establish trust, and get found. Stand out with a domain name that's perfect for you.</p>
+                <p>Feel secure that your site is up and running the way that you need it to be for your business.  With a 99.9% uptime guarantee and industry-leading load time for your pages, you can rely on us.</p>
 
-                <span class="pricing">Prices starting at $1.00/yr</span>
+                <span class="pricing">Prices starting at $3/mo</span>
             </div>
 
         </div>
