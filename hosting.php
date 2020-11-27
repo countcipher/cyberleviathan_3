@@ -45,9 +45,12 @@ include "includes/header.php";
          <div class="box-1">
             <div class="container-3">
                 <div class="card">
+
+                    <img src="images/jellyfish0.jpg" alt="">
+
                     <h1 class="title">basic</h1>
 
-                    <p class="description">Best for simple sites with less traffic.</p>
+                    <p class="description">Best for simple sites with less traffic and fewer files.</p>
 
                     <hr>
                     
@@ -64,6 +67,8 @@ include "includes/header.php";
 
             <div class="container-3">
                 <div class="card">
+                    <img src="images/octopus0.jpg" alt="">
+
                     <h1 class="title">Standard</h1>
 
                     <p class="description">For bigger business sites with higher traffic.</p>
@@ -84,6 +89,7 @@ include "includes/header.php";
 
             <div class="container-3">
                 <div class="card">
+                    <img src="images/shark0.jpg" alt="">
                     <h1 class="title">Unlimited</h1>
 
                     <p class="description">The most popular choice of business owners.</p>
@@ -92,7 +98,7 @@ include "includes/header.php";
                     
                         <ul>
                             <li>Unlimited storage</li>
-                            <li>Unmetered Traffic</li>
+                            <li>Unmetered Traffic*</li>
                             <li>Unlimited Databases</li>
                             <li>Unlimited Sites/Domains</li>
                             <li>Compatible with WordPress</li>
@@ -102,6 +108,8 @@ include "includes/header.php";
                 </div>
             </div>
          </div>
+
+         <p class="disclosure">*We don't limit the amount of storage and bandwidth your site can use as long as it complies with our Hosting Agreement. Should your website bandwidth or storage usage present a risk to the stability, performance or uptime of our servers, we may restrict the resources your website is using. It’s very rare that a website violates our Hosting Agreement and is typically only seen in sites that use hosting for file sharing or storage.</p>
      </section>
 
      <!-- =========================
