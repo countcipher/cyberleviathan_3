@@ -40,9 +40,53 @@ include "includes/header.php";
     <!--================================= 
                 PACKAGES
      ==================================-->
-     <!-- <section class="HOSTING__packages">
-         <h1>hello</h1>
-     </section> -->
+     <section class="HOSTING__packages">
+        <h1>hosting packages</h1>
+         <div class="box-1">
+            <div class="container-3">
+                <div class="card">
+                    <h1 class="title">package</h1>
+
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    <p class="price">$5.99/mo</p>
+
+                    <ul>
+                        <li>feature</li>
+                        <li>feature</li>
+                        <li>feature</li>
+                        <li>feature</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-3">
+            <div class="card">
+                    <h1 class="title">package</h1>
+                    <p>$5.99/mo</p>
+
+                    <ul>
+                        <li>feature</li>
+                        <li>feature</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container-3">
+            <div class="card">
+                    <h1 class="title">package</h1>
+                    <p>$5.99/mo</p>
+
+                    <ul>
+                        <li>feature</li>
+                        <li>feature</li>
+                        <li>feature</li>
+                        <li>feature</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+     </section>
 
      <!-- =========================
             FEATURES
