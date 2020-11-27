@@ -31,7 +31,7 @@ include "includes/header.php";
             <div class="box-2">
                 <p>Feel secure that your site is up and running the way that you need it to be for your business.  With uptime monitoring and industry-leading load time for your pages, you can rely on us.</p>
 
-                <span class="pricing">Prices starting at $3/mo</span>
+                <span class="pricing">Prices starting at $3.99/mo</span>
             </div>
 
         </div>
@@ -41,7 +41,7 @@ include "includes/header.php";
                 PACKAGES
      ==================================-->
      <section class="HOSTING__packages">
-        <h1>hosting packages</h1>
+        <!-- <h1>hosting packages</h1> -->
          <div class="box-1">
             <div class="container-3">
                 <div class="card">
@@ -49,14 +49,16 @@ include "includes/header.php";
 
                     <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                    <p class="price">$5.99/mo</p>
-
-                    <ul>
-                        <li>feature</li>
-                        <li>feature</li>
-                        <li>feature</li>
-                        <li>feature</li>
-                    </ul>
+                    <p class="price">$3.99/mo</p>
+                    
+                        <ul>
+                            <li>feature</li>
+                            <li>feature</li>
+                            <li>feature</li>
+                            <li>feature</li>
+                        </ul>
+                    
+                    
                 </div>
             </div>
 
@@ -91,7 +93,7 @@ include "includes/header.php";
      <!-- =========================
             FEATURES
     ========================== -->
-    <section class="HOSTING__features">
+    <!-- <section class="HOSTING__features">
         <h1>key features</h1>
 
         <div class="box-1">
@@ -132,7 +134,7 @@ include "includes/header.php";
                 <p>All Cyber Leviathan sites are meticulously tested to ensure there are no programming bugs and that they function as desired, no matter what.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- =============================
