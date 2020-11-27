@@ -45,46 +45,60 @@ include "includes/header.php";
          <div class="box-1">
             <div class="container-3">
                 <div class="card">
-                    <h1 class="title">package</h1>
+                    <h1 class="title">basic</h1>
 
-                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="description">Best for simple sites with less traffic.</p>
 
-                    <p class="price">$3.99/mo</p>
+                    <hr>
                     
                         <ul>
-                            <li>feature</li>
-                            <li>feature</li>
-                            <li>feature</li>
-                            <li>feature</li>
+                            <li>4 GB Storage</li>
+                            <li>20 GB Web Traffic</li>
+                            <li>10 MySQL Databases</li>
+                            <li>10 Addon Sites/Domains</li>
                         </ul>
                     
+                        <p class="price">$3.99/mo</p>
+                </div>
+            </div>
+
+            <div class="container-3">
+                <div class="card">
+                    <h1 class="title">Standard</h1>
+
+                    <p class="description">For bigger business sites with higher traffic.</p>
+
+                    <hr>
                     
+                        <ul>
+                                <li>10 GB Storage</li>
+                                <li>10 GB Web Traffic</li>
+                                <li>10 MySQL Databases</li>
+                                <li>10 Addon Sites/Domains</li>
+                                <li>Compatible with WordPress</li>
+                        </ul>
+                    
+                        <p class="price">$9.99/mo</p>
                 </div>
             </div>
 
             <div class="container-3">
-            <div class="card">
-                    <h1 class="title">package</h1>
-                    <p>$5.99/mo</p>
+                <div class="card">
+                    <h1 class="title">Unlimited</h1>
 
-                    <ul>
-                        <li>feature</li>
-                        <li>feature</li>
-                    </ul>
-                </div>
-            </div>
+                    <p class="description">The most popular choice of business owners.</p>
 
-            <div class="container-3">
-            <div class="card">
-                    <h1 class="title">package</h1>
-                    <p>$5.99/mo</p>
-
-                    <ul>
-                        <li>feature</li>
-                        <li>feature</li>
-                        <li>feature</li>
-                        <li>feature</li>
-                    </ul>
+                    <hr>
+                    
+                        <ul>
+                            <li>Unlimited storage</li>
+                            <li>Unmetered Traffic</li>
+                            <li>Unlimited Databases</li>
+                            <li>Unlimited Sites/Domains</li>
+                            <li>Compatible with WordPress</li>
+                        </ul>
+                    
+                        <p class="price">$19.99/mo</p>
                 </div>
             </div>
          </div>
