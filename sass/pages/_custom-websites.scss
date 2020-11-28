@@ -50,13 +50,8 @@
             text-decoration: none;
         }
 
-        & .btn--mobile{
-            display: none;
-            margin: 1.5rem;
-        }
-
         & .box-1{
-            //max-width: $max-width;
+            max-width: $max-width;
             text-align: center;
             justify-content: space-evenly;
             flex-direction: row;
@@ -163,6 +158,11 @@
             }
         }
     }
+}
+
+.btn--mobile{
+    display: none;
+    margin: 1.5rem;
 }
 
 //=======================

@@ -701,10 +701,8 @@ body {
     text-transform: capitalize; }
   .custom-websites__featured-sites a {
     text-decoration: none; }
-  .custom-websites__featured-sites .btn--mobile {
-    display: none;
-    margin: 1.5rem; }
   .custom-websites__featured-sites .box-1 {
+    max-width: 1420px;
     text-align: center;
     justify-content: space-evenly;
     flex-direction: row;
@@ -773,6 +771,10 @@ body {
       text-align: center; }
     .custom-websites__features .box-3 p {
       text-align: center; }
+
+.btn--mobile {
+  display: none;
+  margin: 1.5rem; }
 
 @media (max-width: 750px) {
   .btn--mobile {
@@ -965,8 +967,6 @@ body {
     font-size: 3.8rem; } }
 
 @media (max-width: 875px) {
-  .btn--mobile {
-    display: block !important; }
   .EMAIL__features .box-3 {
     display: block;
     width: 90%;
@@ -1071,10 +1071,6 @@ body {
 @media (max-width: 1076px) {
   .DOMAINS__track h1 {
     font-size: 3.8rem; } }
-
-@media (max-width: 875px) {
-  .btn--mobile {
-    display: block !important; } }
 
 @media (max-width: 850px) {
   .DOMAINS__tlds .box-1 {
