@@ -182,7 +182,7 @@ body {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/dominas0.jpg"); }
   .header_small--hostingPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/hosting0.jpg");
-    background-position: center; }
+    background-position: top right; }
 
 .btn {
   background-color: #bf1e2e;
@@ -1161,27 +1161,29 @@ body {
       .HOSTING__packages .container-3 .card img {
         height: 130px;
         display: block;
-        margin: auto;
+        margin: 0 auto 1.5rem auto;
         border-radius: 50%;
         transition: .3s;
         border: solid 2px #fffbfc; }
       .HOSTING__packages .container-3 .card .title {
-        font-size: 3rem; }
+        font-size: 2.7rem; }
       .HOSTING__packages .container-3 .card .description {
         padding: 1.5rem;
         font-weight: bold;
-        text-align: center; }
+        text-align: center;
+        font-size: 1.9rem; }
       .HOSTING__packages .container-3 .card .price {
         text-align: center;
         background: #bf1e2e;
         font-weight: bold;
-        font-size: 4.5rem;
+        font-size: 4rem;
         color: #fffbfc;
-        padding: 2rem 0;
+        padding: 1.8rem 0;
         position: absolute;
         bottom: 0;
         left: 0;
-        right: 0; }
+        right: 0;
+        transition: .3s; }
       .HOSTING__packages .container-3 .card ul {
         list-style-type: none;
         margin: 0;
@@ -1196,11 +1198,49 @@ body {
         .HOSTING__packages .container-3 .card:hover img {
           transform: scale(1.1);
           box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+        .HOSTING__packages .container-3 .card:hover .price {
+          transform: scale(1.1); }
   .HOSTING__packages .disclosure {
     font-size: 1.8rem;
     max-width: 1420px;
     margin: auto;
     padding: 2rem; }
+
+@media (max-width: 1195px) {
+  .HOSTING__packages {
+    margin-bottom: 2.5rem;
+    padding: 2rem 0; }
+    .HOSTING__packages .container-3 .card .price {
+      font-size: 3rem; }
+    .HOSTING__packages .container-3 .card ul {
+      list-style-type: none;
+      margin: 0;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding: 1.5rem 0 1.5rem 1.5rem;
+      font-size: 1.8rem; } }
+
+@media (max-width: 1045px) {
+  .HOSTING__packages .box-1 {
+    display: block;
+    width: 100%; }
+    .HOSTING__packages .box-1 .container-3 {
+      display: block;
+      width: 100%; }
+      .HOSTING__packages .box-1 .container-3 .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: #fffbfc;
+        position: relative; }
+        .HOSTING__packages .box-1 .container-3 .card img {
+          transform: scale(1.1);
+          box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+        .HOSTING__packages .box-1 .container-3 .card ul {
+          display: block;
+          margin: auto; } }
 
 .onScrollWhite {
   background-color: #fffbfc;

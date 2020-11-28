@@ -80,33 +80,35 @@
                 & img{
                     height: 130px;
                     display: block;
-                    margin: auto;
+                    margin: 0 auto 1.5rem auto;
                     border-radius: 50%;
                     transition: .3s;
                     border: solid 2px $color-white;
                 }
 
                 & .title{
-                    font-size: 3rem;
+                    font-size: 2.7rem;
                 }
 
                 & .description{
                     padding: 1.5rem;
                     font-weight: bold;
                     text-align: center;
+                    font-size: 1.9rem;
                 }
 
                 & .price{
                     text-align: center;
                     background: $color-red;
                     font-weight: bold;
-                    font-size: 4.5rem;
+                    font-size: 4rem;
                     color: $color-white;
-                    padding: 2rem 0;
+                    padding: 1.8rem 0;
                     position: absolute;
                     bottom: 0;
                     left: 0;
                     right: 0;
+                    transition: .3s;
                 }
 
                 & ul{
@@ -126,11 +128,14 @@
                     border: solid 2px $color-white;
        
                    & img{
-                       //transform: translateY(-1rem);
-                       //transform: rotateY(360deg);
                        transform: scale(1.1);
                        box-shadow: 0 0 20px rgba($color-black, .4);
-                       //filter: grayscale(80%);
+
+                   }
+
+                   & .price{
+                       //text-shadow: 0 0 20px rgba(0,0,0, .7);
+                       transform: scale(1.1);
                    }
                }
 
@@ -146,4 +151,71 @@
     }
 
 
+}
+
+@media(max-width: 1195px){
+    .HOSTING{
+    
+        &__packages{
+            margin-bottom: 2.5rem;
+            padding: 2rem 0;
+    
+            & .container-3{
+                
+                & .card{
+    
+                    & .price{
+                        font-size: 3rem;
+                    }
+    
+                    & ul{
+                        list-style-type: none;
+                        margin:  0;
+                        font-weight: bold;
+                        text-transform: capitalize;
+                        padding: 1.5rem 0 1.5rem 1.5rem;
+                        font-size: 1.8rem;
+    
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 1045px){
+    .HOSTING{
+
+        &__packages{
+            & .box-1{
+                display: block;
+                width: 100%;
+
+                & .container-3{
+                    display: block;
+                    width: 100%;
+
+                    & .card{
+                        display: flex;
+                        flex-direction: column;
+                        width: 90%;
+                        margin-left:  auto;
+                        margin-right: auto;
+                        border-color: $color-white;
+                        position: relative;
+
+                        & img{
+                            transform: scale(1.1);
+                            box-shadow: 0 0 20px rgba($color-black, .4);
+                        }
+
+                        & ul{
+                            display: block;
+                            margin: auto;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
 }
