@@ -127,7 +127,7 @@ include "includes/header.php";
             <div class="box-3">
                 <i class="fas fa-globe"></i>
                 <h2>client control</h2>
-                <p>Need to make regular updates to your site? You can take control of nearly any aspect of your site with Evolution. All you need is an Internet connection!</p>
+                <p>Need to make regular updates to your site? You can take control of nearly any aspect of your site with Evolution or WordPress. All you need is an Internet connection!</p>
             </div>
         </div>
         <div class="box-1">
