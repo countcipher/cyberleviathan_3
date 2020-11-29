@@ -55,7 +55,6 @@ include "includes/header.php";
             <div class="box-1 pb--lg">
 
                 <h1>Popular Sevices</h1>
-                <!-- <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ullam possimus animi veniam architecto esse excepturi aliquam, facere doloremque corrupti vero, tempora aliquid maxime rem illo, ipsa voluptates? Facilis, libero tenetur. Odio, delectus! Doloremque, laborum.</h2> -->
 
             </div>
 
@@ -110,11 +109,11 @@ include "includes/header.php";
 
                 <div class="box-3 center-hor center-ver">
                     <div class="box-2 center-hor center-ver">
-                        <img src="images/email_marketing0.jpg" alt="">
+                        <img src="images/hosting0.jpg" alt="">
                     </div>
                     <div class="box-2 box-2--text">
-                        <h2>Email Marketing</h2>
-                        <p>Offer promotions &amp; lead generators, and grow your clientele list with email marketing solutions.</p>
+                        <h2>Hosting</h2>
+                        <p>Get your site online quickly and have all the features you require for your business.</p>
                         <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
