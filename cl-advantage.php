@@ -25,13 +25,11 @@ include "includes/header.php";
         <h1>Give your business the ultimate edge with CL Advantage</h1>
         <div class="box-1">
             <div class="box-2">
-                <img src="images/cl_advantage0.jpg" alt="">
+                <img src="images/cl_advantage0.png" alt="">
             </div>
 
             <div class="box-2">
                 <p>Feel secure that your site is up and running the way that you need it to be for your business.  With uptime monitoring and industry-leading load time for your pages, you can rely on us.</p>
-
-                <span class="pricing">Prices starting at $3.99/mo</span>
             </div>
 
         </div>
