@@ -162,6 +162,10 @@
         &--text{
             flex-direction: column;
             justify-content: start;
+
+            & h2{
+                margin-bottom: 1.5rem;
+            }
         }
 
         // & .btn--cta{

@@ -30,7 +30,7 @@
                 <li class="nav__dropdown-box has-dropdown">
                     <span class="nav__link-title">CL Advantage <i class="far fa-arrow-alt-circle-down"></i></span>
                     <ul class="nav__dropdown-content">
-                        <a href="#"><li>What Is CL Advantage?</li></a>
+                        <a href="cl-advantage.php"><li>What Is CL Advantage?</li></a>
                         <a href="#"><li>Evolution</li></a>
                         <a href="#"><li>Trident</li></a>
                     </ul>

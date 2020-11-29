@@ -183,6 +183,9 @@ body {
   .header_small--hostingPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/hosting0.jpg");
     background-position: top right; }
+  .header_small--clAdvantagePage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/ai0.jpg");
+    background-position: top right; }
 
 .btn {
   background-color: #bf1e2e;
@@ -546,6 +549,8 @@ body {
     .index-services .box-2--text {
       flex-direction: column;
       justify-content: start; }
+      .index-services .box-2--text h2 {
+        margin-bottom: 1.5rem; }
   .index-services .box-3 {
     background-color: rgba(35, 31, 32, 0.3);
     padding: 1.5rem;
@@ -1237,6 +1242,27 @@ body {
         .HOSTING__packages .box-1 .container-3 .card ul {
           display: block;
           margin: auto; } }
+
+.HOSTING__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .HOSTING__about .box-2 {
+    align-items: center;
+    padding: 1.5rem; }
+    .HOSTING__about .box-2 img {
+      width: 100%;
+      border-radius: 10px; }
+    .HOSTING__about .box-2 p {
+      line-height: 30px; }
+  .HOSTING__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+  .HOSTING__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
 
 .onScrollWhite {
   background-color: #fffbfc;
