@@ -9,3 +9,7 @@
 @mixin red-white-gradient-color{
     caret-color:  linear-gradient(to bottom right, rgba($color-white, .7), rgba($color-red, .7), rgba($color-white, .7));
 }
+
+@mixin dark-background{
+    background: rgba($color-black, .3);
+}

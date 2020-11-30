@@ -1243,26 +1243,58 @@ body {
           display: block;
           margin: auto; } }
 
-.HOSTING__about {
+.CL-ADVANTAGE__about {
   text-align: center;
   max-width: 1420px;
   margin: 4.5rem auto 2.5rem auto; }
-  .HOSTING__about .box-2 {
+  .CL-ADVANTAGE__about .box-2 {
     align-items: center;
     padding: 1.5rem; }
-    .HOSTING__about .box-2 img {
+    .CL-ADVANTAGE__about .box-2 img {
       width: 100%;
       border-radius: 10px; }
-    .HOSTING__about .box-2 p {
+    .CL-ADVANTAGE__about .box-2 p {
       line-height: 30px; }
-  .HOSTING__about h1 {
+  .CL-ADVANTAGE__about h1 {
     text-align: center;
     text-transform: capitalize;
     padding: 0 2rem 0 2rem;
     margin-bottom: 4.5rem; }
-  .HOSTING__about p {
+  .CL-ADVANTAGE__about p {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold; }
+
+.CL-ADVANTAGE__aps .box-2 {
+  flex-direction: column;
+  padding: 1.5rem;
+  overflow: hidden; }
+  .CL-ADVANTAGE__aps .box-2 .card {
+    background: rgba(35, 31, 32, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s; }
+  .CL-ADVANTAGE__aps .box-2 img {
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
+  .CL-ADVANTAGE__aps .box-2 p {
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.9rem; }
+  .CL-ADVANTAGE__aps .box-2 a {
+    text-decoration: none; }
+  .CL-ADVANTAGE__aps .box-2 .btn--cta {
+    background-color: transparent;
+    font-weight: 600;
+    display: block;
+    margin: auto; }
+    .CL-ADVANTAGE__aps .box-2 .btn--cta::after {
+      display: none; }
+    .CL-ADVANTAGE__aps .box-2 .btn--cta:hover {
+      box-shadow: none;
+      color: #bf1e2e;
+      transform: scale(1.2); }
+  .CL-ADVANTAGE__aps .box-2:hover .card {
+    transform: scale(1.03); }
 
 .onScrollWhite {
   background-color: #fffbfc;
