@@ -1052,7 +1052,8 @@ body {
     padding: 1.5rem;
     border-radius: 10px;
     transition: .5s;
-    flex-direction: column; }
+    flex-direction: column;
+    border: solid 2px transparent; }
     .DOMAINS__tlds .box-3:hover {
       transform: scale(1.1);
       box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4);

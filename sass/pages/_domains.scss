@@ -86,6 +86,7 @@
             border-radius: 10px;
             transition: .5s;
             flex-direction: column;
+            border: solid 2px transparent;
 
             &:hover{
                 transform: scale(1.1);
