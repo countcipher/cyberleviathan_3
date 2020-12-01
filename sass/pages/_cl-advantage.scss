@@ -34,6 +34,13 @@
 
     &__aps{
 
+        & .box-1{
+            max-width: $max-width;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+        }
+
         & .box-2{
             flex-direction: column;
             padding: 1.5rem;
@@ -44,22 +51,21 @@
                 border-radius: 10px;
                 overflow: hidden;
                 transition: .3s;
-            }
+                height: 100%;
 
-            & img{
-                 width: 100%;
-                 box-shadow: 0 5px 20px rgba(0,0,0, .3);
-                // display: block;
-                // margin: 0 auto 1.5rem auto;
-                // border-radius: 50%;
-                // transition: .3s;
-                // border: solid 2px $color-white;
-            }
+                & .img-box{
+                    height: 10.25rem;
+                    width: 100%;
+                    background: #fff;
+                    box-shadow: 0 5px 20px rgba(0,0,0, .3);
+                    text-align: center;
 
-            // & h1{
-            //     font-size: 2.7rem;
-            //     text-align: center;
-            // }
+                    & img{
+                        height: 100%;
+                   }
+
+                }
+            }
 
             & p{
                 padding: 1.5rem;

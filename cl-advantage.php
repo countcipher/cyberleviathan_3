@@ -14,7 +14,7 @@ include "includes/header.php";
     <header class="header_small header_small--clAdvantagePage">
         <div class="header_small__text-box">
                     <h1>CL Advantage</h1>
-                    <h2>take your business to the next level</h2>
+                    <h2>taking your business to the next level</h2>
         </div>
     </header>
 
@@ -41,9 +41,12 @@ include "includes/header.php";
         <div class="box-1">
             <div class="box-2">
                 <div class="card">
-                    <img src="images/trident1.jpg" alt="">
-                    <!-- <h1>Evolution</h1> -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur earum repellendus iure! Quia consectetur vero excepturi. Perspiciatis voluptatibus, impedit nesciunt at deleniti qui dolores.</p>
+
+                    <div class="img-box">
+                        <img src="images/trident1.jpg" alt="">
+                    </div>
+
+                    <p>Allow users to connect with you using the Trident contact form system.  Access the information quickly and easily with the included admin-only area.</p>
 
                     <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                 </div>
@@ -51,9 +54,12 @@ include "includes/header.php";
 
             <div class="box-2">
                 <div class="card">
-                    <img src="images/evolution0.jpg" alt="">
-                    <!-- <h1>Evolution</h1> -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aspernatur earum repellendus iure! Quia consectetur vero excepturi. Perspiciatis voluptatibus, impedit nesciunt at deleniti qui dolores.</p>
+
+                    <div class="img-box">
+                        <img src="images/evolution0.jpg" alt="">
+                    </div>
+
+                    <p>If you need to make regular updates to your website, Evolution is the powerful engine to allow you to do so.  Alter text, images, and more from your laptop, tablet, or smartphone.</p>
 
                     <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                 </div>

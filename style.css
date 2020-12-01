@@ -185,7 +185,7 @@ body {
     background-position: top right; }
   .header_small--clAdvantagePage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/ai0.jpg");
-    background-position: top right; }
+    background-position: center; }
 
 .btn {
   background-color: #bf1e2e;
@@ -1264,6 +1264,12 @@ body {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold; }
 
+.CL-ADVANTAGE__aps .box-1 {
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; }
+
 .CL-ADVANTAGE__aps .box-2 {
   flex-direction: column;
   padding: 1.5rem;
@@ -1272,10 +1278,16 @@ body {
     background: rgba(35, 31, 32, 0.3);
     border-radius: 10px;
     overflow: hidden;
-    transition: .3s; }
-  .CL-ADVANTAGE__aps .box-2 img {
-    width: 100%;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
+    transition: .3s;
+    height: 100%; }
+    .CL-ADVANTAGE__aps .box-2 .card .img-box {
+      height: 10.25rem;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+      text-align: center; }
+      .CL-ADVANTAGE__aps .box-2 .card .img-box img {
+        height: 100%; }
   .CL-ADVANTAGE__aps .box-2 p {
     padding: 1.5rem;
     text-align: left;
