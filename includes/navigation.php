@@ -31,8 +31,8 @@
                     <span class="nav__link-title">CL Advantage <i class="far fa-arrow-alt-circle-down"></i></span>
                     <ul class="nav__dropdown-content">
                         <a href="cl-advantage.php"><li>What is CL Advantage?</li></a>
+                        <a href="trident.php"><li>Trident</li></a>
                         <a href="#"><li>Evolution</li></a>
-                        <a href="#"><li>Trident</li></a>
                     </ul>
                 </li>
                 <li class="nav__dropdown-box">

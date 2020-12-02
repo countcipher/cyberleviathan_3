@@ -69,6 +69,13 @@
         background-position:center;
     }
 
+    &--tridentPage{
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+            url('images/business-solution0-resize.png');
+        background-position:center;
+    }
+
     // &--DIGITAL-MARKETING{
     //     background-image:
     //     linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
