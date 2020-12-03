@@ -29,7 +29,7 @@ include "includes/header.php";
             </div>
 
             <div class="box-2">
-                <p>Your domain name is where you make your first impression, build your brand, establish trust, and get found. Stand out with a domain name that's perfect for you.</p>
+                <p>Trident is designed for businesses which have a brick-and-mortar location, or who sell services.  With Trident, you get a reliable connection between you and your customers.</p>
 
                 <span class="pricing">Services at $9.99/mo</span>
             </div>
