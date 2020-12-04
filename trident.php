@@ -38,6 +38,51 @@ include "includes/header.php";
     </section>
 
     <!-- =============================
+                HOW IT WORKS
+    =============================== -->
+    <section class="TRIDENT__how-it-works">
+        <!-- <h1>how it works</h1> -->
+
+        <div class="box-1">
+            <div class="box-2 img-box">
+                <img src="images/contact-form1.jpg" alt="">
+            </div>
+
+            <div class="box-2 text-box">
+                <h1>Design the contact form</h1>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-2 text-box">
+                <h1>Visitors connect</h1>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+            </div>
+
+            <div class="box-2 img-box">
+                <img src="images/man-using-contact-form0.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-2 img-box">
+                <img src="images/trident_login.jpg" alt="">
+            </div>
+
+            <div class="box-2 text-box">
+                <h1>login to admin area</h1>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- =============================
                 CONTACT
     =============================== -->
     <?php include "includes/contact.php"; ?>

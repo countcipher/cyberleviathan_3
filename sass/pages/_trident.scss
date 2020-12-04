@@ -31,4 +31,49 @@
             font-weight: bold;
         }
     }
+
+    &__how-it-works{
+        @include dark-background;
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+
+        & h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        & .box-1{
+            display: flex;
+            flex-direction: row;
+
+            & .img-box{
+                display: flex;
+                order: 1;
+
+                & img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            & .text-box{
+                display: flex;
+                padding: 2.5rem;
+                order: 1;
+                flex-direction: column;
+
+                & h1{
+                    text-align: left;
+                    margin-bottom: 3rem;
+                }
+            }
+
+            & .box-2{
+                width: 50%;
+            }
+        }
+
+    }
 }
