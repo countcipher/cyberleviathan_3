@@ -1337,7 +1337,8 @@ body {
   background: rgba(35, 31, 32, 0.3);
   max-width: 1420px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 4.5rem; }
   .TRIDENT__how-it-works h1 {
     text-transform: capitalize;
     text-align: center; }
@@ -1360,6 +1361,23 @@ body {
         margin-bottom: 3rem; }
     .TRIDENT__how-it-works .box-1 .box-2 {
       width: 50%; }
+
+@media (max-width: 981px) {
+  .TRIDENT__how-it-works .box-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem; }
+    .TRIDENT__how-it-works .box-1 .box-2 {
+      width: 100%;
+      background: rgba(35, 31, 32, 0.3); }
+      .TRIDENT__how-it-works .box-1 .box-2 h1 {
+        text-align: center; }
+    .TRIDENT__how-it-works .box-1 .img-box {
+      order: 0;
+      padding: 1.5rem; }
+      .TRIDENT__how-it-works .box-1 .img-box img {
+        border-radius: 10px; } }
 
 .onScrollWhite {
   background-color: #fffbfc;

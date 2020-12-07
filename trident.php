@@ -69,7 +69,7 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-2 img-box">
-                <img src="images/trident_login.jpg" alt="">
+                <img src="images/trident/trident_login.jpg" alt="">
             </div>
 
             <div class="box-2 text-box">
