@@ -50,7 +50,7 @@ include "includes/header.php";
                 <img src="images/logos/mikes.jpg" alt="">
             </div>
             <div class="box-3">
-                <img src="images/logos/unnaturally_green.jpg" alt="">
+                <img src="images/logos/nayonamay.jpg" alt="">
             </div>
         </div>
     </section>
@@ -70,7 +70,7 @@ include "includes/header.php";
 
             <div class="box-3">
                 <i class="fas fa-images"></i>
-                <h2>Multiple Design Choices</h2>
+                <h2>custom Design Choices</h2>
                 <p>Based on the information you provided, you'll be shown several logo concepts in 3-5 business days.</p>
             </div>
 

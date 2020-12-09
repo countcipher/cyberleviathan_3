@@ -51,7 +51,7 @@ include "includes/header.php";
             <div class="box-2 text-box">
                 <h1>Design the contact form</h1>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+                <p>We'll work with you to come up with the perfect form for your site.  Whether you have only a few fields in your form or quite a lot, any contact form will be able to utilize Trident.</p>
             </div>
         </div>
 
@@ -59,7 +59,7 @@ include "includes/header.php";
             <div class="box-2 text-box">
                 <h1>Visitors connect</h1>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+                <p>Visitors to your website use the contact form connected to Trident just like any other contact form.  The users interact with the form exactly as intended, with absolutely no intrusiveness from Trident.  Once the user submits the form, the information gets immediately sent to a database.</p>
             </div>
 
             <div class="box-2 img-box">
@@ -73,9 +73,22 @@ include "includes/header.php";
             </div>
 
             <div class="box-2 text-box">
-                <h1>login to admin area</h1>
+                <h1>log in to admin area</h1>
 
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quibusdam omnis nam aliquam exercitationem, vitae est ratione possimus molestias corrupti, nulla fugiat adipisci commodi dicta cum, quia non assumenda ducimus.</p>
+                <p>Those administrators who have been given access to your Trident account log in with a username and password.  There, administrators have access to all of the features that Trident provides.</p>
+            </div>
+        </div>
+
+        <div class="box-1">
+
+            <div class="box-2 text-box">
+                <h1>a simple interface</h1>
+
+                <p>Trident displays all of the information in a way that is simple to use.  Sort the records by name and date, quickly delete old records, and list records as spam to help prevent them from coming back.  Add or remove administrators from your Trident account, and even add to your "Forbidden Words" list to help prevent unsolicited messages.</p>
+            </div>
+
+            <div class="box-2 img-box">
+                    <img src="images/trident/trident2.jpg" alt="">
             </div>
         </div>
     </section>
