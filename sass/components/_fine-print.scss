@@ -1,0 +1,27 @@
+
+.fine-print{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 5rem;
+}
+
+@media(max-width:1042px){
+    .fine-print{
+        bottom: 4rem;
+    }
+}
+
+@media(max-width:942px){
+    .fine-print{
+        bottom: 3rem;
+    }
+}
+
+@media(max-width:887px){
+    .fine-print{
+        bottom: -1rem;
+    }
+}

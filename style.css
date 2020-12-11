@@ -272,6 +272,26 @@ body {
   .pricing {
     font-size: 2rem; } }
 
+.fine-print {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  position: absolute;
+  bottom: 5rem; }
+
+@media (max-width: 1042px) {
+  .fine-print {
+    bottom: 4rem; } }
+
+@media (max-width: 942px) {
+  .fine-print {
+    bottom: 3rem; } }
+
+@media (max-width: 887px) {
+  .fine-print {
+    bottom: -1rem; } }
+
 .header {
   min-height: 600px;
   display: flex;
@@ -1318,7 +1338,8 @@ body {
   margin: 4.5rem auto 2.5rem auto; }
   .TRIDENT__about .box-2 {
     align-items: center;
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    position: relative; }
     .TRIDENT__about .box-2 img {
       width: 100%;
       border-radius: 10px; }
