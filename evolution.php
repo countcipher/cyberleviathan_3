@@ -59,11 +59,11 @@ include "includes/header.php";
             <div class="box-2 text-box">
                 <h1>get connected</h1>
 
-                <p>Visitors to your website use the contact form connected to Trident just like any other contact form.  The users interact with the form exactly as intended, with absolutely no intrusiveness from Trident.  Once the user submits the form, the information gets immediately sent to a database.</p>
+                <p>Once you're set up on Cyber Leviathan hosting, the Evolution software will be integrated into your website to give you the control you need.  Apply it to as many of the elements of your website as you want, and don't forget that you can always increase your amount of control later.</p>
             </div>
 
             <div class="box-2 img-box">
-                <img src="images/man-using-contact-form0.jpg" alt="">
+                <img src="images/connection0.jpg" alt="">
             </div>
         </div>
 

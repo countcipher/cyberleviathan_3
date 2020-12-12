@@ -1456,6 +1456,23 @@ body {
     .EVOLUTION__how-it-works .box-1 .box-2 {
       width: 50%; }
 
+@media (max-width: 981px) {
+  .EVOLUTION__how-it-works .box-1 {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem; }
+    .EVOLUTION__how-it-works .box-1 .box-2 {
+      width: 100%;
+      background: rgba(35, 31, 32, 0.3); }
+      .EVOLUTION__how-it-works .box-1 .box-2 h1 {
+        text-align: center; }
+    .EVOLUTION__how-it-works .box-1 .img-box {
+      order: 0;
+      padding: 1.5rem; }
+      .EVOLUTION__how-it-works .box-1 .img-box img {
+        border-radius: 10px; } }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }

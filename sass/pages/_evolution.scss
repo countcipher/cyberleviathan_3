@@ -80,3 +80,36 @@
 
     }
 }
+
+@media(max-width: 981px){
+    .EVOLUTION{
+        &__how-it-works{
+
+            & .box-1{
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 1.5rem;
+
+                & .box-2{
+                    width: 100%;
+                    @include dark-background;
+
+                    & h1{
+                        text-align: center;
+                    }
+                }
+
+                & .img-box{
+                    order: 0;
+                    padding: 1.5rem;
+
+                    & img{
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
