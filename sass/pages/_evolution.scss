@@ -1,0 +1,82 @@
+.EVOLUTION{
+    &__about{
+        text-align: center;
+        max-width: $max-width;
+        margin: 4.5rem auto 2.5rem auto;
+
+        & .box-2{
+            align-items: center;
+            padding: 1.5rem;
+            position: relative;
+
+            & img{
+                width: 100%;
+                border-radius: 10px;
+                padding: 2rem;
+                background: #fff;
+            }
+
+            & p{
+                line-height: 30px;
+            }
+        }
+
+        & h1{
+            text-align: center;
+            text-transform: capitalize;
+            padding: 0 2rem 0 2rem;
+            margin-bottom: 4.5rem;
+        }
+
+        & p{
+            padding: 1rem 3rem 1rem 3rem;
+            font-weight: bold;
+        }
+    }
+
+    &__how-it-works{
+        @include dark-background;
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4.5rem;
+
+        & h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        & .box-1{
+            display: flex;
+            flex-direction: row;
+
+            & .img-box{
+                display: flex;
+                order: 1;
+
+                & img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            & .text-box{
+                display: flex;
+                padding: 2.5rem;
+                order: 1;
+                flex-direction: column;
+
+                & h1{
+                    text-align: left;
+                    margin-bottom: 3rem;
+                }
+            }
+
+            & .box-2{
+                width: 50%;
+            }
+        }
+
+    }
+}

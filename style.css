@@ -189,6 +189,9 @@ body {
   .header_small--tridentPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/business-solution0-resize.png");
     background-position: center; }
+  .header_small--evolutionPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/evolution/evolution0.jpg");
+    background-position: center; }
 
 .btn {
   background-color: #bf1e2e;
@@ -1399,6 +1402,59 @@ body {
       padding: 1.5rem; }
       .TRIDENT__how-it-works .box-1 .img-box img {
         border-radius: 10px; } }
+
+.EVOLUTION__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .EVOLUTION__about .box-2 {
+    align-items: center;
+    padding: 1.5rem;
+    position: relative; }
+    .EVOLUTION__about .box-2 img {
+      width: 100%;
+      border-radius: 10px;
+      padding: 2rem;
+      background: #fff; }
+    .EVOLUTION__about .box-2 p {
+      line-height: 30px; }
+  .EVOLUTION__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+  .EVOLUTION__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold; }
+
+.EVOLUTION__how-it-works {
+  background: rgba(35, 31, 32, 0.3);
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4.5rem; }
+  .EVOLUTION__how-it-works h1 {
+    text-transform: capitalize;
+    text-align: center; }
+  .EVOLUTION__how-it-works .box-1 {
+    display: flex;
+    flex-direction: row; }
+    .EVOLUTION__how-it-works .box-1 .img-box {
+      display: flex;
+      order: 1; }
+      .EVOLUTION__how-it-works .box-1 .img-box img {
+        width: 100%;
+        object-fit: cover; }
+    .EVOLUTION__how-it-works .box-1 .text-box {
+      display: flex;
+      padding: 2.5rem;
+      order: 1;
+      flex-direction: column; }
+      .EVOLUTION__how-it-works .box-1 .text-box h1 {
+        text-align: left;
+        margin-bottom: 3rem; }
+    .EVOLUTION__how-it-works .box-1 .box-2 {
+      width: 50%; }
 
 .onScrollWhite {
   background-color: #fffbfc;
