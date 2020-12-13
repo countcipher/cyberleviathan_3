@@ -69,28 +69,16 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-2 img-box">
-                <img src="images/trident/trident_login.jpg" alt="">
+                <img src="images/girl_using_computer0.jpg" alt="">
             </div>
 
             <div class="box-2 text-box">
-                <h1>log in to admin area</h1>
+                <h1>update anywhere, any time</h1>
 
-                <p>Those administrators who have been given access to your Trident account log in with a username and password.  There, administrators have access to all of the features that Trident provides.</p>
+                <p>Updating your website with Evolution couldn't be more simple!  Log into your Evolution account and take charge of your website with an interface created to be completely intuitive and user friendly.</p>
             </div>
         </div>
-
-        <div class="box-1">
-
-            <div class="box-2 text-box">
-                <h1>a simple interface</h1>
-
-                <p>Trident displays all of the information in a way that is simple to use.  Sort the records by name and date, quickly delete old records, and list records as spam to help prevent them from coming back.  Add or remove administrators from your Trident account, and even add to your "Forbidden Words" list to help prevent unsolicited messages.</p>
-            </div>
-
-            <div class="box-2 img-box">
-                    <img src="images/trident/trident2.jpg" alt="">
-            </div>
-        </div>
+        
     </section>
 
 
