@@ -36,7 +36,7 @@
                     </ul>
                 </li>
                 <li class="nav__dropdown-box">
-                    <a href="#"><span class="nav__link-title">Contact</span></a>
+                    <a href="contact.php"><span class="nav__link-title">Contact</span></a>
                     <!-- <ul class="nav__dropdown-content">
                         <a href="#"><li>What Is CL Advantage?</li></a>
                         <a href="#"><li>Evolution</li></a>
