@@ -1,0 +1,21 @@
+.CONTACT{
+
+    &__form{
+        max-width: $max-width;
+        margin: auto;
+        padding: 2.5rem;
+
+        & .form-control{
+            display: block;
+            margin-bottom: 2.5rem;
+            width: 100%;
+            border-radius: 4px;
+            border: solid 1px red;
+            height: 4rem;
+            color: black;
+            padding: 1rem;
+            font-family: sans-serif;
+            font-size: 2rem;
+        }
+    }
+}

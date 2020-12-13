@@ -1481,6 +1481,22 @@ body {
       .EVOLUTION__how-it-works .box-1 .img-box img {
         border-radius: 10px; } }
 
+.CONTACT__form {
+  max-width: 1420px;
+  margin: auto;
+  padding: 2.5rem; }
+  .CONTACT__form .form-control {
+    display: block;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px red;
+    height: 4rem;
+    color: black;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 2rem; }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
