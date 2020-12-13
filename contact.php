@@ -11,7 +11,7 @@ include "includes/header.php";
     <!-- ===============================
                 HEADER
     ================================= -->
-    <header class="header_small header_small--aboutPage">
+    <header class="CONTACT__header header_small header_small--contactPage">
         <div class="header_small__text-box">
                     <h1>Contact</h1>
                     <h2>we empower your business</h2>
@@ -40,7 +40,7 @@ include "includes/header.php";
             <input id="comment_field" type="text" name="comment" class="form-control"> -->
             
             <label for="message">Message</label>
-            <textarea class="form-control" name="message" id="" cols="30" rows="30"></textarea>
+            <textarea name="message" cols="30" rows="10"></textarea>
             
             <!-- <input class="btn btn--cta" type="submit" value="Send" name="submit"> -->
 
