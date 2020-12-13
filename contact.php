@@ -13,7 +13,7 @@ include "includes/header.php";
     ================================= -->
     <header class="header_small header_small--aboutPage">
         <div class="header_small__text-box">
-                    <h1>About</h1>
+                    <h1>Contact</h1>
                     <h2>we empower your business</h2>
         </div>
     </header>
