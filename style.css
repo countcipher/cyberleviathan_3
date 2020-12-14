@@ -722,7 +722,8 @@ body {
     padding: 0 2rem 0 2rem;
     margin-bottom: 4.5rem; }
     .custom-websites__about h1 em {
-      color: #bf1e2e; }
+      color: #fffbfc;
+      font-style: normal; }
   .custom-websites__about p {
     padding: 1rem 3rem 1rem 3rem;
     font-weight: bold;
@@ -806,6 +807,10 @@ body {
       text-align: center; }
     .custom-websites__features .box-3 p {
       text-align: center; }
+    .custom-websites__features .box-3 a {
+      color: #bf1e2e;
+      font-weight: bold;
+      font-family: sans-serif; }
 
 .btn--mobile {
   display: none;
@@ -995,6 +1000,86 @@ body {
     .EMAIL__features .box-3 p {
       text-align: center; }
 
+.EMAIL__packages {
+  margin-bottom: 2.5rem;
+  padding: 6rem 0 !important; }
+  .EMAIL__packages h1 {
+    text-transform: capitalize;
+    text-align: center; }
+  .EMAIL__packages .box-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto; }
+  .EMAIL__packages .container-3 {
+    width: 33.333333333333%;
+    display: flex;
+    padding: 1rem;
+    align-items: stretch;
+    justify-content: center;
+    overflow: hidden; }
+    .EMAIL__packages .container-3 .card {
+      width: 90%;
+      border-radius: 10px;
+      background-color: rgba(35, 31, 32, 0.3);
+      color: #fffbfc;
+      overflow: hidden;
+      position: relative;
+      padding: 2rem 0 15rem 0;
+      transition: .3s;
+      box-sizing: border-box;
+      border: solid 2px transparent; }
+      .EMAIL__packages .container-3 .card img {
+        height: 130px;
+        display: block;
+        margin: 0 auto 1.5rem auto;
+        border-radius: 50%;
+        transition: .3s;
+        border: solid 2px #fffbfc; }
+      .EMAIL__packages .container-3 .card .title {
+        font-size: 2.7rem;
+        margin-bottom: 1rem; }
+      .EMAIL__packages .container-3 .card .description {
+        padding: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.9rem; }
+      .EMAIL__packages .container-3 .card .price {
+        text-align: center;
+        background: #bf1e2e;
+        font-weight: bold;
+        font-size: 4rem;
+        color: #fffbfc;
+        padding: 1.8rem 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: .3s; }
+      .EMAIL__packages .container-3 .card ul {
+        list-style-type: none;
+        margin: 0;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 1.5rem 0 1.5rem 1.5rem;
+        font-size: 2rem; }
+        .EMAIL__packages .container-3 .card ul li:before {
+          content: "\2713\0020"; }
+      .EMAIL__packages .container-3 .card:hover {
+        border: solid 2px #fffbfc; }
+        .EMAIL__packages .container-3 .card:hover img {
+          transform: scale(1.1);
+          box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+        .EMAIL__packages .container-3 .card:hover .price {
+          transform: scale(1.1); }
+  .EMAIL__packages .disclosure {
+    font-size: 1.8rem;
+    max-width: 1420px;
+    margin: auto;
+    padding: 2rem; }
+
 @media (max-width: 1095px) {
   .EMAIL__track h1 {
     font-size: 4rem; } }
@@ -1022,6 +1107,42 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center; } }
+
+@media (max-width: 1195px) {
+  .EMAIL__packages {
+    margin-bottom: 2.5rem;
+    padding: 2rem 0; }
+    .EMAIL__packages .container-3 .card .price {
+      font-size: 3rem; }
+    .EMAIL__packages .container-3 .card ul {
+      list-style-type: none;
+      margin: 0;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding: 1.5rem 0 1.5rem 1.5rem;
+      font-size: 1.8rem; } }
+
+@media (max-width: 1045px) {
+  .EMAIL__packages .box-1 {
+    display: block;
+    width: 100%; }
+    .EMAIL__packages .box-1 .container-3 {
+      display: block;
+      width: 100%; }
+      .EMAIL__packages .box-1 .container-3 .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: #fffbfc;
+        position: relative; }
+        .EMAIL__packages .box-1 .container-3 .card img {
+          transform: scale(1.1);
+          box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+        .EMAIL__packages .box-1 .container-3 .card ul {
+          display: block;
+          margin: auto; } }
 
 .DOMAINS__about {
   text-align: center;

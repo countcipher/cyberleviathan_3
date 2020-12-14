@@ -27,7 +27,8 @@
             margin-bottom: 4.5rem;
 
             & em{
-                color: $color-red;
+                color: $color-white;
+                font-style: normal;
             }
         }
 
@@ -156,6 +157,12 @@
             & p{
                 text-align: center;
                 //font-weight: bold;
+            }
+
+            & a{
+                color: $color-red;
+                font-weight: bold;
+                font-family: sans-serif;
             }
         }
     }

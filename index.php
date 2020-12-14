@@ -12,7 +12,7 @@ include "includes/header.php";
             <div class="header__text-box">
                 <h1>Custom Websites<br>&amp; digital marketing made simple</h1>
                 <h2>Empower your business online</h2>
-                <a href="#"><button class="btn btn--cta">Let's Talk</button></a>
+                <a href="contact.php"><button class="btn btn--cta">Let's Talk</button></a>
             </div>
         </header>
         
@@ -67,7 +67,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Custom Websites</h2>
                         <p>Get a website built especially for your business and with your business goals in mind</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="custom-websites.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Email</h2>
                         <p>Show your customers your professionalism and promote your brand with email addresses that match your domain and business name.</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="email.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -89,7 +89,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Domains</h2>
                         <p>Get the perfect domain for your business.  With access to .com, .org, .net, and hundreds more domain extensions, you'll be certain to get the right domain for your business.</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="domains.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Trident</h2>
                         <p>Allow users to easily connect to you with the Trident contact form system made by Cyber Leviathan.</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="trident.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Hosting</h2>
                         <p>Get your site online quickly and have all the features you require for your business.</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="hosting.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
 
@@ -125,7 +125,7 @@ include "includes/header.php";
                     <div class="box-2 box-2--text">
                         <h2>Logo Design</h2>
                         <p>Let us help you bring your business branding to life with a custom logo.</p>
-                        <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                        <a href="logo-design.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                     </div>
                 </div>
             </div>
