@@ -1510,6 +1510,15 @@ body {
     font-family: sans-serif;
     font-size: 2rem; }
 
+.FORM-SENT {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  flex-direction: column;
+  text-align: center; }
+
 .onScrollWhite {
   background-color: #fffbfc;
   box-shadow: 0 5px 30px rgba(35, 31, 32, 0.4); }
