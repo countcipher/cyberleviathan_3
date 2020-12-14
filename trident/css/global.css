@@ -1,0 +1,24 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.btn{
+    border: none !important;
+    background: #BE202F;
+    color: #fff;
+    transition: .2s
+}
+.btn:hover{
+    background: #74000B;
+    color: #fff;
+}
+.table-div{
+    overflow: auto !important;
+}
+.table-div table td{
+    min-width: 100px;
+}
+.logo{
+    height: 250px;
+}

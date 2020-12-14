@@ -1,8 +1,12 @@
 <?php
+session_start();
+
+$_SESSION['contact_active'] = 1;
 
 $title = "Contact";
 
 include "includes/header.php";
+include "trident/includes/db.php";
 
 ?>
 
@@ -14,7 +18,7 @@ include "includes/header.php";
     <header class="CONTACT__header header_small header_small--contactPage">
         <div class="header_small__text-box">
                     <h1>Contact</h1>
-                    <h2>we empower your business</h2>
+                    <h2>get the best for your business</h2>
         </div>
     </header>
 
