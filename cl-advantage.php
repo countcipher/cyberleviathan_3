@@ -48,7 +48,7 @@ include "includes/header.php";
 
                     <p>Allow users to connect with you using the Trident contact form system.  Access the information quickly and easily with the included admin-only area.</p>
 
-                    <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                    <a href="trident.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ include "includes/header.php";
 
                     <p>If you need to make regular updates to your website, Evolution is the powerful engine to allow you to do so.  Alter text, images, and more from your laptop, tablet, or smartphone.</p>
 
-                    <a href="#"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
+                    <a href="evolution.php"><button class="btn btn--cta">Learn More <i class="fas fa-arrow-right"></i></button></a>
                 </div>
             </div>
         </div>
