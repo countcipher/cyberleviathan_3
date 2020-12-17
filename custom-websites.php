@@ -45,7 +45,7 @@ include "includes/header.php";
             <div class="box-2">
                 <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--dd">
                     <div class="custom-websites__featured-sites__link">
-                        <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                        <a href="portfolio/deadwooddobermans"><button class="btn btn--cta">Visit Site</button></a>
                     </div>
                 
                 </div>
@@ -55,14 +55,14 @@ include "includes/header.php";
             <div class="box-2">
                 <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--wwt">
                     <div class="custom-websites__featured-sites__link">
-                            <a href="#"><button class="btn btn--cta">Visit Site</button></a>
+                            <a href="portfolio/weddingswithterry"><button class="btn btn--cta">Visit Site</button></a>
                         </div>
                     </div>
                 <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
             </div>
         </div>
 
-        <div class="box-1">
+        <!-- <div class="box-1">
             <div class="box-2">
                 <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ts">
                     <div class="custom-websites__featured-sites__link">
@@ -81,9 +81,9 @@ include "includes/header.php";
                     </div>
                 <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="box-1">
+        <!-- <div class="box-1">
             <div class="box-2">
                 <div class="custom-websites__featured-sites__site custom-websites__featured-sites__site--ec">
                     <div class="custom-websites__featured-sites__link">
@@ -102,7 +102,7 @@ include "includes/header.php";
                     </div>
                 <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- =========================
