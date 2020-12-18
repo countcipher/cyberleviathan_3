@@ -1,10 +1,10 @@
 <?php
 
 //FOR LOCAL HOSTING
-$host = "localhost";
-$user = "root";
-$password = "";
-$dbase = "cl_trident";
+// $host = "localhost";
+// $user = "root";
+// $password = "";
+// $dbase = "cl_trident";
 
 //FOR ONLINE HOSTING WITH GODADDY
 //==============================
@@ -15,10 +15,10 @@ $dbase = "cl_trident";
 
 //FOR ONLINE HOSTING WITH NAMECHEAP
 //=================================
-// $host = "localhost";
-// $user = "chriirfa_tridentadmin";
-// $password = "f_pogPkktG9T";
-// $dbase = "chriirfa_trident";
+$host = "localhost";
+$user = "chriirfa_tridentadmin";
+$password = "f_pogPkktG9T";
+$dbase = "chriirfa_trident";
 
 $connection = mysqli_connect($host, $user, $password, $dbase);
 
