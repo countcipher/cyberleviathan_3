@@ -49,7 +49,7 @@ include "includes/header.php";
                     </div>
                 
                 </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+                <a href="portfolio/deadwooddobermans"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
             </div>
 
             <div class="box-2">
@@ -58,7 +58,7 @@ include "includes/header.php";
                             <a href="portfolio/weddingswithterry"><button class="btn btn--cta">Visit Site</button></a>
                         </div>
                     </div>
-                <a href="#"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
+                <a href="portfolio/weddingswithterry"><button class="btn btn--cta btn--mobile">Visit Site</button></a>
             </div>
         </div>
 
