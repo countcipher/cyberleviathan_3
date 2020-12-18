@@ -22,7 +22,7 @@ include "includes/header.php";
         <section class="index-about">
             <div class="index-about__modal">
                 <video class="index-about__video video" controls>
-                    <source src="video/website_vid.mp4" type="video/mp4">
+                    <source src="video/actual_web_video.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="index-about__row">

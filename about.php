@@ -29,11 +29,11 @@ include "includes/header.php";
     <!-- ==============================
                 VIDEO
     ================================ -->
-    <section class="about-video">
+    <!-- <section class="about-video">
         <video class="about-video__video" controls>
             <source src="video/website_vid.mp4" type="video/mp4">
         </video>
-    </section>
+    </section> -->
 
     <!-- =============================
                     TESTIMONIAL
