@@ -1695,6 +1695,12 @@ body {
     .footer__copyright img {
       height: 50px; }
 
+@media (max-width: 749px) {
+  .footer__copyright {
+    font-size: 1.5rem; }
+    .footer__copyright img {
+      height: 35px; } }
+
 .contact {
   background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/contact0.jpg");
   background-size: cover;
