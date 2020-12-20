@@ -151,8 +151,6 @@ include "includes/header.php";
         </div>
     </section>
 
-    <!-- making a change for git testing -->
-
     <!-- =============================
                 CONTACT
     =============================== -->
