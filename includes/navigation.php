@@ -43,5 +43,9 @@
                         <a href="#"><li>Trident</li></a>
                     </ul> -->
                 </li>
+                <li class="nav__dropdown-box">
+                    <a href="/blog"><span class="nav__link-title">Blog</span></a>
+                    </ul>
+                </li>
             </ul>
         </nav>
