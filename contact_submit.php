@@ -9,7 +9,7 @@ if($_SESSION['contact_active'] != 1){
     
 }
 
-include "trident/includes/db.php";
+include "trident-admin/includes/db.php";
 
     $comment = htmlspecialchars(mysqli_real_escape_string($connection, $_POST['comment']));
 

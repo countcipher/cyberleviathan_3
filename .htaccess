@@ -1,0 +1,20 @@
+# The following will remove ALL .php extensions
+# =============================================
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# The following removes .php from selected files
+# ==============================================
+#RewriteRule ^test$ test.php
+RewriteEngine On
+RewriteRule ^about$ about.php
+RewriteRule ^cl-advantage$ cl-advantage.php
+RewriteRule ^custom-websites$ custom-websites.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^domains$ domains.php
+RewriteRule ^email$ email.php
+RewriteRule ^evolution$ evolution.php
+RewriteRule ^hosting$ hosting.php
+RewriteRule ^logo-design$ logo-design.php
+RewriteRule ^trident$ trident.php
