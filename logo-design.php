@@ -53,6 +53,18 @@ include "includes/header.php";
                 <img src="images/logos/nayonamay.jpg" alt="">
             </div>
         </div>
+
+        <div class="box-1">
+            <div class="box-3">
+                <img src="images/logos/unnaturally_green.jpg" alt="">
+            </div>
+            <div class="box-3">
+                <img src="images/logos/mikes.jpg" alt="">
+            </div>
+            <div class="box-3">
+                <img src="images/logos/nayonamay.jpg" alt="">
+            </div>
+        </div>
     </section>
 
     <!-- =========================
