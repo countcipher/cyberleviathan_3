@@ -56,14 +56,38 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-3">
-                <img src="images/logos/unnaturally_green.jpg" alt="">
+                <img src="images/logos/alvin0.png" alt="">
             </div>
             <div class="box-3">
-                <img src="images/logos/mikes.jpg" alt="">
+                <img src="images/logos/american_repair0.jpg" alt="">
             </div>
             <div class="box-3">
-                <img src="images/logos/nayonamay.jpg" alt="">
+                <img src="images/logos/bakery0.jpg" alt="">
             </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-3">
+                <img src="images/logos/cawley0.jpg" alt="">
+            </div>
+            <div class="box-3">
+                <img src="images/logos/crawford_digital0.jpg" alt="">
+            </div>
+            <div class="box-3">
+                <img src="images/logos/elegance0.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-3">
+                <img src="images/logos/tristans0.jpg" alt="">
+            </div>
+            <!-- <div class="box-3">
+                <img src="images/logos/crawford_digital0.jpg" alt="">
+            </div> -->
+            <!-- <div class="box-3">
+                <img src="images/logos/elegance0.jpg" alt="">
+            </div> -->
         </div>
     </section>
 
