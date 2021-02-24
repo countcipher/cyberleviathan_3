@@ -144,6 +144,9 @@
 
     .LOGO-DESIGN{
         &__portfolio{
+            & .box-1{
+                margin-bottom: 0rem;
+            }
             & .box-3{
                 display: block;
                 width: 90%;

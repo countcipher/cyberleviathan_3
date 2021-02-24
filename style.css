@@ -918,6 +918,8 @@ body {
     width: 30%; } }
 
 @media (max-width: 750px) {
+  .LOGO-DESIGN__portfolio .box-1 {
+    margin-bottom: 0rem; }
   .LOGO-DESIGN__portfolio .box-3 {
     display: block;
     width: 90%;
