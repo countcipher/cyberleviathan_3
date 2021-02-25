@@ -77,8 +77,29 @@ include "includes/header.php";
         </div>
     </section>
 
+    <!--==============================
+                THE TEAM
+     ==============================-->
+     <section class="about-team">
+        <h1>we empower you</h1>
+
+        <div class="box-1">
+            <div class="box-3">
+                1st person
+            </div>
+
+            <div class="box-3">
+                1st person
+            </div>
+
+            <div class="box-3">
+                1st person
+            </div>
+        </div>
+     </section>
+
     <!-- =============================
-                        CONTACT
+                    CONTACT
     =============================== -->
     <?php include "includes/contact.php"; ?>
 
