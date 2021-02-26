@@ -711,10 +711,28 @@ body {
     display: flex;
     justify-content: center; }
     .about-team .box-1 .box-3 {
-      background: red;
       width: 33.3333%;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
+      .about-team .box-1 .box-3 .mug {
+        border-radius: 50%;
+        height: 15rem;
+        border: solid 2px #fffbfc; }
+      .about-team .box-1 .box-3 .name {
+        margin: 1rem 0;
+        font-weight: bold;
+        text-align: center; }
+      .about-team .box-1 .box-3 .title {
+        text-align: center; }
+  .about-team .bio-button {
+    background: #bf1e2e;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    cursor: pointer; }
 
 @media (max-width: 1095px) {
   .about-why .box-3 {

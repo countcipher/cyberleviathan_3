@@ -68,7 +68,7 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-3">
-                <img src="images/logos/cawley0.jpg" alt="">
+                <img src="images/logos/tristans0.jpg" alt="">
             </div>
             <div class="box-3">
                 <img src="images/logos/crawford_digital0.jpg" alt="">
@@ -78,17 +78,17 @@ include "includes/header.php";
             </div>
         </div>
 
-        <div class="box-1">
+        <!-- <div class="box-1">
             <div class="box-3">
                 <img src="images/logos/tristans0.jpg" alt="">
             </div>
-            <!-- <div class="box-3">
+            <div class="box-3">
                 <img src="images/logos/crawford_digital0.jpg" alt="">
-            </div> -->
-            <!-- <div class="box-3">
+            </div>
+            <div class="box-3">
                 <img src="images/logos/elegance0.jpg" alt="">
-            </div> -->
-        </div>
+            </div>
+        </div> -->
     </section>
 
     <!-- =========================

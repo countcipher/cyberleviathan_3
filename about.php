@@ -85,7 +85,10 @@ include "includes/header.php";
 
         <div class="box-1">
             <div class="box-3">
-                1st person
+                <img class="mug" src="images/team/chris_mug.jpg" alt="Chris Harlow photo">
+                <p class="name">Chris Harlow</p>
+                <p class="title">Web Design &amp; Development</p>
+                <div class="bio-button">Bio</div>
             </div>
 
             <div class="box-3">
