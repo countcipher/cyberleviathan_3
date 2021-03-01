@@ -102,11 +102,15 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                border: solid 2px transparent;
+                transition: .3s;
+                padding: 1.5rem 0;
 
                 & .mug{
                     border-radius: 50%;
                     height: 15rem;
                     border: solid 2px $color-white;
+                    transition: .3s;
                 }
 
                 & .name{
@@ -117,6 +121,16 @@
 
                 & .title{
                     text-align: center;
+                }
+
+                &:hover{
+                    //border: solid 2px $color-white;
+
+                    & .mug{
+                        transform: scale(1.1);
+                        box-shadow: 0 0 20px rgba($color-black, .4);
+ 
+                    }
                 }
             }
         }
@@ -129,6 +143,8 @@
             padding: 1rem 0;
             margin-top: 1rem;
             cursor: pointer;
+            font-weight: bold;
+            transition: .3s;
         }
     }
 }
