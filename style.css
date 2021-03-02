@@ -701,23 +701,26 @@ body {
       margin-top: 1rem; }
 
 .about-team {
-  background-color: rgba(35, 31, 32, 0.3);
   margin-bottom: 5.5rem;
   padding-bottom: 3rem; }
   .about-team h1 {
     text-transform: capitalize;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 3rem; }
   .about-team .box-1 {
     display: flex;
-    justify-content: center; }
+    justify-content: space-evenly; }
     .about-team .box-1 .box-3 {
-      width: 33.3333%;
+      width: 30%;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       border: solid 2px transparent;
       transition: .3s;
-      padding: 1.5rem 0; }
+      padding: 1.5rem 0;
+      background-color: rgba(35, 31, 32, 0.3);
+      border-radius: 10px;
+      border: solid 2px transparent; }
       .about-team .box-1 .box-3 .mug {
         border-radius: 50%;
         height: 15rem;
@@ -729,9 +732,13 @@ body {
         text-align: center; }
       .about-team .box-1 .box-3 .title {
         text-align: center; }
-      .about-team .box-1 .box-3:hover .mug {
-        transform: scale(1.1);
-        box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+      .about-team .box-1 .box-3:hover {
+        border: solid 2px #fffbfc; }
+        .about-team .box-1 .box-3:hover .mug {
+          transform: scale(1.1);
+          box-shadow: 0 0 20px rgba(35, 31, 32, 0.4); }
+        .about-team .box-1 .box-3:hover .bio-button {
+          background: #df3143; }
   .about-team .bio-button {
     background: #bf1e2e;
     width: 60%;

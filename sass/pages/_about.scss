@@ -84,27 +84,31 @@
     }
 
     &-team{
-        background-color: rgba($color-black, .3);
+        //background-color: rgba($color-black, .3);
         margin-bottom: 5.5rem;
         padding-bottom: 3rem;
 
         & h1{
             text-transform: capitalize;
             text-align: center;
+            margin-bottom: 3rem;
         }
 
         & .box-1{
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
 
             & .box-3{
-                width: 33.3333%;
+                width: 30%;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
                 border: solid 2px transparent;
                 transition: .3s;
                 padding: 1.5rem 0;
+                background-color: rgba($color-black, .3);
+                border-radius: 10px;
+                border: solid 2px transparent;
 
                 & .mug{
                     border-radius: 50%;
@@ -124,12 +128,15 @@
                 }
 
                 &:hover{
-                    //border: solid 2px $color-white;
+                    border: solid 2px $color-white;
 
                     & .mug{
                         transform: scale(1.1);
                         box-shadow: 0 0 20px rgba($color-black, .4);
- 
+                    }
+
+                    & .bio-button{
+                        background: lighten($color-red, 10%);
                     }
                 }
             }
