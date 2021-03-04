@@ -701,8 +701,11 @@ body {
       margin-top: 1rem; }
 
 .about-team {
+  margin: auto;
   margin-bottom: 5.5rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+  max-width: 1420px;
+  text-align: center; }
   .about-team h1 {
     text-transform: capitalize;
     text-align: center;

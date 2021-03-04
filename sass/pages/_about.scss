@@ -85,8 +85,12 @@
 
     &-team{
         //background-color: rgba($color-black, .3);
+        margin:auto;
         margin-bottom: 5.5rem;
         padding-bottom: 3rem;
+        max-width: $max-width;
+        text-align: center;
+
 
         & h1{
             text-transform: capitalize;
