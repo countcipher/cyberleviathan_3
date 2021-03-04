@@ -90,7 +90,7 @@ include "includes/header.php";
                 <img class="mug" src="images/team/chris_mug.jpg" alt="Chris Harlow photo">
                 <p class="name">Chris Harlow</p>
                 <p class="title">Web Design &amp; Development</p>
-                <div class="bio-button"><span>Bio</span></div>
+                <div id="chrisBioButton" class="bio-button"><span>Bio</span></div>
             </div>
 
             <div class="box-3">
@@ -106,6 +106,14 @@ include "includes/header.php";
                 <p class="title">Graphic Design</p>
                 <div class="bio-button"><span>Bio</span></div>
             </div>
+        </div>
+
+        <div id="chrisBioModal">
+            <img class="mug" src="images/team/chris_mug.jpg" alt="Chris Harlow photo">
+            <p class="name">Chris Harlow</p>
+            <p class="title">Web Design &amp; Development</p>
+
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ad quas, earum incidunt tenetur saepe aspernatur, nemo non quae necessitatibus deserunt id magnam voluptatibus ducimus dolorem dolores vel nulla voluptatum quia consectetur asperiores? Ab ut voluptates alias soluta eos aspernatur, quo minima fuga nulla, cumque harum, similique illum provident molestiae?</p>
         </div>
      </section>
 

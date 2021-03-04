@@ -21,6 +21,9 @@ const body = document.querySelector("body"),
    indexAboutModal = document.querySelector(".index-about__modal"),
    indexAbout__Row = document.querySelector(".index-about__row");
 
+   //FOR 'ABOUT' PAGE BIOS
+   chrisBioButton = document.querySelector('#chrisBioButton');
+
 //=============================
 //EVENT LISTENERS
 //=============================
@@ -41,6 +44,10 @@ if(indexAboutModal !==null){
 
 if(indexAbout !== null){
    window.addEventListener("scroll", indexAboutRowScroll);
+}
+
+if(chrisBioButton !== null){
+   chrisBioButton.addEventListener('click', aboutChrisModal);
 }
 
 //==============================
@@ -202,6 +209,13 @@ function indexAboutRowScroll(){
       indexAbout__Row.children[0].style.transform = "translateX(0%)";
       //indexAbout__Row.children[0].style.opacity = "1";
    }
+}
+
+//==========================================================
+//LOGIC FOR BIO MODALS ON 'ABOUT' PAGE
+//===========================================================
+function aboutChrisModal(){
+   console.log('chris bio');
 }
 
 //===============================================================================================

@@ -705,7 +705,8 @@ body {
   margin-bottom: 5.5rem;
   padding-bottom: 3rem;
   max-width: 1420px;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .about-team h1 {
     text-transform: capitalize;
     text-align: center;
@@ -752,6 +753,30 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: .3s; }
+  .about-team #chrisBioModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(35, 31, 32, 0.9);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .about-team #chrisBioModal .mug {
+      width: 80%;
+      max-width: 400px; }
+    .about-team #chrisBioModal .name {
+      margin: 1rem 0;
+      font-weight: bold;
+      text-align: center; }
+    .about-team #chrisBioModal .title {
+      text-align: center; }
+    .about-team #chrisBioModal .bio {
+      padding: 1.5rem;
+      max-width: 1000px; }
 
 @media (max-width: 1095px) {
   .about-why .box-3 {
