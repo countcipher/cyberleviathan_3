@@ -172,29 +172,53 @@
             justify-content: center;
             align-items: center;
 
-            & .mug{
-                // border-radius: 50%;
-                // height: 15rem;
-                // border: solid 2px $color-white;
-                // transition: .3s;
-                width: 80%;
-                max-width: 400px;
+            & .container{
+                background: $color-black;
+                padding: 2rem;
+
+                & .mug{
+                    // border-radius: 50%;
+                    // height: 15rem;
+                    // border: solid 2px $color-white;
+                    // transition: .3s;
+                    width: 80%;
+                    max-width: 400px;
+                }
+    
+                & .name{
+                    margin: 1rem 0;
+                    font-weight: bold;
+                    text-align: center;
+                }
+    
+                & .title{
+                    text-align: center;
+                }
+    
+                & .bio{
+                    padding: 1.5rem;
+                    max-width: 1000px;
+                }
+
+                & .modal-exit-button{
+                    background: $color-red;
+                    width: 60%;
+                    max-width: 300px;
+                    text-align: center;
+                    border-radius: 10px;
+                    padding: 1rem 0;
+                    margin: auto;
+                    margin-top: 1rem;
+                    cursor: pointer;
+                    font-weight: bold;
+                    transition: .3s;
+
+                    &:hover{
+                        background: lighten($color-red, 10%);
+                    }
+                }
             }
 
-            & .name{
-                margin: 1rem 0;
-                font-weight: bold;
-                text-align: center;
-            }
-
-            & .title{
-                text-align: center;
-            }
-
-            & .bio{
-                padding: 1.5rem;
-                max-width: 1000px;
-            }
         }
     }
 

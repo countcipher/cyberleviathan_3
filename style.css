@@ -765,18 +765,35 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .about-team #chrisBioModal .mug {
-      width: 80%;
-      max-width: 400px; }
-    .about-team #chrisBioModal .name {
-      margin: 1rem 0;
-      font-weight: bold;
-      text-align: center; }
-    .about-team #chrisBioModal .title {
-      text-align: center; }
-    .about-team #chrisBioModal .bio {
-      padding: 1.5rem;
-      max-width: 1000px; }
+    .about-team #chrisBioModal .container {
+      background: #231f20;
+      padding: 2rem; }
+      .about-team #chrisBioModal .container .mug {
+        width: 80%;
+        max-width: 400px; }
+      .about-team #chrisBioModal .container .name {
+        margin: 1rem 0;
+        font-weight: bold;
+        text-align: center; }
+      .about-team #chrisBioModal .container .title {
+        text-align: center; }
+      .about-team #chrisBioModal .container .bio {
+        padding: 1.5rem;
+        max-width: 1000px; }
+      .about-team #chrisBioModal .container .modal-exit-button {
+        background: #bf1e2e;
+        width: 60%;
+        max-width: 300px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 1rem 0;
+        margin: auto;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-weight: bold;
+        transition: .3s; }
+        .about-team #chrisBioModal .container .modal-exit-button:hover {
+          background: #df3143; }
 
 @media (max-width: 1095px) {
   .about-why .box-3 {
