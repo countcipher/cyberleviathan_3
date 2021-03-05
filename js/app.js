@@ -23,6 +23,16 @@ const body = document.querySelector("body"),
 
    //FOR 'ABOUT' PAGE BIOS
    chrisBioButton = document.querySelector('#chrisBioButton');
+   chrisBioModal = document.querySelector('#chrisBioModal');
+   chrisModalExitButton = document.querySelector('#chrisModalExitButton');
+
+   rachelBioButton = document.querySelector('#rachelBioButton');
+   rachelBioModal = document.querySelector('#rachelBioModal');
+   rachelModalExitButton = document.querySelector('#rachelModalExitButton');
+
+   jayBioButton = document.querySelector('#jayBioButton');
+   jayBioModal = document.querySelector('#jayBioModal');
+   jayModalExitButton = document.querySelector('#jayModalExitButton');
 
 //=============================
 //EVENT LISTENERS
@@ -34,6 +44,8 @@ window.addEventListener("resize", addLargeScreenClasses);
 //window.addEventListener("scroll", indexAboutRowScroll);
 hamburger.addEventListener("click", toggleMenu);
 
+//INDEX PAGE EVENT LISTENERS
+//==========================
 if(indexAboutVideoButton !== null){
    indexAboutVideoButton.addEventListener("click", openIndexAboutModal);
 }
@@ -46,8 +58,30 @@ if(indexAbout !== null){
    window.addEventListener("scroll", indexAboutRowScroll);
 }
 
-if(chrisBioButton !== null){
+//ABOUT PAGE EVENT LISTENERS
+//===============================
+if(chrisBioButton !== null && chrisBioModal !== null){
    chrisBioButton.addEventListener('click', aboutChrisModal);
+}
+
+if(chrisModalExitButton !== null){
+   chrisModalExitButton.addEventListener('click', closeChrisModal);
+}
+
+if(rachelBioButton !== null && rachelBioModal !== null){
+   rachelBioButton.addEventListener('click', aboutRachelModal);
+}
+
+if(rachelModalExitButton !== null){
+   rachelModalExitButton.addEventListener('click', closeRachelModal);
+}
+
+if(jayBioButton !== null && jayBioModal !== null){
+   jayBioButton.addEventListener('click', aboutJayModal);
+}
+
+if(jayModalExitButton !== null){
+   jayModalExitButton.addEventListener('click', closeJayModal);
 }
 
 //==============================
@@ -215,7 +249,45 @@ function indexAboutRowScroll(){
 //LOGIC FOR BIO MODALS ON 'ABOUT' PAGE
 //===========================================================
 function aboutChrisModal(){
-   console.log('chris bio');
+   chrisBioModal.style.display = "flex";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
+}
+
+function closeChrisModal(){
+   chrisBioModal.style.display = "none";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
+}
+
+function aboutRachelModal(){
+   rachelBioModal.style.display = "flex";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
+}
+
+function closeRachelModal(){
+   rachelBioModal.style.display = "none";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
+}
+
+function aboutJayModal(){
+   jayBioModal.style.display = "flex";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
+}
+
+function closeJayModal(){
+   jayBioModal.style.display = "none";
+   body.classList.toggle("overflow-hidden");
+   html.classList.toggle("overflow-hidden");
+   fullWrapper.classList.toggle("overflow-hidden");
 }
 
 //===============================================================================================

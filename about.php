@@ -97,26 +97,52 @@ include "includes/header.php";
                 <img class="mug" src="images/team/rachel_mug.jpg" alt="Chris Harlow photo">
                 <p class="name">Rachel Donahoo</p>
                 <p class="title">Digital Marketing</p>
-                <div class="bio-button"><span>Bio</span></div>
+                <div id="rachelBioButton" class="bio-button"><span>Bio</span></div>
             </div>
 
             <div class="box-3">
                 <img class="mug" src="images/team/jay_mug.jpg" alt="Chris Harlow photo">
                 <p class="name">Jay Crawford</p>
                 <p class="title">Graphic Design</p>
-                <div class="bio-button"><span>Bio</span></div>
+                <div id="jayBioButton" class="bio-button"><span>Bio</span></div>
             </div>
         </div>
 
-        <div id="chrisBioModal">
+        <!-- BIO MODALS
+    ========================================== -->
+        <div id="chrisBioModal" class="bio-modal">
             <div class="container">
                 <img class="mug" src="images/team/chris_mug.jpg" alt="Chris Harlow photo">
                 <p class="name">Chris Harlow</p>
                 <p class="title">Web Design &amp; Development</p>
 
-                <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ad quas, earum incidunt tenetur saepe aspernatur, nemo non quae necessitatibus deserunt id magnam voluptatibus ducimus dolorem dolores vel nulla voluptatum quia consectetur asperiores? Ab ut voluptates alias soluta eos aspernatur, quo minima fuga nulla, cumque harum, similique illum provident molestiae?</p>
+                <p class="bio-p">My dual loves of art and technology have found a natural marriage in web design and development.  I love getting that "wow" from all of my clients when they see what I've created for them.  When I'm not hunkered down in front of my three monitors and slinging code, you'll be sure to find me at a concert with my wife listening to one of my three favorite types of music:  Metal, Metal, or Metal.</p>
 
-                <div class="modal-exit-button">Return</div>
+                <div id="chrisModalExitButton" class="modal-exit-button">Return</div>
+            </div>
+        </div>
+
+        <div id="rachelBioModal" class="bio-modal">
+            <div class="container">
+                <img class="mug" src="images/team/rachel_mug.jpg" alt="Rachel Donahoo photo">
+                <p class="name">Rachel Donahoo</p>
+                <p class="title">Digital Marketing</p>
+
+                <p class="bio-p">A nerd and introvert to the core; I love all things art. My creative journey began in high school when I starting drawing and designing clothing. I continued my education at Savannah College of Art and Design in Graphic Arts; Communication Design. My favorite things to create are typefaces, social media marketing, and invitation sets. My other passion is dancing, and teaching dance, with the company my husband and I created for West Coast Swing dance lessons (which I had fun creating the logo and marketing for as well). When I’m not designing or dancing, I’m usually watching Netflix and chilling with my two doggos. I live for a good challenge, so let’s create something fabulous!</p>
+
+                <div id="rachelModalExitButton" class="modal-exit-button">Return</div>
+            </div>
+        </div>
+
+        <div id="jayBioModal" class="bio-modal">
+            <div class="container">
+                <img class="mug" src="images/team/jay_mug.jpg" alt="Jay Crawford photo">
+                <p class="name">Jay Crawford</p>
+                <p class="title">Graphic Design</p>
+
+                <p class="bio-p">I have more than 30 years of experience in digital design for print and electronic publications, and have won more than 75 awards for my work, including photography, design and layout.  I have lived in the Shenandoah Valley for more than 50 years, and am a 1980 graduate of Montevideo High School and a 1984 graduate of James Madison University.  When I'm not working, I enjoy time with family and friends traveling, being on the golf course, listening to music or preparing my favorite foods.</p>
+
+                <div id="jayModalExitButton" class="modal-exit-button">Return</div>
             </div>
         </div>
      </section>

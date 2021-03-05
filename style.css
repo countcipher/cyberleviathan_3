@@ -139,6 +139,9 @@ body {
 .color-red {
   color: #bf1e2e; }
 
+.overflow-hidden {
+  overflow: hidden; }
+
 @keyframes slide-down {
   from {
     height: 0%; }
@@ -753,51 +756,72 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: .3s; }
-  .about-team #chrisBioModal {
+  .about-team .bio-modal {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(35, 31, 32, 0.9);
+    background: #231f20;
     z-index: 200;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    .about-team #chrisBioModal .container {
-      background: #231f20;
-      padding: 2rem; }
-      .about-team #chrisBioModal .container .mug {
+    align-items: center;
+    overflow: hidden; }
+    .about-team .bio-modal .container {
+      padding: 2rem;
+      min-height: 100vh;
+      overflow-y: auto; }
+      .about-team .bio-modal .container .mug {
         width: 80%;
         max-width: 400px; }
-      .about-team #chrisBioModal .container .name {
+      .about-team .bio-modal .container .name {
         margin: 1rem 0;
         font-weight: bold;
         text-align: center; }
-      .about-team #chrisBioModal .container .title {
+      .about-team .bio-modal .container .title {
         text-align: center; }
-      .about-team #chrisBioModal .container .bio {
+      .about-team .bio-modal .container .bio-p {
         padding: 1.5rem;
-        max-width: 1000px; }
-      .about-team #chrisBioModal .container .modal-exit-button {
-        background: #bf1e2e;
-        width: 60%;
-        max-width: 300px;
-        text-align: center;
-        border-radius: 10px;
-        padding: 1rem 0;
-        margin: auto;
-        margin-top: 1rem;
-        cursor: pointer;
-        font-weight: bold;
-        transition: .3s; }
-        .about-team #chrisBioModal .container .modal-exit-button:hover {
-          background: #df3143; }
+        max-width: 1000px;
+        line-height: 3rem; }
+    .about-team .bio-modal .modal-exit-button {
+      background: #bf1e2e;
+      width: 60%;
+      max-width: 300px;
+      text-align: center;
+      border-radius: 10px;
+      padding: 1rem 0;
+      margin: auto;
+      margin-top: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+      transition: .3s; }
+      .about-team .bio-modal .modal-exit-button:hover {
+        background: #df3143; }
 
 @media (max-width: 1095px) {
   .about-why .box-3 {
     background-color: transparent; } }
+
+@media (max-width: 953px) {
+  .about-team {
+    text-align: center; }
+    .about-team .box-1 {
+      display: block;
+      text-align: center;
+      width: 100%; }
+      .about-team .box-1 .box-3 {
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 3.5rem;
+        width: 95%; }
+        .about-team .box-1 .box-3 .bio-button {
+          margin: auto;
+          margin-top: 1.5rem;
+          max-width: 20rem; } }
 
 .custom-websites__about {
   text-align: center;
