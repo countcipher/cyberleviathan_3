@@ -157,6 +157,7 @@
             cursor: pointer;
             font-weight: bold;
             transition: .3s;
+            margin-bottom: 1.5rem;
         }
 
         & .bio-modal{
@@ -173,13 +174,15 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
+            overflow: auto;
+            padding-bottom: 1.5rem;
 
             & .container{
                 //background: $color-black;
                 padding: 2rem;
-                min-height: 100vh;
-                overflow-y: auto;
+                //min-height: 100vh;
+                padding-bottom: 3rem;
+                //overflow-y: auto;
 
                 & .mug{
                     // border-radius: 50%;

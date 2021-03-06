@@ -755,7 +755,8 @@ body {
     margin-top: 1rem;
     cursor: pointer;
     font-weight: bold;
-    transition: .3s; }
+    transition: .3s;
+    margin-bottom: 1.5rem; }
   .about-team .bio-modal {
     position: fixed;
     top: 0;
@@ -768,11 +769,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden; }
+    overflow: auto;
+    padding-bottom: 1.5rem; }
     .about-team .bio-modal .container {
       padding: 2rem;
-      min-height: 100vh;
-      overflow-y: auto; }
+      padding-bottom: 3rem; }
       .about-team .bio-modal .container .mug {
         width: 80%;
         max-width: 400px; }
