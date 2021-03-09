@@ -17,4 +17,5 @@ RewriteRule ^email$ email.php
 RewriteRule ^evolution$ evolution.php
 RewriteRule ^hosting$ hosting.php
 RewriteRule ^logo-design$ logo-design.php
+RewriteRule ^graphic-design$ graphic-design.php
 RewriteRule ^trident$ trident.php

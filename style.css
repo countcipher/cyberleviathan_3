@@ -179,6 +179,8 @@ body {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/web_design_background.jpg"); }
   .header_small--LOGO-DESIGNPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/logo0.jpg"); }
+  .header_small--GRAPHIC-DESIGNPage {
+    background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/graphic-design0.jpg"); }
   .header_small--emailPage {
     background-image: linear-gradient(to bottom right, rgba(35, 31, 32, 0.7), rgba(191, 30, 46, 0.7), rgba(35, 31, 32, 0.7)), url("images/email0.jpg"); }
   .header_small--domainsPage {
@@ -1050,6 +1052,108 @@ body {
     width: 90%;
     margin-bottom: 3rem; }
   .LOGO-DESIGN__how-it-works .box-3 {
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold; } }
+
+.GRAPHIC-DESIGN__about {
+  text-align: center;
+  max-width: 1420px;
+  margin: 4.5rem auto 2.5rem auto; }
+  .GRAPHIC-DESIGN__about .box-2 {
+    align-items: center;
+    padding: 1.5rem; }
+    .GRAPHIC-DESIGN__about .box-2 img {
+      width: 100%;
+      border-radius: 10px; }
+    .GRAPHIC-DESIGN__about .box-2 p {
+      line-height: 30px; }
+  .GRAPHIC-DESIGN__about h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.5rem; }
+  .GRAPHIC-DESIGN__about p {
+    padding: 1rem 3rem 1rem 3rem;
+    font-weight: bold;
+    text-align: left; }
+
+.GRAPHIC-DESIGN__portfolio {
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
+  background-color: rgba(35, 31, 32, 0.3); }
+  .GRAPHIC-DESIGN__portfolio h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem; }
+  .GRAPHIC-DESIGN__portfolio a {
+    text-decoration: none; }
+  .GRAPHIC-DESIGN__portfolio .box-1 {
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1420px;
+    margin-bottom: 3rem; }
+  .GRAPHIC-DESIGN__portfolio .box-3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    overflow: hidden;
+    background: #fff;
+    justify-content: center;
+    border-radius: 10px; }
+    .GRAPHIC-DESIGN__portfolio .box-3 img {
+      width: 100%; }
+
+.GRAPHIC-DESIGN__how-it-works {
+  padding: 4rem 2rem;
+  max-width: 1420px;
+  margin: auto; }
+  .GRAPHIC-DESIGN__how-it-works h1 {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: center; }
+  .GRAPHIC-DESIGN__how-it-works .box-1 {
+    justify-content: space-evenly;
+    margin-bottom: 2rem; }
+  .GRAPHIC-DESIGN__how-it-works .box-3 {
+    background-color: rgba(35, 31, 32, 0.3);
+    width: 30%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; }
+    .GRAPHIC-DESIGN__how-it-works .box-3 i {
+      font-size: 3.3rem;
+      margin-bottom: 1.5rem;
+      color: #bf1e2e; }
+    .GRAPHIC-DESIGN__how-it-works .box-3 h2 {
+      text-transform: capitalize;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+    .GRAPHIC-DESIGN__how-it-works .box-3 p {
+      text-align: center; }
+  .GRAPHIC-DESIGN__how-it-works .box-1:last-child {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center; }
+
+@media (max-width: 1095px) {
+  .GRAPHIC-DESIGN__portfolio .box-3 {
+    display: flex;
+    width: 30%; } }
+
+@media (max-width: 750px) {
+  .GRAPHIC-DESIGN__portfolio .box-1 {
+    margin-bottom: 0rem; }
+  .GRAPHIC-DESIGN__portfolio .box-3 {
+    display: block;
+    width: 90%;
+    margin-bottom: 3rem; }
+  .GRAPHIC-DESIGN__how-it-works .box-3 {
     display: block;
     width: 90%;
     text-align: center;

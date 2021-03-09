@@ -43,6 +43,12 @@
             url('images/logo0.jpg');
     }
 
+    &--GRAPHIC-DESIGNPage{
+        background-image:
+        linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),
+            url('images/graphic-design0.jpg');
+    }
+
     &--emailPage{
         background-image:
         linear-gradient(to bottom right, rgba($color-black, .7), rgba($color-red, .7), rgba($color-black, .7)),

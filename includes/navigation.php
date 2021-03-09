@@ -21,6 +21,7 @@
                         <a href="custom-websites"><li>Custom Websites</li></a>
                         <!-- <a href="digital-marketing.php"><li>Digital Marketing</li></a> -->
                         <a href="logo-design"><li>Logo Design</li></a>
+                        <a href="graphic-design"><li>Graphic Design</li></a>
                         <a href="email"><li>Email</li></a>
                         <a href="domains"><li>Domains</li></a>
                         <a href="hosting"><li>Hosting</li></a>
