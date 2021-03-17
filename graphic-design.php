@@ -94,26 +94,26 @@ include "includes/header.php";
     <!-- =========================
             HOW IT WORKS
     ========================== -->
-    <section class="GRAPHIC-DESIGN__how-it-works">
-        <h1>how it works</h1>
+    <section class="GRAPHIC-DESIGN__key-features">
+        <h1>Key Features</h1>
 
         <div class="box-1">
             <div class="box-3">
-                <i class="fas fa-comments"></i>
-                <h2>Understanding Your Business</h2>
-                <p>We'll ask you about your business goals and clientele, and research your competitors.  Then you'll answer some questions that we've prepared to get the process started.</p>
+                    <i class="fas fa-award"></i>
+                    <h2>award winning designs</h2>
+                    <p>With Cyber Leviathan, you can feel secure that your business will be getting premium designs created by an award winning artist.</p>
+            </div>
+            
+            <div class="box-3">
+                <i class="far fa-copyright"></i>
+                <h2>Keeping Brand Consistency</h2>
+                <p>By having one of our graphic artists create a stunning image for your business, you'll be certain that you'll have a finished design that is tailored to your business image and values.</p>
             </div>
 
             <div class="box-3">
-                <i class="fas fa-images"></i>
-                <h2>custom Design Choices</h2>
-                <p>Based on the information you provided, you'll be shown several logo concepts in 3-5 business days.</p>
-            </div>
-
-            <div class="box-3">
-                <i class="fas fa-pencil-ruler"></i>
-                <h2>Revision</h2>
-                <p>We work with your vision to modify the concepts to what will be best for your business.  With free revisions, you're sure to get exactly what you need.</p>
+                <i class="fas fa-fingerprint"></i>
+                <h2>unique to your business</h2>
+                <p>There are a lot of images that you can grab and use for your online presence, but don't think you're the only one using those images.  With a custom graphic, you'll be sure to stand out with something as unique as a fingerprint.</p>
             </div>
         </div>
 
