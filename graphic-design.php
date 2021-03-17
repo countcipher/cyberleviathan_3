@@ -31,7 +31,7 @@ include "includes/header.php";
             <div class="box-2">
                 <p>Get amazing designs and ads created by an award winning graphic artist to enhance your brand and connect to your target audience.
 
-                <span class="pricing">Prices starting at $250</span>
+                <span class="pricing">Prices starting at $125</span>
                 </p>
             </div>
         </div>
@@ -43,38 +43,38 @@ include "includes/header.php";
     <section class="GRAPHIC-DESIGN__portfolio">
         <h1>featured designs &amp; ads</h1>
         <div class="box-1">
-            <div class="box-3">
-                <img src="images/logos/unnaturally_green.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/ad0.jpg" alt="">
             </div>
-            <div class="box-3">
-                <img src="images/logos/mikes.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/ad1.jpg" alt="">
             </div>
-            <div class="box-3">
-                <img src="images/logos/nayonamay.jpg" alt="">
-            </div>
-        </div>
-
-        <div class="box-1">
-            <div class="box-3">
-                <img src="images/logos/alvin0.png" alt="">
-            </div>
-            <div class="box-3">
-                <img src="images/logos/american_repair0.jpg" alt="">
-            </div>
-            <div class="box-3">
-                <img src="images/logos/bakery0.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/ad2.jpg" alt="">  
             </div>
         </div>
 
         <div class="box-1">
-            <div class="box-3">
-                <img src="images/logos/tristans0.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/graphic0.jpg" alt="">  
             </div>
-            <div class="box-3">
-                <img src="images/logos/crawford_digital0.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/graphic1.jpg" alt="">  
             </div>
-            <div class="box-3">
-                <img src="images/logos/elegance0.jpg" alt="">
+            <div class="box-3 graphic">
+                <img src="images/graphics/graphic2.jpg" alt="">  
+            </div>
+        </div>
+
+        <div class="box-1">
+            <div class="box-3 graphic">
+                <img src="images/graphics/graphic3.jpg" alt="">
+            </div>
+            <div class="box-3 graphic">
+                <img src="images/graphics/jc0.jpg" alt="">
+            </div>
+            <div class="box-3 graphic">
+                <img src="images/graphics/repair0.jpg" alt="">
             </div>
         </div>
 
