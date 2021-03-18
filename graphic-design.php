@@ -101,13 +101,13 @@ include "includes/header.php";
             <div class="box-3">
                     <i class="fas fa-award"></i>
                     <h2>award winning designs</h2>
-                    <p>With Cyber Leviathan, you can feel secure that your business will be getting premium designs created by an award winning artist.</p>
+                    <p>With Cyber Leviathan, you can feel secure that your business can get premium designs created by an award winning artist.</p>
             </div>
             
             <div class="box-3">
                 <i class="far fa-copyright"></i>
-                <h2>Keeping Brand Consistency</h2>
-                <p>By having one of our graphic artists create a stunning image for your business, you'll be certain that you'll have a finished design that is tailored to your business image and values.</p>
+                <h2>Brand Consistency</h2>
+                <p>By having one of our graphic artists create a stunning image for your business, you'll be certain that you'll have a finished design that is tailored to your business image.</p>
             </div>
 
             <div class="box-3">
@@ -118,7 +118,7 @@ include "includes/header.php";
         </div>
 
         <div class="box-1">
-            <p>Once you've approved your final revision, you'll receive your logo in multiple sizes and formats, along with a list of the specific color codes used in your logo.</p>
+            <!-- <p>Once you've approved your final revision, you'll receive your logo in multiple sizes and formats, along with a list of the specific color codes used in your logo.</p> -->
         </div>
     </section>
 
