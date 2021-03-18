@@ -1,6 +1,6 @@
 <?php
 
-$title = "Logo Design";
+$title = "Graphic Design";
 
 include "includes/header.php";
 
